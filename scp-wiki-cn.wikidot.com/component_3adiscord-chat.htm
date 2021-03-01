@@ -1,0 +1,1230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- saved from url=(0053)http://scp-wiki-cn.wikidot.com/component:discord-chat --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cn" lang="cn">
+
+<head>
+    <title>Discord聊天室 样版 - SCP基金会</title>
+    
+    
+    
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/init.combined.js"></script>
+    <script  type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "scp-wiki-cn.wikidot.com";
+        WIKIREQUEST.info.siteId = 530812;
+        WIKIREQUEST.info.siteUnixName = "scp-wiki-cn";
+        WIKIREQUEST.info.categoryId = 4228703;
+        WIKIREQUEST.info.themeId = 1;
+        WIKIREQUEST.info.requestPageName = "component:discord-chat";
+        OZONE.request.timestamp = 1579938113;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'cn';
+                WIKIREQUEST.info.pageUnixName = "component:discord-chat";
+        WIKIREQUEST.info.pageId = 801742343;
+                        WIKIREQUEST.info.lang = "cn";
+        OZONE.lang = "cn";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script  type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+                            <meta name="robots" content="index,follow"/>
+                                <meta name="language" content="zh,zh-cn"/>
+                                                            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="zh,zh-cn"/>
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css" id="internal-style">
+        
+        /* modules */
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--theme/base/css/style.css);
+                    @import url(component_3atheme/code/1.css);
+            </style>
+    
+        
+        
+        
+    <link rel="shortcut icon" href="local--favicon/favicon.gif"/>
+    <link rel="icon" type="image/gif" href="local--favicon/favicon.gif"/>
+    
+            <link rel="apple-touch-icon" href="common--images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="common--images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="common--images/apple-touch-icon-114x114.png" />
+        
+        
+            <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript_3awikidot.page.listeners.editclick%28%29"/>
+    
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+            </script>
+    
+    <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script>
+    
+        <link rel="manifest" href="onesignal/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" acync=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: null,
+          });
+        });
+    </script>
+        
+<style>
+@import url("http://www.scp-wiki.net/local--files/component:discord-chat-source/discord.css");
+</style>
+<style>
+/* User 1 Messages Content */
+
+.one > .icon {
+    background-image: url('../www.scp-wiki.net/local--files/component_3adiscord-chat/goto20.png');
+}
+
+.one > .body > .userblock > .user-name {
+    color: #ff5e56 !important;
+}
+</style>
+<style>
+/* User 1 Messages Content */
+
+.two > .icon {
+    background-image: url('../www.scp-wiki.net/local--files/component_3adiscord-chat/corvas.png');
+}
+
+.two > .body > .userblock > .user-name {
+    color: #60b9dc !important;
+}
+</style>
+<style>
+/* mv_sk1r.tar.gz Content */
+
+.attch-one .filenameLinkWrapper > .anchor {
+    content: "mv_sk1r.tar.gz";
+}
+
+.attch-one.filenameLinkWrapper > .metadata {
+    content: "2.71 KB";
+}
+
+.attch-one .icon-code {
+    background-image: url("http://scptestwiki.wikidot.com/local--files/component%3Adiscord-css-source/file_icon.svg");
+}
+</style>
+<style>
+/* butts.zip Content */
+
+.attch-two .filenameLinkWrapper > .anchor {
+    content: "butts.zip";
+}
+
+.attch-two.filenameLinkWrapper > .metadata {
+    content: "512 MB";
+}
+
+.attch-two .icon-code {
+    background-image: url("http://scptestwiki.wikidot.com/local--files/component%3Adiscord-css-source/file_icon.svg");
+}
+</style>
+<style>
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/normalize.min.css");
+ @import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/chinese/black-highlighter_ch.min.css");
+
+h1, h2 {
+    text-align: center;
+}
+
+.step_container {
+    margin: 0.5rem 0;
+    border: 1px solid #999;
+    padding: 1em;
+}
+
+.help {
+    display: flex;
+    align-content: stretch;
+    padding-top: 1em;
+    border-top: 1px dashed #999;
+}
+
+.help blockquote {
+    margin: 0;
+    font-size: 85%;
+}
+
+.help blockquote > p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-right: 0;
+    min-height: 2rem;
+    margin: 0;
+}
+
+.help blockquote > p * {
+    margin: 0 0.1rem;
+    height: 100%;
+}
+
+.help blockquote:nth-of-type(1) {
+    width: 50%;
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+.help blockquote:nth-of-type(1) > p {
+    justify-content: flex-end;
+}
+
+.help blockquote:nth-of-type(2) {
+    margin-left: 1em;
+    width: 50%;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: lightgrey;
+    border-top: 0.125rem dashed slategrey;
+    border-bottom: 0.125rem dashed slategrey;
+}
+
+#page-content > div.collapsible-block > div.collapsible-block-unfolded > div.collapsible-block-content {
+    text-align:left;
+}
+</style>
+<script src="https://s.nitropay.com/ads-143.js"></script>
+<script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/js/list/ListPagesModule.js"></script>
+</head>
+<body id="html-body">
+<div id="skrollr-body">
+<a name="page-top"></a>
+
+
+
+
+
+<div id="container-wrap-wrap">
+    <div id="container-wrap">
+        <div id="container">
+            <div id="header">
+              <h1><a href="default.htm"><span>SCP基金会</span></a></h1>
+                
+                    <h2><span>控制，收容，保护</span></h2>
+                
+                
+                <!-- google_ad_section_start(weight=ignore) -->
+                
+                <div id="search-top-box" class="form-search">
+    <form id="search-top-box-form" action="dummy" class="input-append">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="搜索网站" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"/><input class="button btn" type="submit" name="search" value="搜索"/>
+    </form>
+</div>
+                
+                
+                    <div id="top-bar">
+                        
+
+<div class="top-bar">
+<ul>
+<li>SCP系列
+<ul>
+<li><a href="scp-series-5.htm">系列 V (4000 - 4999)</a></li>
+<li><a href="scp-series-4.htm">系列 IV (3000 - 3999)</a></li>
+<li><a href="scp-series-4-tales-edition.htm">» 系列 IV 故事</a></li>
+<li><a href="scp-series-3.htm">系列 III (2000 - 2999)</a></li>
+<li><a href="scp-series-3-tales-edition.htm">» 系列 III 故事</a></li>
+<li><a href="scp-series-2.htm">系列 II (1000 - 1999)</a></li>
+<li><a href="scp-series-2-tales-edition.htm">» 系列 II 故事</a></li>
+<li><a href="scp-series.htm">系列 I (001 - 999)</a></li>
+<li><a href="scp-series-1-tales-edition.htm">» 系列 I 故事</a></li>
+<li><a href="joke-scps.htm">搞笑SCP</a></li>
+<li><a href="scp-ex.htm">已解明SCP</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="user-curated-lists.htm">用户推荐清单</a></li>
+<li><a href="log-of-anomalous-items.htm">异常物品记录</a></li>
+<li><a href="log-of-extranormal-events.htm">超常现象记录</a></li>
+<li><a href="goi-formats.htm">GoI格式</a></li>
+<li><a href="audio-adaptations.htm">音频记录</a></li>
+<li><a href="scp-artwork-hub.htm">艺术作品</a></li>
+<li><a href="contest-archive.htm">征文竞赛</a></li>
+<li><a href="wanderers_3astart.htm">被放逐者之图书馆</a></li>
+<li><a href="wanderers_3athe-library-cn.htm">原创图书馆中心</a></li>
+</ul>
+</li>
+<li>故事
+<ul>
+<li><a href="foundation-tales.htm">基金会故事</a></li>
+<li><a href="canon-hub.htm">设定中心</a></li>
+<li><a href="series-archive.htm">故事系列</a></li>
+<li><a href="incident-reports-eye-witness-interviews-and-personal-logs.htm">事故报告</a></li>
+<li><a href="creepy-pasta.htm">Creepy-Pasta 归档</a></li>
+</ul>
+</li>
+<li>SCP-CN系列
+<ul>
+<li><a href="scp-series-cn-2.htm">CN系列 II (CN-1000 - CN-1999)</a></li>
+<li><a href="scp-series-cn.htm">CN系列 I (CN-001 - CN-999)</a></li>
+<li><a href="joke-scps-cn.htm">搞笑SCP-CN</a></li>
+<li><a href="scp-ex-cn.htm">已解明SCP-CN</a></li>
+<li><a href="log-of-anomalous-items-cn.htm">中国异常物品记录</a></li>
+<li><a href="log-of-extranormal-events-cn.htm">中国超常现象记录</a></li>
+<li><a href="foundation-tales-cn.htm">中国分部故事</a></li>
+<li><a href="short-stories.htm">原创短篇故事合集</a></li>
+<li><a href="canon-hub-cn.htm">中国分部设定中心</a></li>
+<li><a href="contest-archive-cn.htm">中国分部征文竞赛</a></li>
+</ul>
+</li>
+<li>SCP国际
+<ul>
+<li><a href="scp-international.htm">SCP国际翻译中心</a></li>
+<li><a href="http://scp-int.wikidot.com/">SCP国际翻译站</a></li>
+<li><a href="http://scpfoundation.net/">Russian Branch(-RU)</a></li>
+<li><a href="http://ko.scp-wiki.net/">SCP 재단(-KO)</a></li>
+<li><a href="http://fondationscp.wikidot.com/">Fondation SCP(-FR)</a></li>
+<li><a href="http://scp-wiki.net.pl/">Fundacja SCP(-PL)</a></li>
+<li><a href="http://scp-es.com/">La Fundación SCP(-ES)</a></li>
+<li><a href="http://scp-th.wikidot.com/">สถาบัน SCP(-TH)</a></li>
+<li><a href="http://ja.scp-wiki.net/">SCP財団(-JP)</a></li>
+<li><a href="http://scp-wiki-de.wikidot.com/">SCP auf Deutsch(-DE)</a></li>
+<li><a href="http://fondazionescp.wikidot.com/">Fondazione SCP(-IT)</a></li>
+<li><a href="http://scp-ukrainian.wikidot.com/">Ukrainian Branch(-UA)</a></li>
+<li><a href="http://scp-pt-br.wikidot.com/">Fundação SCP(-PT/BR)</a></li>
+<li><a href="http://scp-cs.wikidot.com/">SCP Nadace(-CZ)</a></li>
+</ul>
+</li>
+<li>背景资料
+<ul>
+<li><a href="about-the-scp-foundation.htm">关于基金会</a></li>
+<li><a href="groups-of-interest.htm">相关组织</a></li>
+<li><a href="object-classes.htm">项目等级</a></li>
+<li><a href="personnel-and-character-dossier.htm">职员档案</a></li>
+<li><a href="security-clearance-levels.htm">安保许可等级</a></li>
+<li><a href="secure-facilities-locations.htm">安保设施</a></li>
+<li><a href="task-forces.htm">机动特遣队</a></li>
+<li><a href="groups-of-interest-cn.htm">中国相关组织</a></li>
+<li><a href="secure-facilities-locations-cn.htm">中国分部设施</a></li>
+<li><a href="task-forces-cn.htm">中国分部机动特遣队</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="guide-hub.htm">指导中心</a></li>
+<li><a href="guide-for-newbies.htm">新手指南</a></li>
+<li><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></li>
+<li><a href="image-use-policy.htm">图像使用守则</a></li>
+<li><a href="licensing-guide.htm">授权指南</a></li>
+<li><a href="tag-guide.htm">标签指导</a></li>
+<li><a href="tag-search.htm">标签搜索</a></li>
+<li><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></li>
+<li><a href="faq.htm">常见问题解答</a></li>
+<li><a href="site-rules.htm">网站站规</a></li>
+<li><a href="deletions-guide.htm">删帖指导</a></li>
+<li><a href="criticism-policy.htm">批评守则</a></li>
+<li><a href="links.htm">链接</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="mobile-top-bar">
+<div class="open-menu">
+<p><a href="#side-bar">≡</a></p>
+</div>
+<ul>
+<li>SCP系列
+<ul>
+<li><a href="scp-series-5.htm">系列 V (4000 - 4999)</a></li>
+<li><a href="scp-series-4.htm">系列 IV (3000 - 3999)</a></li>
+<li><a href="scp-series-4-tales-edition.htm">» 系列 IV 故事</a></li>
+<li><a href="scp-series-3.htm">系列 III (2000 - 2999)</a></li>
+<li><a href="scp-series-3-tales-edition.htm">» 系列 III 故事</a></li>
+<li><a href="scp-series-2.htm">系列 II (1000 - 1999)</a></li>
+<li><a href="scp-series-2-tales-edition.htm">» 系列 II 故事</a></li>
+<li><a href="scp-series.htm">系列 I (001 - 999)</a></li>
+<li><a href="scp-series-1-tales-edition.htm">» 系列 I 故事</a></li>
+<li><a href="scp-series-cn-2.htm">CN系列 II (CN-1000 - CN-1999)</a></li>
+<li><a href="scp-series-cn.htm">CN系列 I (CN-001 - CN-999)</a></li>
+<li><a href="joke-scps.htm">搞笑SCP</a></li>
+<li><a href="scp-ex.htm">已解明SCP</a></li>
+<li><a href="joke-scps-cn.htm">搞笑SCP-CN</a></li>
+<li><a href="scp-ex-cn.htm">已解明SCP-CN</a></li>
+<li><a href="scp-international.htm">SCP国际翻译中心</a></li>
+</ul>
+</li>
+<li>故事
+<ul>
+<li><a href="foundation-tales.htm">基金会故事</a></li>
+<li><a href="canon-hub.htm">设定中心</a></li>
+<li><a href="series-archive.htm">故事系列</a></li>
+<li><a href="incident-reports-eye-witness-interviews-and-personal-logs.htm">事故报告</a></li>
+<li><a href="creepy-pasta.htm">Creepy-Pasta 归档</a></li>
+<li><a href="foundation-tales-cn.htm">中国分部故事</a></li>
+<li><a href="short-stories.htm">原创短篇故事合集</a></li>
+<li><a href="canon-hub-cn.htm">中国分部设定中心</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="user-curated-lists.htm">用户推荐清单</a></li>
+<li><a href="log-of-anomalous-items.htm">异常物品记录</a></li>
+<li><a href="log-of-extranormal-events.htm">超常现象记录</a></li>
+<li><a href="goi-formats.htm">GoI格式</a></li>
+<li><a href="audio-adaptations.htm">音频记录</a></li>
+<li><a href="scp-artwork-hub.htm">艺术作品</a></li>
+<li><a href="contest-archive.htm">征文竞赛</a></li>
+<li><a href="log-of-anomalous-items-cn.htm">中国异常物品记录</a></li>
+<li><a href="log-of-extranormal-events-cn.htm">中国超常现象记录</a></li>
+<li><a href="contest-archive-cn.htm">中国分部征文竞赛</a></li>
+<li><a href="wanderers_3astart.htm">被放逐者之图书馆</a></li>
+<li><a href="wanderers_3athe-library-cn.htm">原创图书馆中心</a></li>
+</ul>
+</li>
+<li>背景资料
+<ul>
+<li><a href="about-the-scp-foundation.htm">关于基金会</a></li>
+<li><a href="groups-of-interest.htm">相关组织</a></li>
+<li><a href="object-classes.htm">项目等级</a></li>
+<li><a href="personnel-and-character-dossier.htm">职员档案</a></li>
+<li><a href="security-clearance-levels.htm">安保许可等级</a></li>
+<li><a href="secure-facilities-locations.htm">安保设施</a></li>
+<li><a href="task-forces.htm">机动特遣队</a></li>
+<li><a href="groups-of-interest-cn.htm">中国相关组织</a></li>
+<li><a href="secure-facilities-locations-cn.htm">中国分部设施</a></li>
+<li><a href="task-forces-cn.htm">中国分部机动特遣队</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="guide-hub.htm">指导中心</a></li>
+<li><a href="guide-for-newbies.htm">新手指南</a></li>
+<li><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></li>
+<li><a href="image-use-policy.htm">图像使用守则</a></li>
+<li><a href="licensing-guide.htm">授权指南</a></li>
+<li><a href="tag-guide.htm">标签指导</a></li>
+<li><a href="tag-search.htm">标签搜索</a></li>
+<li><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></li>
+<li><a href="faq.htm">常见问题解答</a></li>
+<li><a href="site-rules.htm">网站站规</a></li>
+<li><a href="deletions-guide.htm">删帖指导</a></li>
+<li><a href="criticism-policy.htm">批评守则</a></li>
+<li><a href="links.htm">链接</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+                    </div>
+                
+                <div id="login-status"><a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">建立帐号</a> <span>或</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">登入</a> </div>
+                <div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+            </div>
+            
+            <div id="content-wrap">
+                
+                    <div id="side-bar">
+                        
+
+
+                        
+
+<div class="side-block" style="background-color: #f0fff6;">
+<div class="heading">
+<p>新人资讯</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="guide-for-newbies.htm">新手指南</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="site-rules.htm">网站站规</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="system_3ajoin.htm">加入网站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scpsandboxcn.wikidot.com/">SCP中文沙盒站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="faq.htm">常见问题解答</a></div>
+</div>
+<div class="side-block">
+<div class="menu-item"><img src="local--files/nav_3aside/home.png" alt="home.png" class="image" /><a href="default.htm">主页</a></div>
+<div class="heading">
+<p>SCP资料库</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-5.htm">SCP系列 V</a> <span class="sub-text">(4000-4999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-4.htm">SCP系列 IV</a> <span class="sub-text">(3000-3999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-3.htm">SCP系列 III</a> <span class="sub-text">(2000-2999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-2.htm">SCP系列 II</a> <span class="sub-text">(1000-1999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series.htm">SCP系列 I</a> <span class="sub-text">(001-999)</span></div>
+<hr />
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-cn-2.htm">SCP-CN系列 II</a> <span class="sub-text">(1000-1999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-cn.htm">SCP-CN系列 I</a> <span class="sub-text">(001-999)</span></div>
+<div class="heading">
+<p>SCP图书馆</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="foundation-tales.htm">基金会故事</a> | <a href="foundation-tales-cn.htm">原创故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="canon-hub.htm">设定中心</a> | <a href="canon-hub-cn.htm">原创设定中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="goi-formats.htm">GoI格式</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-international.htm">SCP国际翻译中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="wanderers_3astart.htm">被放逐者之图书馆</a> | <a href="wanderers_3athe-library-cn.htm">原创区</a></div>
+<div class="heading">
+<p>网站</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="most-recently-created.htm">最近新增的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="random_3arandom-scp">随机SCP</a> | <a href="random_3arandom-tale">故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="random_3arandom-scp-cn">随机原创SCP</a> | <a href="random_3arandom-tale-cn">原创故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3arecent-changes">最近的更新</a> | <a href="most-recently-edited">修改的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="top-rated-pages.htm">最高评分的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="lowest-rated-pages.htm">最低评分的页面</a></div>
+<div class="heading">
+<p>社交</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/forum.png" alt="forum.png" class="image" /><a href="forum_3astart">讨论区</a> | <a href="forum_3arecent-posts">最近发帖</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="criticism-policy.htm">批评守则</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="members-pages.htm">成员页</a> | <a href="members-pages-cn.htm">中国分部成员页</a></div>
+<div class="heading">
+<p>相关网站</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scp-tech-cn.wikidot.com/" target="_blank">SCP技术部门</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scp-int.wikidot.com/" target="_blank">SCP国际翻译站</a></div>
+</div>
+<div class="side-block" style="background-color: #e7e5e8;">
+<div class="heading">
+<p>写作指导</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="guide-hub.htm">指导中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="tag-guide.htm">标签指导</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="tag-search.htm">标签搜索</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="wiki-syntax.htm">维基语法</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="syntax-quick-reference.htm">语法速查</a></div>
+</div>
+<div class="side-block" style="background-color: #fff0f0;">
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-content">
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="_admin.htm">后台管理</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="http://05command-cn.wikidot.com/" target="_blank">职员专站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3alist-all-categories.htm">所有页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3amembers.htm">会员一览</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="nav_3aside.htm">侧栏</a> | <a href="nav_3atop.htm">顶栏</a> | <a href="component_3atheme">版式</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="side-block" style="background-color: #e5e5ff;">
+<div class="heading">
+<p>相关媒体</p>
+</div>
+<div class="menu-item">
+<div style="text-align: center;"><a href="https://space.bilibili.com/872507" target="_blank"><img src="local--files/nav_3aside/bilibili_icon.png" style="width:30px; height:30px;" alt="Bilibili_icon.png" class="image" /></a></div>
+</div>
+</div>
+<div class="side-block" style="background-color: #f0f0f0;">
+<div style="text-align: center;"><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank"><img src="../scp-wiki-cn.wdfiles.com/local--files/nav_253aside/cc-by-sa.svg" style="margin-bottom: 10px;" alt="cc-by-sa.svg" class="image" /></a><br />
+<span style="font-size:80%;">© SCP基金会<br />
+<a href="licensing-guide.htm">授权指南</a></span></div>
+</div>
+<div class="scpnet-interwiki-wrapper"><div class="list-pages-box">    <div class="list-pages-item">
+
+
+<p><iframe src="http://interwiki.scpdb.org/?wiki=scp-wiki-cn&lang=cn&page=component:discord-chat" align="" frameborder="" height="" scrolling="" width="" class="scpnet-interwiki-frame" style=""></iframe></p>
+</div>
+    
+    
+    
+    </div><div class="list-pages-box">    
+    
+    
+    
+    </div></div>
+<div style="clear:both; height: 0px; font-size: 1px"></div>
+<a class="close-menu" href="###"><br />
+<img src="../scp-wiki.wikidot.com/local--files/nav_3aside/black.png" style="z-index=-1; opacity: 0.3;" alt="black.png" class="image" /><br /></a>
+                        
+
+
+                    </div>
+                
+                
+                <!-- google_ad_section_end -->
+                
+                <div id="main-content">
+                    <div id="action-area-top"></div>
+                    
+                    
+                        <div id="page-title">
+                            Discord聊天室 样版
+                        </div>
+                    
+
+                    
+
+                    
+
+
+
+                    <div id="page-content">
+                        
+
+<div class="unmargined" style="margin: 0 auto 20px; background-color: #b01; border: solid 1px #b01; border-radius: 20px; box-shadow: 0 1px 6px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.8), inset 0 10px 1px rgba(255,255,255,.6), inset 0 -15px 30px rgba(0,0,0,.2); text-align: center; width: 500px;">
+<div class="unmargined" style="margin: 20px 0; font-size: 250%; color: #fff; font-weight: bold; text-shadow: 1px 2px 3px rgba(0,0,0,.5);">
+<p>我和我的小伙伴们都惊呆了！！</p>
+</div>
+<div class="unmargined" style="margin: 20px 0; color: #ff6;">
+<p>此页为于SCP维基内部使用的<em>样版</em>页。</p>
+</div>
+<div class="unmargined" style="margin: 20px 0; font-size: 120%; font-weight: bold; color: #fff; text-shadow: 1px 2px 3px rgba(0,0,0,.25);">
+<p>在未经同意的情况下<br />
+请不要动这页里面的东西</p>
+</div>
+</div>
+<hr />
+<h1 id="toc0"><span>例子</span></h1>
+
+
+
+
+
+
+
+<div class="discord">
+<div class="messages-panel">
+<div class="messages-group">
+<div class="messages">
+<div class="message one">
+<div class="icon"></div>
+<div class="body">
+<div class="userblock">
+<div class="user-name">GOTO 20</div>
+<div class="msg-time">今日 4:28 PM</div>
+</div>
+<div class="content">哟，Corvus，在吗？<img src="http://www.scp-wiki.net/local--files/component:discord-chat/smug.svg" class="emoji inline" alt="smug.svg" /></div>
+</div>
+</div>
+<div class="message two">
+<div class="icon"></div>
+<div class="body">
+<div class="userblock">
+<div class="user-name">Corvas</div>
+<div class="msg-time">今日 4:28 PM</div>
+</div>
+<div class="content">呀<br />
+咋啦<span class="at_mention">@GOTO 20</span><br />
+<img src="http://www.scp-wiki.net/local--files/component:discord-chat/smug.svg" class="emoji alone" alt="smug.svg" /></div>
+</div>
+</div>
+<div class="divider"><span class="dividerContent"><strong>新消息</strong></span></div>
+<div class="message one">
+<div class="icon"></div>
+<div class="body">
+<div class="userblock">
+<div class="user-name">GOTO 20</div>
+<div class="msg-time">今日 4:29 PM</div>
+</div>
+<div class="content">这有张图<br />
+<a href="http://www.scp-wiki.net/scp-4378"><img src="../www.scp-wiki.net/local--files/component_3adiscord-chat/noodle.jpg.htm" class="msgimage" alt="noodle.jpg" /></a></div>
+</div>
+</div>
+
+
+
+<div class="message one attch-one">
+<div class="icon"></div>
+<div class="body">
+<div class="userblock">
+<div class="user-name">GOTO 20</div>
+<div class="msg-time">今日 4:30 PM</div>
+</div>
+<div class="attachment">
+<div class="icon-code"></div>
+<div class="attachmentInner">
+<div class="filenameLinkWrapper"><a class="anchor" href="http://www.scp-wiki.net/scp-2105" target="_blank">mv_sk1r.tar.gz</a><br />
+<div class="metadata">2.71&#160;KB</div>
+</div>
+</div>
+<br />
+<a class="anchor" href="http://www.scp-wiki.net/scp-2105" target="_blank"><img src="http://www.scp-wiki.net/local--files/component:discord-chat-source/download-arrow.svg" alt="download-arrow.svg" class="image" /></a></div>
+</div>
+</div>
+
+
+
+<div class="message two attch-two">
+<div class="icon"></div>
+<div class="body">
+<div class="userblock">
+<div class="user-name">corvas</div>
+<div class="msg-time">今日 5:20 PM</div>
+</div>
+<div class="attachment">
+<div class="icon-code"></div>
+<div class="attachmentInner">
+<div class="filenameLinkWrapper"><a class="anchor" href="http://www.scp-wiki.net/scp-4205" target="_blank">butts.zip</a><br />
+<div class="metadata">512&#160;MB</div>
+</div>
+</div>
+<br />
+<a class="anchor" href="http://www.scp-wiki.net/scp-4205" target="_blank"><img src="http://www.scp-wiki.net/local--files/component:discord-chat-source/download-arrow.svg" alt="download-arrow.svg" class="image" /></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><span style="white-space: pre-wrap;">&#32;</span></p>
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;点此查看以上实例的代码</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">-&nbsp;隐藏代码</a></div>
+<div class="collapsible-block-content">
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-source=&#32;--</span>] ]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-user=&#32;--</span>]</tt><br />
+<tt>|user-id=one</tt><br />
+<tt>|username=GOTO 20</tt><br />
+<tt>|usericon=<span style="white-space: pre-wrap;">http://www.scp-wiki.net/local--files/component:discord-chat/GOTO20.png</span></tt><br />
+<tt>|usercolor=#ff5e56</tt><br />
+<tt>]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-user=&#32;--</span>]</tt><br />
+<tt>|user-id=two</tt><br />
+<tt>|username=Corvas</tt><br />
+<tt>|usericon=<span style="white-space: pre-wrap;">http://www.scp-wiki.net/local--files/component:discord-chat/corvas.png</span></tt><br />
+<tt>|usercolor=#60b9dc</tt><br />
+<tt>]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-start=&#32;--</span>] ]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-start=&#32;--</span>]</tt><br />
+<tt>|user-id=one</tt><br />
+<tt>|username=GOTO 20</tt><br />
+<tt>|msg-time=今日 4:28 PM</tt><br />
+<tt>]]</tt><br />
+<tt>哟，Corvus，在吗？[[<span style="white-space: pre-wrap;">image&#32;http://www.scp-wiki.net/local--files/component:discord-chat/smug.svg&#32;class=&quot;emoji&#32;inline&quot;</span>]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-end=&#32;--</span>] ]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-start=&#32;--</span>]</tt><br />
+<tt>|user-id=two</tt><br />
+<tt>|username=Corvas</tt><br />
+<tt>|msg-time=今日 4:28 PM</tt><br />
+<tt>]]</tt><br />
+<tt>呀</tt><br />
+<tt>咋啦 [[<span style="white-space: pre-wrap;">span&#32;class=&quot;at_mention&quot;]]@GOTO&#32;20[[/span</span>]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">image&#32;http://www.scp-wiki.net/local--files/component:discord-chat/smug.svg&#32;}}class=&quot;emoji&#32;alone&quot;</span>]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-end=&#32;--</span>] ]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-new-msgs=&#32;--</span>] ]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-start=&#32;--</span>]</tt><br />
+<tt>|user-id=one</tt><br />
+<tt>|username=GOTO 20</tt><br />
+<tt>|msg-time=今日 4:29 PM</tt><br />
+<tt>]]</tt><br />
+<tt>Here is an image</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">image&#32;http://www.scp-wiki.net/local--files/component:discord-chat/noodle.jpg&#32;link=&quot;http://www.scp-wiki.net/scp-4378&quot;&#32;class=&quot;msgimage&quot;</span>]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-end=&#32;--</span>] ]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-attch=&#32;--</span>]</tt><br />
+<tt>|attch-id=attch-one</tt><br />
+<tt>|user-id=one</tt><br />
+<tt>|username=GOTO 20</tt><br />
+<tt>|msg-time=今日 4:30 PM</tt><br />
+<tt>|attchname=mv_sk1r.tar.gz</tt><br />
+<tt>|attchsize=2.71&#160;KB</tt><br />
+<tt>|attchlink=<span style="white-space: pre-wrap;">http://www.scp-wiki.net/scp-2105</span></tt><br />
+<tt>]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-attch=&#32;--</span>]</tt><br />
+<tt>|attch-id=attch-two</tt><br />
+<tt>|user-id=two</tt><br />
+<tt>|username=corvas</tt><br />
+<tt>|msg-time=今日 5:20 PM</tt><br />
+<tt>|attchname=butts.zip</tt><br />
+<tt>|attchsize=512&#160;MB</tt><br />
+<tt>|attchlink=<span style="white-space: pre-wrap;">http://www.scp-wiki.net/scp-4205</span></tt><br />
+<tt>]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-end=&#32;--</span>] ]]</tt></p>
+</blockquote>
+</div>
+</div>
+</div>
+<h1 id="toc1"><span><strong>使用方法</strong></span></h1>
+<blockquote>
+<p><strong>该样版是<em>相当</em>复杂的，所以请完整地阅读下面引导。</strong></p>
+</blockquote>
+<div class="step_container">
+<h2 id="toc2"><span><strong>步骤 1：</strong>引用源代码</span></h2>
+<p><strong>该步骤只需执行一次</strong></p>
+<p>加这个引用到你代码的顶部：</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-source=&#32;--]</span>]]</tt></p>
+</blockquote>
+</div>
+<div class="step_container">
+<h2 id="toc3"><span><strong>步骤 2：</strong>添加用户</span></h2>
+<p><strong>该步骤只需执行一次</strong></p>
+<p>你如果想要添加特定用户，到discord版块里，请添加以下引用块:</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-user=&#32;--]</span></tt><br />
+<tt>|user-id=</tt><br />
+<tt>|username=</tt><br />
+<tt>|usericon=</tt><br />
+<tt>|usercolor=</tt><br />
+<tt>]]</tt></p>
+</blockquote>
+<p><strong>每个特定用户都需要其专属的用户板</strong></p>
+<div class="help">
+<blockquote>
+<p>开始引用用户板 ↦</p>
+<p>用户唯一指定ID <em>(请<strong>勿</strong>使用符号、数字、空格)</em> ↦</p>
+<p>用户名 <em>(可以重复)</em> ↦</p>
+<p>用户头像地址 ↦</p>
+<p>用户名的颜色 <em>(支持 hex, rgb, rgba, hsl)</em> ↦</p>
+<p>结束引用用户板 ↦</p>
+</blockquote>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include</span> component:discord-chat-source |inc-user= &#8212;]</tt></p>
+<p><tt>|user-id=one</tt></p>
+<p><tt>|username=GOTO 20</tt></p>
+<p><tt>|usericon=GOTO20.png</tt></p>
+<p><tt>|usercolor=#ff5e56</tt></p>
+<p><tt>]]</tt><br /></p>
+</blockquote>
+</div>
+</div>
+<div class="step_container">
+<h2 id="toc4"><span><strong>步骤 3：</strong>开始弄discord版块</span></h2>
+<p>添加下面的代码，到你想要开始模拟在discord盖楼的地方：</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-start=&#32;--]&#32;]]</span></tt></p>
+</blockquote>
+</div>
+<div class="step_container">
+<h2 id="toc5"><span><strong>第四步：</strong>添加消息和/或附件</span></h2>
+<p>一旦所有用户被引用，那就可以添加消息和附件了。<br />
+消息和附件不能共存在同一版块，它们永远是分开的（ie.显示帖子的用户名和头像。)//</p>
+<h3 id="toc6"><span><strong>步骤 4.1：</strong>添加消息</span></h3>
+<p>添加以下引用块到每个用户的消息中：</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-start=&#32;--</span>]</tt><br />
+<tt>|user-id=</tt><br />
+<tt>|username=</tt><br />
+<tt>|msg-time=</tt><br />
+<tt>]]</tt><br />
+<tt><strong>内容在此</strong></tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-end=&#32;--]</span> ]]</tt></p>
+</blockquote>
+<div class="help">
+<blockquote>
+<p>开始引用消息板 ↦</p>
+<p>专属用户唯一ID <em>(和之前设置的一样)</em> ↦</p>
+<p>与专属ID相关联的用户名 ↦</p>
+<p>发消息的时间 ↦<br />
+<br />
+结束对消息板起始的引用 ↦<br />
+<br />
+内容在此<br />
+允许使用所有的维基语法 ↦<br />
+<br />
+结束消息板整个的引用 ↦</p>
+</blockquote>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;:scp-wiki:component:discord-chat-source&#32;|inc-msg-start=&#32;--</span>]</tt></p>
+<p><tt>|user-id=one</tt></p>
+<p><tt>|username=GOTO 20</tt></p>
+<p><tt>|msg-time=今日 4:28 PM</tt><br />
+<br />
+<tt>]]</tt></p>
+<p><tt>呀<br />
+咋啦</tt></p>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;:scp-wiki:component:discord-chat-source&#32;|inc-msg-end=&#32;--]</span> ]]</tt></p>
+</blockquote>
+</div>
+<h3 id="toc7"><span><strong>步骤 4.2：</strong> 添加附件</span></h3>
+<p>添加以下引用块到每个附件之中：</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-attch=&#32;--</span>]</tt><br />
+<tt>|attch-id=</tt><br />
+<tt>|user-id=</tt><br />
+<tt>|username=</tt><br />
+<tt>|msg-time=</tt><br />
+<tt>|attchname=</tt><br />
+<tt>|attchsize=</tt><br />
+<tt>|attchlink=</tt><br />
+<tt>]]</tt></p>
+</blockquote>
+<div class="help">
+<blockquote>
+<p>开始引用附件板 ↦</p>
+<p>附件唯一指定ID <em>(请<strong>勿</strong>使用符号、数字、空格)</em> ↦</p>
+<p>发送附件的特定用户的ID <em>(和先前设置的一样)</em> ↦</p>
+<p>与特定用户ID相关的用户名 ↦</p>
+<p>发送时间 ↦</p>
+<p>显示附件名称 ↦</p>
+<p>显示附件大小 ↦</p>
+<p>点击时所链接的附件地址 <em>(没有链接时则留空)</em> ↦</p>
+<p>结束信息板的引用 ↦</p>
+</blockquote>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;:scp-wiki:component:discord-chat-source&#32;|inc-attch=&#32;--</span>]</tt></p>
+<p><tt>|attch-id=attch-one</tt></p>
+<p><tt>|user-id=one</tt></p>
+<p><tt>|username=GOTO 20</tt></p>
+<p><tt>|msg-time=05/14/2019</tt></p>
+<p><tt>|attchname=mv_sk1r.tar.gz</tt></p>
+<p><tt>|attchsize=2.71\a0KB</tt></p>
+<p><tt>|attchlink=<a href="http://www.scp-wiki.net/scp-2105">http://www.scp-wiki.net/scp-2105</a></tt></p>
+<p><tt>]]</tt></p>
+</blockquote>
+</div>
+</div>
+<div class="step_container">
+<h2 id="toc8"><span><strong>步骤 5：</strong>结束discord版块</span></h2>
+<p>添加以下代码，到你想要结束模拟在Discord盖楼的地方：</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-end=&#32;--]&#32;]]</span></tt></p>
+</blockquote>
+</div>
+<div class="step_container">
+<hr />
+<h2 id="toc9"><span><strong>可以重复步骤3-5，让同一用户聊天时盖多个Discord楼</strong></span></h2>
+<hr />
+<h2 id="toc10"><span><strong>可选项目</strong></span></h2>
+<h3 id="toc11"><span>我会添加更多可选项目，如果有人请求和/或我想到的话</span></h3>
+<h2 id="toc12"><span>添加图片</span></h2>
+<p>这里是个在消息内，添加图片的示例“”</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-start=&#32;--</span>]</tt><br />
+<tt>|user-id=one</tt><br />
+<tt>|username=GOTO 20</tt><br />
+<tt>|msg-time=昨天 1:28 AM</tt><br />
+<tt>]]</tt><br />
+<tt>这里是图片</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">image&#32;noodle.jpg&#32;link=&quot;http://www.scp-wiki.net&quot;&#32;class=&quot;msgimage&quot;</span>]]</tt><br />
+<tt>[[include component:discord-chat-source |inc-msg-end= &#8212;] ]]</tt></p>
+</blockquote>
+<ul>
+<li><strong><tt>class=&quot;msgimage&quot;</tt> 必须被添加到图像中，才能使其正常工作。</strong></li>
+<li><strong><tt>link=&quot;url&quot;</tt></strong>也可以添加这个，使图片内含链接，以在点击时跳转到其他地方</li>
+</ul>
+<h2 id="toc13"><span>添加表情符号</span></h2>
+<p>这里有两个消息内含有表情符号的例子：</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-start=&#32;--</span>]</tt><br />
+<tt>|user-id=one</tt><br />
+<tt>|username=GOTO 20</tt><br />
+<tt>|msg-time=上个月 9:15 PM</tt><br />
+<tt>]]</tt><br />
+<tt>哟，Corvus，在吗？[[<span style="white-space: pre-wrap;">image&#32;smug.svg&#32;class=&quot;emoji&#32;inline&quot;</span>]]</tt><br />
+<tt>[[include component:discord-chat-source |inc-msg-end= &#8212;] ]]</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-msg-start=&#32;--</span>]</tt><br />
+<tt>|user-id=two</tt><br />
+<tt>|username=Corvas</tt><br />
+<tt>]]</tt><br />
+<tt>呀</tt><br />
+<tt>咋啦</tt><br />
+<tt>[[<span style="white-space: pre-wrap;">image&#32;smug.svg&#32;class=&quot;emoji&#32;alone&quot;</span>]]</tt><br />
+<tt>[[include component:discord-chat-source |inc-msg-end= &#8212;] ]]</tt></p>
+</blockquote>
+<p>就如你看到的一样，这里有两种表情符号：</p>
+<ul>
+<li>并排的表情符号 &#8212; 由 <tt>class=&quot;emoji inline&quot;</tt> 生成</li>
+<li>独列的表情符号 &#8212; 由 <tt>class=&quot;emoji alone&quot;</tt> 生成</li>
+</ul>
+<p>这些不是自动生成的，因此在你想要使用表情符号时，必须添加这些class类到图片代码中。</p>
+<h2 id="toc14"><span>添加新消息分割线</span></h2>
+<p>将以下代码，添加到你希望新消息分割线出现的位置</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">include&#32;component:discord-chat-source&#32;|inc-new-msgs=&#32;--]&#32;]]</span></tt></p>
+</blockquote>
+<h2 id="toc15"><span>添加 @提及 样式</span></h2>
+<p>为了作个 @提及 样式，只需要将 @(用户名) 包裹在下面代码之中：</p>
+<blockquote>
+<p><tt>[[<span style="white-space: pre-wrap;">span&#32;class=&quot;at_mention&quot;</span>]]@用户名[[<span style="white-space: pre-wrap;">/span</span>]]</tt>.</p>
+</blockquote>
+</div>
+<div class="step_container">
+<h2 id="toc16"><span><strong>如果你有任何问题或想法，请自便，在维基上发信息给我</strong> (<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/woedenaz" onclick="WIKIDOT.page.listeners.userInfo(1404096); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1404096&amp;size=small&amp;timestamp=1576677593" alt="Woedenaz" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1404096)" /></a><a href="http://www.wikidot.com/user:info/woedenaz" onclick="WIKIDOT.page.listeners.userInfo(1404096); return false;">Woedenaz</a></span>) <strong>，或者在Discord上联系我</strong> (Woedenaz#1111).</span></h2>
+</div>
+
+
+
+                    </div>
+
+                            
+            <!-- wikidot_bottom_300x250 -->
+<div id="wad-scp-wiki-cn-below-content" class="wd-adunit wd-ad-np wd-adunit-below_content"></div>
+<script type='text/javascript'>
+nads.createAd('wad-scp-wiki-cn-below-content', {
+  "refreshLimit": 10,
+  "refreshTime": 83,
+  "sizes": [ [ 300, 250 ] ],
+  "report": {
+    "enabled": true,
+    "wording": "Report Ad",
+    "position": "bottom-right"
+  }
+  });
+</script>
+        
+    
+
+                    
+
+
+
+                    
+                        <div class="page-tags">
+                            <span>
+                                <a href="system_3apage-tags/tag/_25e6_25a0_25b7_25e7_2589_2588.htm#pages">样版</a>
+                            </span>
+                        </div>
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                        <div id="page-options-container">
+                            <div id="page-info">页面版本: 7, 最后编辑于: <span class="odate time_1563253555 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20%E5%89%8D%29">16 Jul 2019 05:05</span></div>
+            <div id="page-options-bottom"  class="page-options-bottom">
+            <a href="javascript:;" class="btn btn-default" id="edit-button">编辑</a>
+<a href="javascript:;" class="btn btn-default" id="pagerate-button">评分 (<span id="prw54355">+1</span>)</a>
+<a href="javascript:;" class="btn btn-default" id="tags-button">标签</a>
+<a href="forum/t-11941149/component_3adiscord-chat" class="btn btn-default" id="discuss-button">讨论 (3)</a>
+<a href="javascript:;" class="btn btn-default" id="history-button">历史记录</a>
+<a href="javascript:;" class="btn btn-default" id="files-button">附件</a>
+<a href="javascript:;" class="btn btn-default" id="print-button">打印</a>
+<a href="javascript:;" class="btn btn-default" id="site-tools-button">网站工具</a>
+<a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;选项</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none">
+    <a href="javascript:;" class="btn btn-default" id="edit-sections-button">编辑段落</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-append-button">附加</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-meta-button">编辑元信息</a>
+    <a href="javascript:;" class="btn btn-default" id="watchers-button">关注者</a> 
+    <a href="javascript:;" class="btn btn-default" id="backlinks-button">反向链接</a> 
+    <a href="javascript:;" class="btn btn-default" id="view-source-button">页面源代码</a> 
+    <a href="javascript:;" class="btn btn-default" id="parent-page-button">父页面</a> 
+    <a href="javascript:;" class="btn btn-default" id="page-block-button">锁定页面</a>    
+    <a href="javascript:;" class="btn btn-default" id="rename-move-button">重新命名</a> 
+    <a href="javascript:;" class="btn btn-default" id="delete-button">删除</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+
+                        </div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer" style="display: block; visibility: visible;">
+                <div class="options" style="display: block; visibility: visible;">
+    <a href="http://www.wikidot.com/doc" id="wikidot-help-button">说明</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">服务条款</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">隐私</a>
+    &nbsp;|
+    <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">报告错误</a>
+    &nbsp;|
+    <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">标记为令人反感的</a>
+</div>
+自豪地采用 <a href="../www.wikidot.com/default.htm">Wikidot.com</a> 
+            </div>
+            
+                <div id="license-area" class="license-area">
+                    除非特别注明，本页内容采用以下授权方式： <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>
+                </div>
+            
+            
+            
+
+
+
+            <div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+            
+            
+            
+            
+                <div id="footer-bar">
+  <div>
+     </div>
+  <h2>其它有趣的网站</h2>
+  
+  <div class="units">
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://psychjobsearch.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/psychjobsearch.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://psychjobsearch.wikidot.com/">Psychology Job Wiki</a></h3>
+            <div class="desc">          
+              
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://r.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/r.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://r.wikidot.com/">Wikidot URL shortener</a></h3>
+            <div class="desc">          
+              
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://iatkos.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/iatkos.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://iatkos.wikidot.com/">Iatkos</a></h3>
+            <div class="desc">          
+              
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://scpdsandbox.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/scpdsandbox.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://scpdsandbox.wikidot.com/">SCPDeclassified Sandbox</a></h3>
+            <div class="desc">          
+              Secure. Contain. Protect. Declassify.
+            </div>
+          </div>
+        </div>
+        </div>
+  </div>
+
+            
+        </div>
+        
+    </div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+</div>
+
+
+
+
+</div>
+<div id="dummy-ondomready-block" style="display: none;" ></div>
+    <!-- Google Analytics load -->
+    <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https:///' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure/' : 'http://edge/') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script>
+    <noscript>
+        <img src="../pixel.quantserve.com/pixel/p-edl3gsnujjzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    </noscript>
+
+
+
+
+<div id="page-options-bottom-tips" style="display: none;">
+    <div id="edit-button-hovertip">
+        请点此编辑本页内容。    </div>
+</div>
+<div id="page-options-bottom-2-tips"  style="display: none;">
+    <div id="edit-sections-button-hovertip">
+        单击此处切换页面各部分的编辑按钮（如果有可能）。 在标题边会显示“编辑”链接。    </div>
+    <div id="edit-append-button-hovertip">
+        在不编辑整个页面源代码的情况下添加内容。    </div>
+    <div id="history-button-hovertip">
+        看看本页过去是如何沿革的。    </div>
+    <div id="discuss-button-hovertip">
+        若您想要讨论本页内容 - 这是最简单的方法。    </div>
+    <div id="files-button-hovertip">
+        检视并管理本页附件。    </div>
+    <div id="site-tools-button-hovertip">
+        管理网站的实用工具。    </div>
+    <div id="backlinks-button-hovertip">
+        检视链接至本页或引用本页的页面。    </div>
+    <div id="rename-move-button-hovertip">
+        变更页面名称（及URL 位址，或许会影响分类）。    </div>
+    <div id="view-source-button-hovertip">
+        在不编辑的情形下检视维基原始码。    </div>
+    <div id="parent-page-button-hovertip">  
+        检视/ 设定父页面（用以建立浏览足迹与结构化​​配置）。    </div>
+            <div id="abuse-report-button-hovertip">
+            向管理员举报本页有令人反感的内容。        </div>
+        <div id="bug-report-button-hovertip">
+            事情不如预期？看看您可以做些什么。        </div>
+        <div id="wikidot-help-button-hovertip">
+            一般的 Wikidot.com 文件与说明。        </div>
+        <div id="wikidot-tos-button-hovertip">
+            Wikidot.com 服务条款- 您可以做的事，您不该做的事之类的。        </div>
+        <div id="wikidot-privacy-button-hovertip">
+            Wikidot.com 隐私政策。          
+        </div>
+    </div>
+</body>
+</html>

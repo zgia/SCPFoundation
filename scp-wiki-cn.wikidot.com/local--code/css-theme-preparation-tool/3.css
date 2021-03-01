@@ -1,0 +1,69 @@
+body * {
+    -webkit-overflow-scrolling: touch;
+}
+
+/* sample */
+div.sample a {
+    cursor: pointer;
+}
+div.side-block,
+div.interwiki {
+    width: 16.5em;
+    float: left;
+    margin-right: 1em;
+    padding: 10px;
+    border: 1px solid #660000;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    background: #fff;
+    margin-bottom: 15px;
+}
+div.side-block div.menu-item,
+.interwiki__entry {
+    margin: 2px 0;
+}
+div.side-block div.menu-item a {
+    font-weight: bold;
+}
+div.side-block div.menu-item img {
+    width: 13px;
+    height: 13px;
+    border: 0;
+    margin-right: 2px;
+    position: relative;
+    bottom: -2px;
+}
+div.side-block div.heading,
+div.interwiki__title {
+    color: #600;
+    border-bottom: solid 1px #600;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+div.interwiki__entry:before {
+    content: "■";
+    font-size: 7px;
+    color: #b01;
+    position: relative;
+    margin: 0 7px 0 5px;
+    bottom: 3px;
+}
+div.interwiki__entry a, div.interwiki__entry a:visited {
+    color: #b01;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.interwiki__entry a:hover {
+    text-decoration: underline;
+}
+
+blockquote{
+    border: 1px dashed #999;
+    padding: 0 1em;
+    background-color: #f4f4f4;
+}
+/* tab */
+.yui-nav,.yui-nav li {margin:0;padding:0;list-style:none;}.yui-navset .yui-nav li em {font-style:normal;}.yui-navset .yui-nav li {display:inline-block;vertical-align:bottom; cursor:pointer; }.yui-navset .yui-nav li a {display:inline-block;vertical-align:bottom;}.yui-navset .yui-nav li a em {display:block;}.yui-navset .yui-nav {border:solid #2647a0;border-width:0 0 5px;}.yui-navset .yui-nav li {margin:0 0.16em 0 0;padding:1px 0 0;}.yui-navset .yui-nav .selected { margin:0 0.16em -1px 0;}.yui-navset .yui-nav a {color: #000;border:solid #a3a3a3;border-width:0 1px;text-decoration:none;}.yui-navset .yui-nav a em {border:solid #a3a3a3;border-width:1px 0 0;cursor: pointer;padding:0.25em .75em;left:0; right: 0; bottom: 0;top:-1px;position:relative;}.yui-navset .yui-nav .selected a,.yui-navset .yui-nav .selected a:focus,.yui-navset .yui-nav .selected a:hover {color:#fff;}.yui-navset .yui-nav .selected a em {padding:0.35em 0.75em;}.yui-navset .yui-nav .selected a,.yui-navset .yui-nav .selected a em {border-color:#243356;}.yui-navset .yui-content {background:#f4f5ff;}.yui-navset .yui-content {border:1px solid #808080;border-top-color:#243356;padding:0.25em 0.5em;}.yui-navset .yui-nav a.hover {background: #d88 url(../../../d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png) repeat-x left -1300px; display: none;}

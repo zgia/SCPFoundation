@@ -1,0 +1,924 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- saved from url=(0043)http://scp-wiki-cn.wikidot.com/scp-cn-529-j --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cn" lang="cn">
+
+<head>
+    <title>SCP-CN-529-J - SCP基金会</title>
+    
+    
+    
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/init.combined.js"></script>
+    <script  type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "scp-wiki-cn.wikidot.com";
+        WIKIREQUEST.info.siteId = 530812;
+        WIKIREQUEST.info.siteUnixName = "scp-wiki-cn";
+        WIKIREQUEST.info.categoryId = 3342264;
+        WIKIREQUEST.info.themeId = 1;
+        WIKIREQUEST.info.requestPageName = "scp-cn-529-j";
+        OZONE.request.timestamp = 1579937728;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'cn';
+                WIKIREQUEST.info.pageUnixName = "scp-cn-529-j";
+        WIKIREQUEST.info.pageId = 59256490;
+                        WIKIREQUEST.info.lang = "cn";
+        OZONE.lang = "cn";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script  type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+                            <meta name="robots" content="index,follow"/>
+                                <meta name="language" content="zh,zh-cn"/>
+                                                            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="zh,zh-cn"/>
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css" id="internal-style">
+        
+        /* modules */
+@import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/css/pagerate/PageRateWidgetModule.css);
+
+
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--theme/base/css/style.css);
+                    @import url(component_3atheme/code/1.css);
+            </style>
+    
+        
+        
+        
+    <link rel="shortcut icon" href="local--favicon/favicon.gif"/>
+    <link rel="icon" type="image/gif" href="local--favicon/favicon.gif"/>
+    
+            <link rel="apple-touch-icon" href="common--images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="common--images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="common--images/apple-touch-icon-114x114.png" />
+        
+        
+            <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript_3awikidot.page.listeners.editclick%28%29"/>
+    
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+            </script>
+    
+    <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script>
+    
+        <link rel="manifest" href="onesignal/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" acync=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: null,
+          });
+        });
+    </script>
+        
+<script src="https://s.nitropay.com/ads-143.js"></script>
+<script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/js/list/ListPagesModule.js"></script>
+<script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/js/pagerate/PageRateWidgetModule.js"></script>
+</head>
+<body id="html-body">
+<div id="skrollr-body">
+<a name="page-top"></a>
+
+
+
+
+
+<div id="container-wrap-wrap">
+    <div id="container-wrap">
+        <div id="container">
+            <div id="header">
+              <h1><a href="default.htm"><span>SCP基金会</span></a></h1>
+                
+                    <h2><span>控制，收容，保护</span></h2>
+                
+                
+                <!-- google_ad_section_start(weight=ignore) -->
+                
+                <div id="search-top-box" class="form-search">
+    <form id="search-top-box-form" action="dummy" class="input-append">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="搜索网站" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"/><input class="button btn" type="submit" name="search" value="搜索"/>
+    </form>
+</div>
+                
+                
+                    <div id="top-bar">
+                        
+
+<div class="top-bar">
+<ul>
+<li>SCP系列
+<ul>
+<li><a href="scp-series-5.htm">系列 V (4000 - 4999)</a></li>
+<li><a href="scp-series-4.htm">系列 IV (3000 - 3999)</a></li>
+<li><a href="scp-series-4-tales-edition.htm">» 系列 IV 故事</a></li>
+<li><a href="scp-series-3.htm">系列 III (2000 - 2999)</a></li>
+<li><a href="scp-series-3-tales-edition.htm">» 系列 III 故事</a></li>
+<li><a href="scp-series-2.htm">系列 II (1000 - 1999)</a></li>
+<li><a href="scp-series-2-tales-edition.htm">» 系列 II 故事</a></li>
+<li><a href="scp-series.htm">系列 I (001 - 999)</a></li>
+<li><a href="scp-series-1-tales-edition.htm">» 系列 I 故事</a></li>
+<li><a href="joke-scps.htm">搞笑SCP</a></li>
+<li><a href="scp-ex.htm">已解明SCP</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="user-curated-lists.htm">用户推荐清单</a></li>
+<li><a href="log-of-anomalous-items.htm">异常物品记录</a></li>
+<li><a href="log-of-extranormal-events.htm">超常现象记录</a></li>
+<li><a href="goi-formats.htm">GoI格式</a></li>
+<li><a href="audio-adaptations.htm">音频记录</a></li>
+<li><a href="scp-artwork-hub.htm">艺术作品</a></li>
+<li><a href="contest-archive.htm">征文竞赛</a></li>
+<li><a href="wanderers_3astart.htm">被放逐者之图书馆</a></li>
+<li><a href="wanderers_3athe-library-cn.htm">原创图书馆中心</a></li>
+</ul>
+</li>
+<li>故事
+<ul>
+<li><a href="foundation-tales.htm">基金会故事</a></li>
+<li><a href="canon-hub.htm">设定中心</a></li>
+<li><a href="series-archive.htm">故事系列</a></li>
+<li><a href="incident-reports-eye-witness-interviews-and-personal-logs.htm">事故报告</a></li>
+<li><a href="creepy-pasta.htm">Creepy-Pasta 归档</a></li>
+</ul>
+</li>
+<li>SCP-CN系列
+<ul>
+<li><a href="scp-series-cn-2.htm">CN系列 II (CN-1000 - CN-1999)</a></li>
+<li><a href="scp-series-cn.htm">CN系列 I (CN-001 - CN-999)</a></li>
+<li><a href="joke-scps-cn.htm">搞笑SCP-CN</a></li>
+<li><a href="scp-ex-cn.htm">已解明SCP-CN</a></li>
+<li><a href="log-of-anomalous-items-cn.htm">中国异常物品记录</a></li>
+<li><a href="log-of-extranormal-events-cn.htm">中国超常现象记录</a></li>
+<li><a href="foundation-tales-cn.htm">中国分部故事</a></li>
+<li><a href="short-stories.htm">原创短篇故事合集</a></li>
+<li><a href="canon-hub-cn.htm">中国分部设定中心</a></li>
+<li><a href="contest-archive-cn.htm">中国分部征文竞赛</a></li>
+</ul>
+</li>
+<li>SCP国际
+<ul>
+<li><a href="scp-international.htm">SCP国际翻译中心</a></li>
+<li><a href="http://scp-int.wikidot.com/">SCP国际翻译站</a></li>
+<li><a href="http://scpfoundation.net/">Russian Branch(-RU)</a></li>
+<li><a href="http://ko.scp-wiki.net/">SCP 재단(-KO)</a></li>
+<li><a href="http://fondationscp.wikidot.com/">Fondation SCP(-FR)</a></li>
+<li><a href="http://scp-wiki.net.pl/">Fundacja SCP(-PL)</a></li>
+<li><a href="http://scp-es.com/">La Fundación SCP(-ES)</a></li>
+<li><a href="http://scp-th.wikidot.com/">สถาบัน SCP(-TH)</a></li>
+<li><a href="http://ja.scp-wiki.net/">SCP財団(-JP)</a></li>
+<li><a href="http://scp-wiki-de.wikidot.com/">SCP auf Deutsch(-DE)</a></li>
+<li><a href="http://fondazionescp.wikidot.com/">Fondazione SCP(-IT)</a></li>
+<li><a href="http://scp-ukrainian.wikidot.com/">Ukrainian Branch(-UA)</a></li>
+<li><a href="http://scp-pt-br.wikidot.com/">Fundação SCP(-PT/BR)</a></li>
+<li><a href="http://scp-cs.wikidot.com/">SCP Nadace(-CZ)</a></li>
+</ul>
+</li>
+<li>背景资料
+<ul>
+<li><a href="about-the-scp-foundation.htm">关于基金会</a></li>
+<li><a href="groups-of-interest.htm">相关组织</a></li>
+<li><a href="object-classes.htm">项目等级</a></li>
+<li><a href="personnel-and-character-dossier.htm">职员档案</a></li>
+<li><a href="security-clearance-levels.htm">安保许可等级</a></li>
+<li><a href="secure-facilities-locations.htm">安保设施</a></li>
+<li><a href="task-forces.htm">机动特遣队</a></li>
+<li><a href="groups-of-interest-cn.htm">中国相关组织</a></li>
+<li><a href="secure-facilities-locations-cn.htm">中国分部设施</a></li>
+<li><a href="task-forces-cn.htm">中国分部机动特遣队</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="guide-hub.htm">指导中心</a></li>
+<li><a href="guide-for-newbies.htm">新手指南</a></li>
+<li><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></li>
+<li><a href="image-use-policy.htm">图像使用守则</a></li>
+<li><a href="licensing-guide.htm">授权指南</a></li>
+<li><a href="tag-guide.htm">标签指导</a></li>
+<li><a href="tag-search.htm">标签搜索</a></li>
+<li><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></li>
+<li><a href="faq.htm">常见问题解答</a></li>
+<li><a href="site-rules.htm">网站站规</a></li>
+<li><a href="deletions-guide.htm">删帖指导</a></li>
+<li><a href="criticism-policy.htm">批评守则</a></li>
+<li><a href="links.htm">链接</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="mobile-top-bar">
+<div class="open-menu">
+<p><a href="#side-bar">≡</a></p>
+</div>
+<ul>
+<li>SCP系列
+<ul>
+<li><a href="scp-series-5.htm">系列 V (4000 - 4999)</a></li>
+<li><a href="scp-series-4.htm">系列 IV (3000 - 3999)</a></li>
+<li><a href="scp-series-4-tales-edition.htm">» 系列 IV 故事</a></li>
+<li><a href="scp-series-3.htm">系列 III (2000 - 2999)</a></li>
+<li><a href="scp-series-3-tales-edition.htm">» 系列 III 故事</a></li>
+<li><a href="scp-series-2.htm">系列 II (1000 - 1999)</a></li>
+<li><a href="scp-series-2-tales-edition.htm">» 系列 II 故事</a></li>
+<li><a href="scp-series.htm">系列 I (001 - 999)</a></li>
+<li><a href="scp-series-1-tales-edition.htm">» 系列 I 故事</a></li>
+<li><a href="scp-series-cn-2.htm">CN系列 II (CN-1000 - CN-1999)</a></li>
+<li><a href="scp-series-cn.htm">CN系列 I (CN-001 - CN-999)</a></li>
+<li><a href="joke-scps.htm">搞笑SCP</a></li>
+<li><a href="scp-ex.htm">已解明SCP</a></li>
+<li><a href="joke-scps-cn.htm">搞笑SCP-CN</a></li>
+<li><a href="scp-ex-cn.htm">已解明SCP-CN</a></li>
+<li><a href="scp-international.htm">SCP国际翻译中心</a></li>
+</ul>
+</li>
+<li>故事
+<ul>
+<li><a href="foundation-tales.htm">基金会故事</a></li>
+<li><a href="canon-hub.htm">设定中心</a></li>
+<li><a href="series-archive.htm">故事系列</a></li>
+<li><a href="incident-reports-eye-witness-interviews-and-personal-logs.htm">事故报告</a></li>
+<li><a href="creepy-pasta.htm">Creepy-Pasta 归档</a></li>
+<li><a href="foundation-tales-cn.htm">中国分部故事</a></li>
+<li><a href="short-stories.htm">原创短篇故事合集</a></li>
+<li><a href="canon-hub-cn.htm">中国分部设定中心</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="user-curated-lists.htm">用户推荐清单</a></li>
+<li><a href="log-of-anomalous-items.htm">异常物品记录</a></li>
+<li><a href="log-of-extranormal-events.htm">超常现象记录</a></li>
+<li><a href="goi-formats.htm">GoI格式</a></li>
+<li><a href="audio-adaptations.htm">音频记录</a></li>
+<li><a href="scp-artwork-hub.htm">艺术作品</a></li>
+<li><a href="contest-archive.htm">征文竞赛</a></li>
+<li><a href="log-of-anomalous-items-cn.htm">中国异常物品记录</a></li>
+<li><a href="log-of-extranormal-events-cn.htm">中国超常现象记录</a></li>
+<li><a href="contest-archive-cn.htm">中国分部征文竞赛</a></li>
+<li><a href="wanderers_3astart.htm">被放逐者之图书馆</a></li>
+<li><a href="wanderers_3athe-library-cn.htm">原创图书馆中心</a></li>
+</ul>
+</li>
+<li>背景资料
+<ul>
+<li><a href="about-the-scp-foundation.htm">关于基金会</a></li>
+<li><a href="groups-of-interest.htm">相关组织</a></li>
+<li><a href="object-classes.htm">项目等级</a></li>
+<li><a href="personnel-and-character-dossier.htm">职员档案</a></li>
+<li><a href="security-clearance-levels.htm">安保许可等级</a></li>
+<li><a href="secure-facilities-locations.htm">安保设施</a></li>
+<li><a href="task-forces.htm">机动特遣队</a></li>
+<li><a href="groups-of-interest-cn.htm">中国相关组织</a></li>
+<li><a href="secure-facilities-locations-cn.htm">中国分部设施</a></li>
+<li><a href="task-forces-cn.htm">中国分部机动特遣队</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="guide-hub.htm">指导中心</a></li>
+<li><a href="guide-for-newbies.htm">新手指南</a></li>
+<li><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></li>
+<li><a href="image-use-policy.htm">图像使用守则</a></li>
+<li><a href="licensing-guide.htm">授权指南</a></li>
+<li><a href="tag-guide.htm">标签指导</a></li>
+<li><a href="tag-search.htm">标签搜索</a></li>
+<li><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></li>
+<li><a href="faq.htm">常见问题解答</a></li>
+<li><a href="site-rules.htm">网站站规</a></li>
+<li><a href="deletions-guide.htm">删帖指导</a></li>
+<li><a href="criticism-policy.htm">批评守则</a></li>
+<li><a href="links.htm">链接</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+                    </div>
+                
+                <div id="login-status"><a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">建立帐号</a> <span>或</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">登入</a> </div>
+                <div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+            </div>
+            
+            <div id="content-wrap">
+                
+                    <div id="side-bar">
+                        
+
+
+                        
+
+<div class="side-block" style="background-color: #f0fff6;">
+<div class="heading">
+<p>新人资讯</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="guide-for-newbies.htm">新手指南</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="site-rules.htm">网站站规</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="system_3ajoin.htm">加入网站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scpsandboxcn.wikidot.com/">SCP中文沙盒站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="faq.htm">常见问题解答</a></div>
+</div>
+<div class="side-block">
+<div class="menu-item"><img src="local--files/nav_3aside/home.png" alt="home.png" class="image" /><a href="default.htm">主页</a></div>
+<div class="heading">
+<p>SCP资料库</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-5.htm">SCP系列 V</a> <span class="sub-text">(4000-4999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-4.htm">SCP系列 IV</a> <span class="sub-text">(3000-3999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-3.htm">SCP系列 III</a> <span class="sub-text">(2000-2999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-2.htm">SCP系列 II</a> <span class="sub-text">(1000-1999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series.htm">SCP系列 I</a> <span class="sub-text">(001-999)</span></div>
+<hr />
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-cn-2.htm">SCP-CN系列 II</a> <span class="sub-text">(1000-1999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-cn.htm">SCP-CN系列 I</a> <span class="sub-text">(001-999)</span></div>
+<div class="heading">
+<p>SCP图书馆</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="foundation-tales.htm">基金会故事</a> | <a href="foundation-tales-cn.htm">原创故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="canon-hub.htm">设定中心</a> | <a href="canon-hub-cn.htm">原创设定中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="goi-formats.htm">GoI格式</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-international.htm">SCP国际翻译中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="wanderers_3astart.htm">被放逐者之图书馆</a> | <a href="wanderers_3athe-library-cn.htm">原创区</a></div>
+<div class="heading">
+<p>网站</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="most-recently-created.htm">最近新增的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="random_3arandom-scp">随机SCP</a> | <a href="random_3arandom-tale">故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="random_3arandom-scp-cn">随机原创SCP</a> | <a href="random_3arandom-tale-cn">原创故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3arecent-changes">最近的更新</a> | <a href="most-recently-edited">修改的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="top-rated-pages.htm">最高评分的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="lowest-rated-pages.htm">最低评分的页面</a></div>
+<div class="heading">
+<p>社交</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/forum.png" alt="forum.png" class="image" /><a href="forum_3astart">讨论区</a> | <a href="forum_3arecent-posts">最近发帖</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="criticism-policy.htm">批评守则</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="members-pages.htm">成员页</a> | <a href="members-pages-cn.htm">中国分部成员页</a></div>
+<div class="heading">
+<p>相关网站</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scp-tech-cn.wikidot.com/" target="_blank">SCP技术部门</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scp-int.wikidot.com/" target="_blank">SCP国际翻译站</a></div>
+</div>
+<div class="side-block" style="background-color: #e7e5e8;">
+<div class="heading">
+<p>写作指导</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="guide-hub.htm">指导中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="tag-guide.htm">标签指导</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="tag-search.htm">标签搜索</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="wiki-syntax.htm">维基语法</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="syntax-quick-reference.htm">语法速查</a></div>
+</div>
+<div class="side-block" style="background-color: #fff0f0;">
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-content">
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="_admin.htm">后台管理</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="http://05command-cn.wikidot.com/" target="_blank">职员专站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3alist-all-categories.htm">所有页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3amembers.htm">会员一览</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="nav_3aside.htm">侧栏</a> | <a href="nav_3atop.htm">顶栏</a> | <a href="component_3atheme">版式</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="side-block" style="background-color: #e5e5ff;">
+<div class="heading">
+<p>相关媒体</p>
+</div>
+<div class="menu-item">
+<div style="text-align: center;"><a href="https://space.bilibili.com/872507" target="_blank"><img src="local--files/nav_3aside/bilibili_icon.png" style="width:30px; height:30px;" alt="Bilibili_icon.png" class="image" /></a></div>
+</div>
+</div>
+<div class="side-block" style="background-color: #f0f0f0;">
+<div style="text-align: center;"><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank"><img src="http://scp-wiki-cn.wikidot.com/local--files/nav:side/cc-by-sa.svg" style="margin-bottom: 10px;" alt="cc-by-sa.svg" class="image" /></a><br />
+<span style="font-size:80%;">© SCP基金会<br />
+<a href="licensing-guide.htm">授权指南</a></span></div>
+</div>
+<div class="scpnet-interwiki-wrapper"><div class="list-pages-box">    <div class="list-pages-item">
+
+
+<p><iframe src="http://interwiki.scpdb.org/?wiki=scp-wiki-cn&lang=cn&page=_default:scp-cn-529-j" align="" frameborder="" height="" scrolling="" width="" class="scpnet-interwiki-frame" style=""></iframe></p>
+</div>
+    
+    
+    
+    </div><div class="list-pages-box">    
+    
+    
+    
+    </div></div>
+<div style="clear:both; height: 0px; font-size: 1px"></div>
+<a class="close-menu" href="###"><br />
+<img src="../scp-wiki.wikidot.com/local--files/nav_3aside/black.png" style="z-index=-1; opacity: 0.3;" alt="black.png" class="image" /><br /></a>
+                        
+
+
+                    </div>
+                
+                
+                <!-- google_ad_section_end -->
+                
+                <div id="main-content">
+                    <div id="action-area-top"></div>
+                    
+                    
+                        <div id="page-title">
+                            SCP-CN-529-J
+                        </div>
+                    
+
+                    
+
+                    
+
+
+
+                    <div id="page-content">
+                        
+
+<div style="text-align: right;"><div class="page-rate-widget-box"><span class="rate-points">评分:&nbsp;<span class="number prw54353">+181</span></span><span class="rateup btn btn-default"><a title="我喜欢" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.rate(event, 1)">+</a></span><span class="ratedown btn btn-default"><a title="我不喜欢" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.rate(event, -1)">&#8211;</a></span><span class="cancel btn btn-default"><a title="取消我的投票" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.cancelVote(event)">x</a></span></div></div>
+<p><strong>项目编号：</strong>SCP-CN-529-J</p>
+<p><strong>项目等级：</strong>Keter</p>
+<p><strong>特殊收容措施：</strong>机动特遣队 甲寅-09-J <span style="text-decoration: line-through;">“猫咪消灭者”</span> “黄油消灭者”已被建立，用于抬升黄油物价，对黄油产量进行暗中控制以减少黄油和猫可能的接触。机动特遣队 甲寅-10-J “面包终结者”已被建立，将用于宣传面包的有害地方，呼吁人们少吃面包，间接减少人们日常生活中使猫与面包的接触概率。</p>
+<p>目前，SCP基金会外围组织，<span class="ruby">超级萌宠基金会<span class="rt">Super Cute Pets Foundation</span></span>在网络上以“震惊！黄油竟能把猫变成这样……”“99%的人都不知道，千万不要再买黄油了”“养猫的朋友看了之后都哭了”等为题，发布说明黄油对猫有害，引导民众不要让黄油与猫接触的文章，以减少SCP-CN-529-J-Alpha效应的出现。该组织同时用于监测网络上所有加有<em>黄油</em>及<em>猫</em>要素的内容<sup class="footnoteref"><a id="footnoteref-1" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-1')">1</a></sup>，及时对其进行消息封锁，并对信息发布者进行控制。在必要的时候，允许使用“顺丰快递”“开门查表”“社区温暖”等标准故事进行掩盖。</p>
+<p>所有疑似SCP-CN-529-J-1个体都应被谨慎对待。在黄油面包与猫分离之前，需高度注意保持SCP-CN-529-J-1个体稳定，禁止刺激其跳起导致进入悬空状态，或直接使其悬空。所有处于活跃状态的SCP-CN-529-J-1都需要在异常性质启动后6小时内被遏制。若规定时间内无法成功遏制其异常效应，收容协议SPOOKYCAT-999“死猫才乖”将被激活，允许使用一切力量以阻止SCP-CN-529-J-1的继续旋转。</p>
+<p>在SCP-CN-529-J-1处于激活状态后8小时后未被遏制，收容协议ESCAPEFROMCATEARTH-001“逃离猫星”将被激活，所有过于危险和无法转移的项目将进行无效化处理，由基金会建造的多艘隐藏星际飞船 &#8212; 代号“方舟” &#8212; 将启动，用于全世界大部分人口的转移。</p>
+<p>“方舟”启动后人员及物资转移顺序如下列：</p>
+<ul>
+<li>全世界范围内的各领域顶尖人才</li>
+<li>SCP基金会各部分运转关键人员，及各类极易收容、转移且有益的异常</li>
+<li>各物种样本，或个体、种子</li>
+<li>SCP基金会O5议会成员</li>
+<li>大部分友善同行组织高层</li>
+<li>SCP基金会其余人员</li>
+<li>部分平民</li>
+<li>让全球超自然联盟成员和异常紧抱在一起，并发誓从此不再毁灭异常后允许他们上船</li>
+<li><strong>永远不允许</strong>政府官员、政客，和混沌分裂者上船</li>
+</ul>
+<p>“方舟”将寻找适宜人类定居的星球进行殖民，延续人类种族。预计在[该内容在监督者议会的命令下被删除]天后地球会因SCP-CN-529-J效应变得不适宜生物居住，[该内容在监督者议会的命令下被删除]年后地球将彻底毁灭，约[该内容在监督者议会的命令下被删除]年后SCP-CN-529-J将作为核心重新形成一颗星球。根据地球历史乐观估计，约40亿年后该星球就可重新获得适宜生物生存的环境，能够重新回到该星球定居。</p>
+<p><strong>描述：</strong>SCP-CN-529-J是一种只有一面涂上黄油的面包片<sup class="footnoteref"><a id="footnoteref-2" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-2')">2</a></sup>和猫<sup class="footnoteref"><a id="footnoteref-3" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-3')">3</a></sup>上产生的异常效应。当上述面包片或猫处于悬空状态<sup class="footnoteref"><a id="footnoteref-4" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-4')">4</a></sup>时，涂有黄油的面总会先一步落地，而猫总会四脚着地的现象。这种现象在高度较低时并未出现，据此推测SCP-CN-529-J-Alpha效应同样不会在距离地面过近时出现。</p>
+<p>SCP-CN-529-J-Alpha由Diven Samara博士于20██年提出，<span style="text-decoration: line-through;">被认为是理论上真实存在的异常效应</span>是一种目前已被证实的极度危险的异常效应，仅在SCP-CN-529-J-1上发生。当一只猫和一片只有一面涂有黄油的面包片绑在一起时，该集合体成为一个SCP-CN-529-J-1<sup class="footnoteref"><a id="footnoteref-5" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-5')">5</a></sup>。当一个SCP-CN-529-J-1处于悬空状态时，因SCP-CN-529效应的影响，黄油面包片倾向于黄油面落地，猫倾向于四脚落地，而这会使SCP-CN-529-J-1个体进入激活状态，导致SCP-CN-529-J-1无法落地并在空中不断旋转，该现象即被称为SCP-CN-529-J-Alpha效应。</p>
+<p>根据已有的SCP-CN-529-J收容失效事故记录，SCP-CN-529-J-Alpha效应在被触发后，SCP-CN-529-J-1将开始以█r/s的速度开始旋转，同时旋转速度会出现快速增长。目前最长的记录时间为3小时17分钟，SCP-CN-529-J-1的速度达到了██████r/s，之后被赶到的机动特遣队成功阻止。但它最终还是导致了一场巨型龙卷风的出现，造成了7人死亡，42人受伤，总共对当地造成了约7亿美元的经济损失。</p>
+<p>在SCP-CN-529-J-Alpha效应触发后，一切伤害将对猫无效，旋转也似乎不会对猫产生任何影响，因此只能通过分离黄油面包与猫或消灭黄油面包来停止SCP-CN-529-J-Alpha效应。</p>
+<p>同时，在SCP-CN-529-J-1逐步提升旋转速度的过程中，外部休谟场指数会逐渐降低，预计在处于激活状态约6小时后达到0.██，这通常会导致其周边出现小范围的维度坍缩，随机出现的时间流速降低或消失现象，部分物理定律效果减弱及[数据删除]等现象，这使得在这之后阻止其旋转变得十分困难。在开始旋转8小时后，阻止SCP-CN-529-J-1被认为是基本不可能的。该效应预计在12小时后达到最大，使外部休谟场指数降至0。</p>
+<p>在这部分目前仍有争议，目前有三种主要理论：一种理论认为SCP-CN-529-J-1在使休谟指数降至0之前就会被密集的维度坍缩卷入，导致自身毁灭或离开该维度。还有一种理论认为，SCP-CN-529-J-1在最后会导致ck级现实重构，或自身坍缩并形成奇点，最终造成xk级世界末日，最终使得[该内容在监督者议会的命令下被删除]。第三种理论，同时也是接受度最广的一种理论认为，SCP-CN-529-J-1会在旋转着获得逐渐增大的引力吸附周边物品，并将逐渐使得地球被SCP-CN-529-J-1所吸收，并生成一个新的星球以促进环境演化。关于牵引陨石撞击帮助加速演化 ，直接放置生物补充生物圈以加速演化的方式目前正在讨论当中。因对其进行测试实验危险性太大，对其的进一步的范围测试将不被允许。</p>
+<p>值得注意的是，部分人员在观看SCP-CN-529-J-1时表现出了对于对方的迷恋、喜爱等情感，这种效应似乎不仅限于SCP-CN-529-J-1，疑似出现了<a href="scp-cn-666-j.htm">SCP-CN-666-J</a>感染，进一步调查正在进行中。</p>
+<p><strong>附录1：SCP-CN-529-J收容失效事故记录节选：</strong><br />
+[该内容在监督者议会的命令下被删除]</p>
+<p><strong>附录2：SCP-CN-529-J实验记录（节选）</strong></p>
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;SCP-CN-529-J部分实验记录</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">-&nbsp;隐藏内容</a></div>
+<div class="collapsible-block-content">
+<p>以下仅列出由监督者议会经过审议通过，且实验结果较有意义的部分记录。</p>
+<blockquote>
+<p><strong>实验CN-529-J-3</strong></p>
+<p><strong>实验负责人：</strong>Diven Samara博士<br />
+<strong>时间：</strong>2017/12/25<br />
+<strong>实验目的：</strong>验证SCP-CN-529-J效应触发的范围。</p>
+<p><strong>实验过程：</strong>Samara博士<span style="text-decoration: line-through;">偷偷</span>将Sloven Thurs博士的猫Kassie抱走，放在了一个放满涂有单面黄油的面包片的儿童用塑料游泳池中(以下内容中将Kassie称为“对象”)。MTF-甲寅-01 “第五捍卫者”与MTF-甲寅-05 “第五守望者”在池边待命，随时准备消灭黄油面包。顺带一提，黄油和面包片均来自Thurs博士(的钱包)的慷慨资助。</p>
+<p>对象看起来不太高兴，尝试在池子中睡觉。对象突然开始抽动鼻子，发出了类似打喷嚏的声音。</p>
+<p>对象起身，开始在池中玩耍。周边进行观察的研究人员和机动特遣队作业员均报告了从主观上感到“愉悦”、“对象真可爱”、“喜爱对象”、“想抚摸对象”、“感到被治愈”等。</p>
+<p>对象在试图睡觉并失败后，转而开始仔细闻周围的黄油面包。在2分钟的试探后，对象开始进食黄油面包。旁边的研究员为她放上了水盆以防止她噎到。</p>
+<p>在实验进行了半小时后仍未出现异常效应，实验终止，对象表现得很满足。剩余的黄油面包都以“圣诞节礼物”的名义发放给Site-CN-51员工。</p>
+<p><strong>实验结论：</strong>这次实验进一步确定了SCP-CN-529-J-1的定义范围，幸好没有那么宽泛，现在我们可以省下一大批人手了。</p>
+<p><span style="text-decoration: line-through;">不过养猫可真棒啊</span></p>
+<p><strong>附加内容：</strong>在实验中实验人员表现出了疑似被<a href="scp-cn-666-j.htm">SCP-CN-666-J</a>感染的现象，在对实验人员经过检查后排除了这一可能。在这之后，所有参与这次实验的研究人员和机动特遣队作业员养猫的比率从5%上升到了47%，同时Site-CN-51内部士气大幅提升。观看过实验记录的人员表现得精力充沛、更加热爱工作，询问中对方表示：“要努力工作，赚更多钱来养猫！”尽管有些相似，但这与SCP-CN-666-J无关，关于站点内公共区养猫以提高士气的提议正在审核中。</p>
+<blockquote>
+<p>你们昨天对我的猫做了什么？她今天早上怎么一直在打黄油味的嗝？</p>
+<p>……而且咱们什么时候有送圣诞节礼物的传统了？还是黄油面包？<br /></p>
+<div style="text-align: right;">
+<p>&#8212; Sloven Thurs博士</p>
+</div>
+</blockquote>
+<blockquote>
+<p>没什么，总之圣诞快乐。<br /></p>
+<div style="text-align: right;">
+<p>&#8212; Diven Samara博士</p>
+</div>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><strong>实验CN-529-5</strong></p>
+<p><strong>实验负责人：</strong>Diven Samara博士<br />
+<strong>时间：</strong>2017/12/27<br />
+<strong>实验目的：</strong>测试SCP-CN-529-J中，“黄油”在“各种意义”上的规定范围。</p>
+<p><strong>实验过程：</strong>Diven Samara博士提供了自己游玩有《巧██与香██》约████小时的STEAM账号，同时向本部申请了《<a href="scp-069-j.htm">Cheyenne Point的妹子们</a>》拷贝副本以进行实验<sup class="footnoteref"><a id="footnoteref-6" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-6')">6</a></sup>。</p>
+<p>Samara博士首先试图将将下载有《巧██与香██》的U盘绑在对象背上，然后 &#8212; 以Samara博士的说法 &#8212; “一个不小心”将U盘以极高的速度掉落在地上，同时该U盘以不符合常规材料触地的方式迅速解体并损毁。</p>
+<p>Samara博士立刻从怀中拿出对此事件的报销申请并要求赔偿，该申请正在审理当中。</p>
+<p>实验继续。为防止其它意外出现，实验操作暂时由助理研究员Wislarm Touwn进行。Touwn研究员将一个下载有《巧██与香██》新U盘与面包绑在对象背上，随后将对象举起至大约1米高，缓慢松开手。</p>
+<p>观测人员都紧张起来，安保人员全神贯注地看着，随时准备应对发生的收容失效事故。</p>
+<p>对象惊叫一声，平安落地，没有观测到SCP-CN-529-J-Alpha效应的触发。对象被给予一块黄油面包以示对配合实验的奖励。</p>
+<p><em>研究员笔记：等等，我突然有个新想法。</em></p>
+<p>实验暂停，Samara博士将对象抱到电脑桌上，以测试名义开始在电脑上运行这两款游戏。在Samara博士持续测试了三个半小时并高喊着“至少让我把R████攻略完”被安保人员从电脑前拉开之前，对象仅对运行《巧██与香██》时的电脑画面产生了不同寻常的兴趣，无其它异常表现。</p>
+<p>因《Cheyenne Point的妹子们》拷贝样本过于珍贵，目前不作其它测试。该样本目前已被送回Site-19。</p>
+<p><strong>实验结论：</strong>嗯，这至少说明了“黄油”不属于黄油。又可以省一大笔经费了。其实我真的不是为了玩游戏，我是在为科学献身！……好吧，至少一开始是这样。</p>
+<p>不过说实话，这游戏还挺好玩的。尤其是B█████和C███[该内容在站点主管的命令下被删除]的那个剧情，我真的挺喜欢。<br />
+你看我U盘都因为做实验坏掉了，强烈要求报销U盘！</p>
+<blockquote>
+<p>不，停下。请记住我们是为了实验，而不是为了娱乐。而且我不再想听更多关于你的性癖的内容了。</p>
+<p>关于报销的事不用那么麻烦，给你买了个全新的大容量移动硬盘，钱从你下个月工资里出。不用太感谢我。<br /></p>
+<div style="text-align: right;">
+<p>&#8212; Filio Fvive博士</p>
+</div>
+</blockquote>
+</blockquote>
+</div>
+</div>
+</div>
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">[该内容被锁定，仅限持有4级及以上权限的人员进行访问]</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">算了，都新年了，你随便看吧，别说出去就行</a></div>
+<div class="collapsible-block-content">
+<blockquote>
+<p><strong>决议记录抄录 &#8212; 监督者议会议案#44-7-J / #CN-529-J</strong></p>
+<p><strong>提议如下：</strong>将一只猫<sup class="footnoteref"><a id="footnoteref-7" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-7')">7</a></sup>作为实验对象放在一个无法在外侧进行观测的铅盒中，身上绑有一块只有一面涂上黄油的面包。铅盒应由两块隔板隔开，对象被放置在上层隔板，侧室放置有一个50%衰变概率的原子和一个盖革计数器。当原子衰变被盖革计数器检测到时，就会打开上层隔板并使对象落下。如果实验能顺利实施的话，我们就能一次性解决两个史诗级悖论！SCP基金会将在科学界闻名，而这绝对能大大增加我们的经费来源！这就是我给基金会的新年礼物！</p>
+<p><strong>提议者：</strong>Diven Samara博士</p>
+<p>赞成：O5-█，O5-█，O5-█，O5-█，O5-█，O5-█，O5-█，O5-██<br />
+反对：<br />
+弃权：O5-█，O5-█，O5-██，O5-██，O5-██</p>
+<p><strong>结果：</strong>8 - 0 - 5 <span style="color: green">已通过</span></p>
+<blockquote>
+<p>这个提议相当诱人，但一旦出现任何意外，其结果将是我们所有人都无法承受的。申请通过，希望我们不是在打开潘多拉之盒。</p>
+<p><strong>省钱，经费，工资</strong></p>
+<div style="text-align: right;">
+<p>&#8212; O5-9</p>
+</div>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><strong>实验CN-529-J-7</strong></p>
+<p><strong>实验负责人：</strong>Diven Samara博士<br />
+<strong>时间：</strong>2017/12/31</p>
+<p><strong>实验过程：</strong>Samara博士将Kassie(以下将Kassie称为“对象”)带至Site-CN-51的5区Keter级外部收容区。一枚处于活跃状态核弹头被安置于该收容区内，可在收容失效事故发生时立即进行引爆。多队加强连级战术反应小组于收容区外地下掩体内待命，可随时出动并对收容区进行强火力炮击及饱和轰炸。O5议会将通过现场监控全程关注此次实验。</p>
+<p>O5-9与Diven Samara博士在进行实验的人选上产生了分歧，Samara博士提出使用D级人员进行实验，O5-9表示“既然是你提出来的就自己去实验否则我就把你降级成为D级然后再让你去进行实验”。</p>
+<p>Samara博士在留下遗嘱后，带着所需的实验器材并抱着对象，面露绝望地进入了实验场地。</p>
+<p>Filio Fvive博士亲自开车将Samara博士送入收容区中心附近并祝他好运，Samara博士抱着Fvive博士并哭泣了约25分钟，之后Fvive博士开着车以约6██km/h的速度退出了收容区。关于这辆车为何能开出如此高的速度，目前仍在研究当中。</p>
+<p>在花了约1小时17分钟的时间后，Samara博士通过了剩下的约1000米的距离来到了收容区中心。此时，地下掩体内的监视人员感觉有些饿了，于是站点内开始分发午餐。</p>
+<p>Samara博士被要求继续进行实验。他来到铅盒前，将对象放在地上。此时，Samara博士被观察到似乎与对象进行对话，然后抱着对象哭泣了约49分钟。然后Samara博士缓慢地拿出黄油面包，绑在了对象身上。</p>
+<p>Samara博士打开了铅盒，将对象缓慢地放在了铅盒内，随后拿出盖革计数器与经过基金会科技<sup class="footnoteref"><a id="footnoteref-8" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-8')">8</a></sup>进行分割并保存的特殊粒子。</p>
+<p>Samara博士缓慢地将盖革计数器放入铅盒的侧室中，最后一次向对象道别，关上铅盒盖并开始以██m/s的速度远离铅盒。基于此次观测数据，Samara博士的此后的体质检测标准应被调高两个级别。</p>
+<p>在长达35分钟的观察中，尽管此时正常情况下该粒子已有99.99995%的概率已衰变并触发了SCP-CN-529-J-Alpha效应，但铅盒外的休谟指数观测装置未发现任何数值变动。</p>
+<p>指挥部要求Samara博士返回并打开铅盒进行观测，Samara博士强烈抗议，并表示“就算把我降成D级人员也不去”。</p>
+<p>在O5-9的命令下，Samara博士被重新编号为D-68162。D-68162被要求立即返回并打开铅盒进行观测，否则将立即对实验区内展开轰炸。</p>
+<p>D-68162表现得十分沮丧，身上佩戴的麦克风检测到了类似咒骂的声音。D-68162十分缓慢地往回走，指挥部提醒D-68162，如果抵达太晚，可能导致旋转时间过长出现危险。D-68162立即表现出了与离开时相似的速度，并迅速来到实验区中心。</p>
+<p>指挥部要求D-68162打开铅盒进行观测。地下掩体内的所有人员都聚精会神地看着监视器，并紧张地喝着自己的可乐。所有人的可乐都被替换为新的一杯，以防他们在用吸管喝可乐的时候发出声音影响到其他监测人员。</p>
+<p>D-68162缓慢打开了铅盒。根据D-68162身上的摄像头所记录的内容，盖革计数器的确被触发了，而对象的确落到了铅盒下层。但是对象背上的黄油面包却消失了，同时对象的嘴边不知为何地出现了类似黄油的物质，这被认为是SCP-CN-529-J-Alpha效应未出现的原因。</p>
+<p>对象完好地出现在铅盒中，表现得十分兴奋并直接跳上了D-68162的肩膀，舔着他的脸。D-68162抱着对象向指挥部报告，难掩语气中的兴奋：“指挥部，我们……成功了！”</p>
+<p>地下设施中所有人员都开始鼓掌、欢呼，所有人都抱在一起，还有人在为此激动地哭泣。</p>
+<p>D-68162被以基金会英雄的规格接回了基金会设施，鉴于他的对此次实验巨大贡献，之前对他的惩罚立即被解除了，允许重新进入基金会工作并恢复他原本的身份。Diven Samara博士当场被授予了“基金会之星”奖章和“Site-CN-51年度最佳雇员”称号。在Samara博士的要求下，他应被称呼为“曾经拯救过世界并拿到基金会之星的SCP基金会中最为伟大的Diven Samara冕下”，O5-9删除了其中的“SCP基金会中最为伟大的”部分并同意了该要求。</p>
+<p><strong>实验结论：</strong>虽然该实验结果无法解决SCP-CN-529-J，但至少我们设法阻止了一次世界末日。的确，我们可能是在打开潘多拉之盒，但是，O5们，不要忘了，盒内还有最后一项东西，那就是<span style="text-decoration: line-through;">经费</span> 希望。</p>
+<p><strong>附加内容：</strong>之后O5-9亲笔写就一篇题为《千古风流人物，还看今朝 &#8212; 从Diven Samara看2017年SCP基金会中国分部》的演讲稿，代替了站点年度总结报告，在12月31日晚的跨年晚会暨庆功晚会中由Site-CN-51站点主管Filio Fvive博士代为演讲，其中“Diven，孩子，我从你的身上看到了这一年中国分部的过去成功，和我们未来的发展”一句获得盛誉，并于第二天的《基金会日报》中被引用至当天头版。</p>
+<p>为了纪念这一天，Filio Fvive博士决定在新年第一天向Site-CN-51全站人员发放黄油汤圆<span style="text-decoration: line-through;">，并有效地减少了Site-CN-51内收缴的积压黄油</span>。</p>
+<blockquote>
+<p>嘿，有谁见到我的猫了吗？而且今年汤圆为什么是黄油馅的？太黑暗料理了吧！<br /></p>
+<div style="text-align: right;">
+<p>&#8212; Sloven Thurs博士</p>
+</div>
+</blockquote>
+<blockquote>
+<p>她和我完成了一次足以在科学史上留名的伟大实验，仅此而已。关于黄油的事我一无所知。</p>
+<p>另外，新年快乐。<br /></p>
+<div style="text-align: right;">
+<p>&#8212; 曾经拯救过世界并拿到基金会之星的<span style="text-decoration: line-through;">SCP基金会中最为伟大的</span>Diven Samara冕下</p>
+</div>
+</blockquote>
+<p>在那天之后，黄油的味道在站点内持续了大约一周才得以消散。那时候，Site-CN-51的所有员工闻起来都有一股浓郁的黄油味。Thurs博士不得不把Kassie交给朋友带，以防她再跳上桌子要黄油吃。</p>
+<p>呃，对了，我们是不是忘点了什么？之前谁说“科学”和“经费”来着？</p>
+<p>算了，管它呢，明天再说吧。</p>
+</blockquote>
+<p><strong>附录4：站点主管的通告内容</strong></p>
+<blockquote>
+<p>亲爱的朋友们，</p>
+<p>我意识到，目前可能有人对Site-CN-51有些疑惑，我在这里统一解释一下：</p>
+<p>是的，我们站点规模很大，大概有四个Site和一个Area加起来那么大。</p>
+<p>是的，我们站点比较强，机动特遣队也很多，因为我们是武装站点。</p>
+<p>不，Site-CN-51没有公共猫区，不过我相信有不少人养有猫。</p>
+<p>不，我们有假期。站点跨年晚会是为那些在这时候有任务，需要留在站点的人员和自愿加班的员工设置的，我们致力于给站点员工带来家一般的温暖。是的，我们有员工自愿加班。不，我相信他们不是疯子。</p>
+<p><span style="text-decoration: line-through;">是的，我们经费很多，也没什么事干。</span></p>
+<p>是的，Samara博士还是单身。不，我相信他<span style="text-decoration: line-through;">应该</span>不会和猫谈恋爱。</p>
+<p>最后一点，Site-CN-51目前也比较缺人手，如果有兴趣的话欢迎和我们的站点人事主管Diven Samara博士谈谈，我想你会喜欢他的。</p>
+<div style="text-align: right;">
+<p>&#8212; Site-CN-51站点主管Filio Fvive博士</p>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+<div class="footnotes-footer">
+<div class="title">Footnotes</div>
+<div class="footnote-footer" id="footnote-1"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-1')">1</a>. 在实验CN-529-J-5后，有关该实验中涉及实验对象的内容，例如《巧██与香██》都应从备查列表中去除。</div>
+<div class="footnote-footer" id="footnote-2"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-2')">2</a>. 所有狭义意义上的食品/娱乐用黄油都被认为是<em>“黄油”</em>；所有可被食用的面包片，无论种类、口感、组成成分为何，都被视为是<em>“面包”</em>。在实验CN-529-J-5后，<em>“██游戏”</em>的意义从<em>“黄油”</em>的定义中脱离。</div>
+<div class="footnote-footer" id="footnote-3"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-3')">3</a>. 所有属<em>猫科</em>，外形与人们通常所认知的猫相同的<em>生物</em>被认为是<em>“猫”</em>，这似乎与其品种、毛色无关。</div>
+<div class="footnote-footer" id="footnote-4"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-4')">4</a>. <em>“悬空状态”</em>被定义为，<em>“对象能够受到完整的来自地球的吸引力，除少数空气摩擦及其他摩擦力外无任何其它外力作用于对象，而使其进入的近似自由落体的运动状态”</em>。</div>
+<div class="footnote-footer" id="footnote-5"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-5')">5</a>. 该范围原本被认为是极为宽泛的，在实验CN-529-J-3之后，SCP-CN-529-J-1被重新定义为<em>“黄油与猫，二者紧密链接在一起，在坠落过程中在不受外力作用下不会脱落的集合体”</em>。</div>
+<div class="footnote-footer" id="footnote-6"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-6')">6</a>. 原项目负责人破例同意了申请并附上以下内容：
+<div class="wiki-note">
+<div style="text-align: center;">
+<p>我很高兴还有人记得它，所以管它什么收容措施</p>
+<p>这是我迟到的圣诞节礼物，希望你喜欢它 :-)</p>
+</div>
+<div style="text-align: right;">
+<p>&#8212; Dr. ██████</p>
+</div>
+</div>
+</div>
+<div class="footnote-footer" id="footnote-7"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-7')">7</a>. 我个人认为应该使用Kassie，因为她已经经历过多次实验，一定可以胜任这次实验。</div>
+<div class="footnote-footer" id="footnote-8"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-8')">8</a>. <em>不，我不是说<a href="scp-cn-2000-j">SCP-CN-2000-J</a>，就只是基金会掌握的<span style="text-decoration: line-through;">正常</span>科技而已。</em></div>
+</div>
+
+                    </div>
+
+                            
+            <!-- wikidot_bottom_300x250 -->
+<div id="wad-scp-wiki-cn-below-content" class="wd-adunit wd-ad-np wd-adunit-below_content"></div>
+<script type='text/javascript'>
+nads.createAd('wad-scp-wiki-cn-below-content', {
+  "refreshLimit": 10,
+  "refreshTime": 83,
+  "sizes": [ [ 300, 250 ] ],
+  "report": {
+    "enabled": true,
+    "wording": "Report Ad",
+    "position": "bottom-right"
+  }
+  });
+</script>
+        
+    
+
+                    
+
+
+
+                    
+                        <div class="page-tags">
+                            <span>
+                                <a href="system_3apage-tags/tag/keter.htm#pages">keter</a><a href="system_3apage-tags/tag/k_25e7_25ba_25a7_25e6_2583_2585_25e6_2599_25af.htm#pages">k级情景</a><a href="system_3apage-tags/tag/scp.htm#pages">scp</a><a href="system_3apage-tags/tag/_25e5_2585_25a8_25e7_2590_2583_25e8_25b6_2585_25e8_25~1.htm#pages">全球超自然联盟</a><a href="system_3apage-tags/tag/_25e5_258e_259f_25e5_2588_259b.htm#pages">原创</a><a href="system_3apage-tags/tag/_25e5_258f_258d_25e7_2586_25b5.htm#pages">反熵</a><a href="system_3apage-tags/tag/_25e5_258f_258d_25e7_2589_25a9_25e7_2590_2586_25e5_25~1.htm#pages">反物理定律</a><a href="system_3apage-tags/tag/_25e6_2582_2596_25e8_25ae_25ba.htm#pages">悖论</a><a href="system_3apage-tags/tag/_25e6_2590_259e_25e7_25ac_2591.htm#pages">搞笑</a><a href="system_3apage-tags/tag/_25e6_25b7_25b7_25e6_25b2_258c_25e5_2588_2586_25e8_25~1.htm#pages">混沌分裂者</a><a href="system_3apage-tags/tag/_25e7_25b2_25be_25e5_2593_2581.htm#pages">精品</a>
+                            </span>
+                        </div>
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                        <div id="page-options-container">
+                            <div id="page-info">页面版本: 9, 最后编辑于: <span class="odate time_1568358946 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20%E5%89%8D%29">13 Sep 2019 07:15</span></div>
+            <div id="page-options-bottom"  class="page-options-bottom">
+            <a href="javascript:;" class="btn btn-default" id="edit-button">编辑</a>
+<a href="javascript:;" class="btn btn-default" id="pagerate-button">评分 (<span id="prw54355">+181</span>)</a>
+<a href="javascript:;" class="btn btn-default" id="tags-button">标签</a>
+<a href="forum/t-4698314/scp-cn-529-j" class="btn btn-default" id="discuss-button">讨论 (32)</a>
+<a href="javascript:;" class="btn btn-default" id="history-button">历史记录</a>
+<a href="javascript:;" class="btn btn-default" id="files-button">附件</a>
+<a href="javascript:;" class="btn btn-default" id="print-button">打印</a>
+<a href="javascript:;" class="btn btn-default" id="site-tools-button">网站工具</a>
+<a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;选项</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none">
+    <a href="javascript:;" class="btn btn-default" id="edit-sections-button">编辑段落</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-append-button">附加</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-meta-button">编辑元信息</a>
+    <a href="javascript:;" class="btn btn-default" id="watchers-button">关注者</a> 
+    <a href="javascript:;" class="btn btn-default" id="backlinks-button">反向链接</a> 
+    <a href="javascript:;" class="btn btn-default" id="view-source-button">页面源代码</a> 
+    <a href="javascript:;" class="btn btn-default" id="parent-page-button">父页面</a> 
+    <a href="javascript:;" class="btn btn-default" id="page-block-button">锁定页面</a>    
+    <a href="javascript:;" class="btn btn-default" id="rename-move-button">重新命名</a> 
+    <a href="javascript:;" class="btn btn-default" id="delete-button">删除</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+
+                        </div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer" style="display: block; visibility: visible;">
+                <div class="options" style="display: block; visibility: visible;">
+    <a href="http://www.wikidot.com/doc" id="wikidot-help-button">说明</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">服务条款</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">隐私</a>
+    &nbsp;|
+    <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">报告错误</a>
+    &nbsp;|
+    <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">标记为令人反感的</a>
+</div>
+自豪地采用 <a href="http://www.wikidot.com/">Wikidot.com</a> 
+            </div>
+            
+                <div id="license-area" class="license-area">
+                    除非特别注明，本页内容采用以下授权方式： <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>
+                </div>
+            
+            
+            
+
+
+
+            <div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+            
+            
+            
+            
+                <div id="footer-bar">
+  <div>
+     </div>
+  <h2>其它有趣的网站</h2>
+  
+  <div class="units">
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://redsite.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/redsite.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://redsite.wikidot.com/">RedPlay Wiki</a></h3>
+            <div class="desc">          
+              redplaywiki
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://bootstrap-playground.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/bootstrap-playground.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://bootstrap-playground.wikidot.com/">Bootstrap Playground</a></h3>
+            <div class="desc">          
+              Because we all need a place to play
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://rpc-jp.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/rpc-jp.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://rpc-jp.wikidot.com/">RPC機構</a></h3>
+            <div class="desc">          
+              研究、保護、収容
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://ginnungagap.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/ginnungagap.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://ginnungagap.wikidot.com/">Ginnungagap</a></h3>
+            <div class="desc">          
+              
+            </div>
+          </div>
+        </div>
+        </div>
+  </div>
+
+            
+        </div>
+        
+    </div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+</div>
+
+
+
+
+</div>
+<div id="dummy-ondomready-block" style="display: none;" ></div>
+    <!-- Google Analytics load -->
+    <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https:///' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure/' : 'http://edge/') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script>
+    <noscript>
+        <img src="../pixel.quantserve.com/pixel/p-edl3gsnujjzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    </noscript>
+
+
+
+
+<div id="page-options-bottom-tips" style="display: none;">
+    <div id="edit-button-hovertip">
+        请点此编辑本页内容。    </div>
+</div>
+<div id="page-options-bottom-2-tips"  style="display: none;">
+    <div id="edit-sections-button-hovertip">
+        单击此处切换页面各部分的编辑按钮（如果有可能）。 在标题边会显示“编辑”链接。    </div>
+    <div id="edit-append-button-hovertip">
+        在不编辑整个页面源代码的情况下添加内容。    </div>
+    <div id="history-button-hovertip">
+        看看本页过去是如何沿革的。    </div>
+    <div id="discuss-button-hovertip">
+        若您想要讨论本页内容 - 这是最简单的方法。    </div>
+    <div id="files-button-hovertip">
+        检视并管理本页附件。    </div>
+    <div id="site-tools-button-hovertip">
+        管理网站的实用工具。    </div>
+    <div id="backlinks-button-hovertip">
+        检视链接至本页或引用本页的页面。    </div>
+    <div id="rename-move-button-hovertip">
+        变更页面名称（及URL 位址，或许会影响分类）。    </div>
+    <div id="view-source-button-hovertip">
+        在不编辑的情形下检视维基原始码。    </div>
+    <div id="parent-page-button-hovertip">  
+        检视/ 设定父页面（用以建立浏览足迹与结构化​​配置）。    </div>
+            <div id="abuse-report-button-hovertip">
+            向管理员举报本页有令人反感的内容。        </div>
+        <div id="bug-report-button-hovertip">
+            事情不如预期？看看您可以做些什么。        </div>
+        <div id="wikidot-help-button-hovertip">
+            一般的 Wikidot.com 文件与说明。        </div>
+        <div id="wikidot-tos-button-hovertip">
+            Wikidot.com 服务条款- 您可以做的事，您不该做的事之类的。        </div>
+        <div id="wikidot-privacy-button-hovertip">
+            Wikidot.com 隐私政策。          
+        </div>
+    </div>
+</body>
+</html>

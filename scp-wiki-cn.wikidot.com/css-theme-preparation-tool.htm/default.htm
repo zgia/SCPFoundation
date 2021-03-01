@@ -1,0 +1,3521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- saved from url=(0069)http://scp-wiki-cn.wikidot.com/css-theme-preparation-tool/default.htm --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cn" lang="cn">
+
+<head>
+    <title>CSS主题制作工具 - SCP基金会</title>
+    
+    
+    
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/init.combined.js"></script>
+    <script  type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "scp-wiki-cn.wikidot.com";
+        WIKIREQUEST.info.siteId = 530812;
+        WIKIREQUEST.info.siteUnixName = "scp-wiki-cn";
+        WIKIREQUEST.info.categoryId = 3342264;
+        WIKIREQUEST.info.themeId = 1;
+        WIKIREQUEST.info.requestPageName = "css-theme-preparation-tool";
+        OZONE.request.timestamp = 1579938201;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'cn';
+                WIKIREQUEST.info.pageUnixName = "css-theme-preparation-tool";
+        WIKIREQUEST.info.pageId = 642875408;
+                        WIKIREQUEST.info.lang = "cn";
+        OZONE.lang = "cn";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script  type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+                            <meta name="robots" content="index,follow"/>
+                                <meta name="language" content="zh,zh-cn"/>
+                                                            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="zh,zh-cn"/>
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css" id="internal-style">
+        
+        /* modules */
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--theme/base/css/style.css);
+                    @import url(../component_3atheme/code/1.css);
+            </style>
+    
+        
+        
+        
+    <link rel="shortcut icon" href="../local--favicon/favicon.gif"/>
+    <link rel="icon" type="image/gif" href="../local--favicon/favicon.gif"/>
+    
+            <link rel="apple-touch-icon" href="../common--images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="../common--images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="../common--images/apple-touch-icon-114x114.png" />
+        
+        
+            <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript_3awikidot.page.listeners.editclick%28%29"/>
+    
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+            </script>
+    
+    <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script>
+    
+        <link rel="manifest" href="../onesignal/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" acync=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: null,
+          });
+        });
+    </script>
+        
+<style>
+@import url(http://scp-wiki.wdfiles.com/local--code/info%3Astyle/1);
+</style>
+<style>
+a[name*="toc"] + a[href="#top"] {display: none;padding: 1em 0 0;color: #b01!important;}a[name*="toc"]:target + a[href="#top"] {display: inline;}
+#header {z-index: 0;}.col-warning {position: sticky;position: -webkit-sticky;top: -0.8em;z-index: 99999;}.col-warning .collapsible-block-folded {text-align: center;margin-bottom: 1em;font-size: 1.3em;font-weight: bold;padding: 0.4em 0;border: 3px dotted #f099aa; background: #f099aa;text-shadow: 1px -1px 2px white,1px 1px 2px white,-1px -1px 2px white,-1px 1px 2px white; border-radius: 10px;}.col-warning .collapsible-block-unfolded {position: fixed;background: rgba(255,255,255,0.95);border: 1px solid #333;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);z-index: 99999;top: 0;left: 0;right: 0;margin: 0 auto;width: 90%;height: 600px;overflow-y: scroll;border-radius: 10px;animation: w-s 1s ease forwards;}@keyframes w-s {0% {opacity: 0; top: 100px;}100% {opacity: 1; top: 0;}}.col-warning .collapsible-block-content {text-align: center;}.col-warning .collapsible-block-unfolded-link {text-align: right;padding: 0.5em 1em;font-size: 1.1em;font-weight: bold;z-index: 1;}.col-warning .collapsible-block-unfolded-link a {border-bottom: 1px solid #aaa;padding: 0 1em 0.2em;text-decoration: none!important;}.col-warning .collapsible-block-unfolded-link a:before {content: "";display: block;position: absolute;width: 100%;height: 250%;max-height: 200%;top: 0;left: 0;}.col-warning .scp-image-block.block-right {margin: 0 1em 0.5em 1em;}.col-warning h4 {margin: 2em 0.2em 3em;}
+</style>
+<style>
+.bq {border: 1px dashed #999;padding: 0 1em;background-color: #f4f4f4;margin: 40px 1em;}.bq ol {list-style-type: lower-greek;}h1[id] + .bq {margin-top: 0;}.bq > .bq {text-align: center;background-color: #fff; cursor: pointer;}.bq > .bq .image {transition: .25s; cursor: pointer;}.bq > .bq .image:hover{transform: scale(1.6);transition: .25s;transition-delay: .4s;}.scp-image-block {clear: both!important;float: none!important;margin: 1em auto;display: inline-block;}.siteTitle {color: #eee;text-shadow: 3px 3px 5px #000;font-family: BauhausLTDemi;background: linear-gradient(to bottom,#966,#633,#300);padding: 0 0.15em 0;}.siteSubTitle {color: #f0f0c0;text-shadow: 1px 1px 1px rgba(0,0,0,.8);background: linear-gradient(to bottom,#966,#633,#300);padding: 0.45em 0.15em 0;font-size: 55%;}#toc-list {counter-reset: number 0;}#toc-list div[style="margin-left: 1em;"] {margin-left: 0!important;}#toc-list a:before {content: counter(number )". ";counter-increment: number 1; }span[style="color: #901"] {font-size: 110%;font-weight: bold;font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;}.reload-wrap .scp-image-caption strong,.copy-wrap .scp-image-caption strong,.substitute-wrap .scp-image-caption strong {display: inline-block;padding: 0.25em 1em;text-decoration: none;background: #f7f7f7;border-width: 2px;border-style: outset;border-color: buttonface;border-left: solid 6px #901;border-radius: 0;color: #901;font-size: 8px;font-weight: bold;box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);cursor: pointer;white-space: nowrap;}.reload-wrap .scp-image-caption strong:before,.copy-wrap .scp-image-caption strong:before,.substitute-wrap .scp-image-caption strong:before {content: "";display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;transform: translate(0, 0);}.substitute-wrap .scp-image-caption strong:before {content: "\f0ea\00a0";}.reload-wrap .scp-image-caption strong:before {content: "\f079\00a0";}.copy-wrap .scp-image-caption strong:before {content: "\f0c5\00a0";}
+
+.h-logo:before,.h-back:before {content: "from";}.h-logo:after {content: "";position: relative;bottom: -0.3em;display: inline-block;width: 50px;height: 50px;background-image: url("../local--files/component_3atheme/logo.png");background-size:contain;background-position:center center;background-repeat:no-repeat; margin-left: 0.2em;}.h-back:after {content: "";position: relative;bottom: -0.3em;display: inline-block;width: 20px;height: 80px;background-image: url("../local--files/component_3atheme/body_bg.png");background-size:contain;background-position:center center;background-repeat:no-repeat;border: 1px solid; margin-left: 0.2em;}.h-logo span,.h-back span {font-size: 0;}
+</style>
+<style>
+.sam:lang(cn), .sam:lang(ja) {
+    display:none;
+}
+.sam-cn:not(:lang(cn)) {
+    display:none;
+}
+.sam-jp:not(:lang(ja)) {
+    display:none;
+}
+
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+}
+.sap {
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+}
+
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+</style>
+<style>
+.sam:lang(cn), .sam:lang(ja) {
+    display:none;
+}
+.sam-cn:not(:lang(cn)) {
+    display:none;
+}
+.sam-jp:not(:lang(ja)) {
+    display:none;
+}
+
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+}
+.sap {
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+}
+
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+</style>
+<style>
+.sam:lang(cn), .sam:lang(ja) {
+    display:none;
+}
+.sam-cn:not(:lang(cn)) {
+    display:none;
+}
+.sam-jp:not(:lang(ja)) {
+    display:none;
+}
+
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+}
+.sap {
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+}
+
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+</style>
+<style>
+.sam:lang(cn), .sam:lang(ja) {
+    display:none;
+}
+.sam-cn:not(:lang(cn)) {
+    display:none;
+}
+.sam-jp:not(:lang(ja)) {
+    display:none;
+}
+
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+}
+.sap {
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+}
+
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+</style>
+<style>
+.sam:lang(cn), .sam:lang(ja) {
+    display:none;
+}
+.sam-cn:not(:lang(cn)) {
+    display:none;
+}
+.sam-jp:not(:lang(ja)) {
+    display:none;
+}
+
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+}
+.sap {
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+}
+
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+</style>
+<style>
+.sam:lang(cn), .sam:lang(ja) {
+    display:none;
+}
+.sam-cn:not(:lang(cn)) {
+    display:none;
+}
+.sam-jp:not(:lang(ja)) {
+    display:none;
+}
+
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+}
+.sap {
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+}
+
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+</style>
+<style>
+.sam:lang(cn), .sam:lang(ja) {
+    display:none;
+}
+.sam-cn:not(:lang(cn)) {
+    display:none;
+}
+.sam-jp:not(:lang(ja)) {
+    display:none;
+}
+
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+}
+.sap {
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+}
+
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+</style>
+<style>
+.sam:lang(cn), .sam:lang(ja) {
+    display:none;
+}
+.sam-cn:not(:lang(cn)) {
+    display:none;
+}
+.sam-jp:not(:lang(ja)) {
+    display:none;
+}
+
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+}
+.sap {
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+}
+
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+</style>
+<style>
+@import url("../local--code/css-theme-preparation-tool/3.css");
+
+#side-bar:target + div .open-menu,
+#top-bar .open-menu,
+.open-menu a {
+    display: none;
+}
+@media (max-width: 767px) {
+.open-menu a {
+    display: block;
+}
+#side-bar {
+    padding: 0 1em 0 0;
+}
+#side-bar .side-block {
+    width: 90%;
+    margin: 1em 1em 1em 0.5em;
+}
+</style>
+<style>
+.hovertip {
+    cursor: pointer;
+}
+.bibitems {
+    clear: both;
+}
+a.bibcite {
+    vertical-align: super;
+    font-size: smaller;
+}
+/* interwiki */
+.mcd {
+filter: hue-rotate(290deg) saturate(45%);
+}
+.sh {
+filter: hue-rotate(122deg);
+}
+.tl {
+filter: hue-rotate(212deg) saturate(61%) brightness(90%);
+}
+.spc {
+filter: hue-rotate(219deg) saturate(92%);
+}
+.db {
+filter: hue-rotate(185deg) saturate(40%) brightness(86%);
+}
+.pt {
+
+filter: hue-rotate(273deg) saturate(67%) brightness(95%);
+
+}
+
+.sap {
+
+filter: hue-rotate(241deg)  saturate(78%) brightness(90%)
+
+}
+.end {
+filter: hue-rotate(5deg) saturate(93%) brightness(8%);
+}
+.end-re {
+filter: hue-rotate(189deg) saturate(1200%)  invert(90%);
+}
+.ij {
+filter: grayscale(100%) drop-shadow(0 1px 1px #000000);
+}
+table.wiki-content-table th,
+table.wiki-content-table td {
+padding: 0.3em;
+text-align: center;
+}
+.t-sample tr:nth-child(3) td:first-child,
+.t-sample tr:nth-child(3) td:nth-child(2),
+.t-sample tr:nth-child(5) td:nth-child(3),
+.wiki-content-table:not(.t-sample) tr:nth-child(4) td:first-child,
+.wiki-content-table:not(.t-sample) tr:nth-child(4) td:nth-child(2),
+.wiki-content-table:not(.t-sample) tr:nth-child(6) td:nth-child(3) {
+background: #fff0f0;
+}
+.wiki-content-table .printuser a {
+
+font-weight: normal!important;
+
+font-size: 0.9em;
+
+}
+</style>
+<style>
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+html {scroll-behavior: smooth;}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa:hover {text-decoration:none}.fa-arrow-up:before{content:"\f062"}.fa-arrow-down:before{content:"\f063"}div.yui-navset ul.yui-nav {display: flex;flex-wrap: wrap;border: none;padding-right: 3px;padding-top: 2px;}div.yui-navset ul.yui-nav li {width: 40%;flex-grow: 1;margin: 0!important;padding: 0!important;line-height: 141%;}.sp-tab div.yui-navset ul.yui-nav li:first-child, .sp-tab div.yui-navset ul.yui-nav li:nth-child(2) {width: 90%;}div.yui-navset ul.yui-nav li a {width: 100%;text-align: center;background-color: #fff!important;background-image: none!important;margin: 0!important;padding: 0!important;border: solid #a3a3a3;border-width: 0 0 1px 1px;}.yui-navset .yui-nav .selected a {background: #901!important;color: #fff;border-radius: 0;}div.yui-navset ul.yui-nav li a em {overflow: hidden;white-space: nowrap;text-overflow: ellipsis;border-radius: 0;}div.yui-navset ul.yui-nav li.selected a em {padding: 0.25em 0.75em; /* heck! */}div.yui-navset {border: solid #a3a3a3;border-width: 1px 1px 0 0;border-radius: 4px;}div.yui-navset div.yui-content {border: none;border: solid #a3a3a3;border-width: 0 0 1px 1px;border-radius: 0 0 4px 4px;background-color: #fff;}.yui-navset .yui-nav > li > a em:before,.yui-navset .yui-nav > li > a em:after{content:"";font:normal normal normal 14px/1 FontAwesome;transform:translate(0, 0);display:inline-block;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.yui-navset .yui-nav > li > a em:before{content:"\f07b\00a0";}.yui-navset .yui-nav > .selected > a em:before{content:"\f07c\00a0";}.sp-tab div.yui-navset ul.yui-nav li:first-child > a em:before,.sp-tab div.yui-navset ul.yui-nav li:first-child > a em:after{content:"\f069"!important; margin: 0.5em;}.sp-tab div.yui-navset ul.yui-nav li.selected:first-child > a em:before,.sp-tab div.yui-navset ul.yui-nav li.selected:first-child > a em:after{animation: fa-spin 1s infinite steps(8);}.sp-tab div.yui-navset ul.yui-nav li:nth-child(2) > a em:before {content:"\f002\00a0"!important;}.sp-tab div.yui-navset ul.yui-nav li.selected:nth-child(2) > a em:before {content:"\f00e\00a0"!important;animation: fa-blink 1s infinite steps(2);}#page-content .yui-navset .yui-content > div {opacity: 0;}#page-content .yui-navset .yui-content > div[style*="none"] {animation: none;}#page-content .yui-navset .yui-content > div[style*="block"] {animation: appear 0.6s ease-in-out 0s forwards; position: relative;}@keyframes appear {from {top: 100px;}to {top: 0;opacity: 1;}}@keyframes fa-blink {to {color: transparent;}}
+
+.cd-tab div.yui-navset ul.yui-nav li {width: 15%;}.cd-tab div.yui-navset ul.yui-nav li:first-child {width: 90%;}.cd-tab div.yui-navset ul.yui-nav li:first-child > a em:before {content: "";}.cd-tab #wiki-tab-0-0 {animation: none!important; display: block!important; opacity: 1!important; top: 0!important;}
+
+div.sitemember {
+    width: 100%;
+}
+.textchange div.sitemember:nth-child(2) {
+    display:none;
+}
+
+.wiki-note {
+    border-radius: 10px;
+}
+.wiki-note a {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.unmargined .page-rate-widget-box {
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(255,255,255,.5), -1px 1px 3px rgba(255,255,255,.5), -1px -1px 3px rgba(255,255,255,.5), 1px -1px 3px rgba(255,255,255,.5), 1px 1px 3px rgba(255,255,255,.5) inset, -1px 1px 3px rgba(255,255,255,.5) inset, -3px -1px 3px #fff inset, 3px -1px 3px #fff inset;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin: 0;
+    padding: 0;
+}
+.unmargined .page-rate-widget-box span,
+.unmargined .page-rate-widget-box .rate-points,
+.unmargined .page-rate-widget-box .btn-default a {
+    background-color: #fff!important;
+    border: none!important;
+    border-radius: 0;
+    color: #b7a;
+}
+
+.unmargined .creditRate {
+
+    float: none;
+
+    margin: 0.5em 0 0!important;
+
+}
+
+.unmargined .creditButtonStandalone p a,
+
+.unmargined .creditButtonStandalone p a:hover {
+
+    border-radius: 0;
+
+    padding: 0em 0.5em;
+
+    color: #b7a;
+
+    text-align: center;
+
+    background: #fff;
+
+    box-shadow: 1px 1px 3px rgba(255,255,255,.5), -1px 1px 3px rgba(255,255,255,.5), -1px -1px 3px rgba(255,255,255,.5), 1px -1px 3px rgba(255,255,255,.5), 1px 1px 3px rgba(255,255,255,.5) inset, -1px 1px 3px rgba(255,255,255,.5) inset, -3px -1px 3px #fff inset, 3px -1px 3px #fff inset;
+
+}
+
+.unmargined .modalbox {
+
+    background: #f7a!important;
+
+    border: none;
+
+}
+
+.unmargined .modalbox hr {
+
+    color: transparent;
+
+    background-color: #fff;
+
+}
+
+.unmargined .modalbox .credit {
+
+    text-align: left;
+
+}
+
+.unmargined .modalbox .page-rate-widget-box span,
+
+.unmargined .modalbox .page-rate-widget-box .rate-points,
+
+.unmargined .modalbox .page-rate-widget-box .btn-default a {
+
+    color: #f7a;
+
+}
+
+.unmargined a, .unmargined a:visited {
+    color: #fff;
+    font-weight: bold;
+    transition: text-shadow 0.4s ease;
+}
+.unmargined a:hover {
+    text-shadow: -6px 0px 8px rgba(255, 255, 255, 0.83), 6px 0px 8px rgba(255, 255, 255, 0.83);
+    text-decoration-line: none;
+}
+</style>
+<script src="https://s.nitropay.com/ads-143.js"></script>
+<script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/js/list/ListPagesModule.js"></script>
+</head>
+<body id="html-body">
+<div id="skrollr-body">
+<a name="page-top"></a>
+
+
+
+
+
+<div id="container-wrap-wrap">
+    <div id="container-wrap">
+        <div id="container">
+            <div id="header">
+              <h1><a href="../default.htm"><span>SCP基金会</span></a></h1>
+                
+                    <h2><span>控制，收容，保护</span></h2>
+                
+                
+                <!-- google_ad_section_start(weight=ignore) -->
+                
+                <div id="search-top-box" class="form-search">
+    <form id="search-top-box-form" action="dummy" class="input-append">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="搜索网站" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"/><input class="button btn" type="submit" name="search" value="搜索"/>
+    </form>
+</div>
+                
+                
+                    <div id="top-bar">
+                        
+
+<div class="top-bar">
+<ul>
+<li>SCP系列
+<ul>
+<li><a href="../scp-series-5.htm">系列 V (4000 - 4999)</a></li>
+<li><a href="../scp-series-4.htm">系列 IV (3000 - 3999)</a></li>
+<li><a href="../scp-series-4-tales-edition.htm">» 系列 IV 故事</a></li>
+<li><a href="../scp-series-3.htm">系列 III (2000 - 2999)</a></li>
+<li><a href="../scp-series-3-tales-edition.htm">» 系列 III 故事</a></li>
+<li><a href="../scp-series-2.htm">系列 II (1000 - 1999)</a></li>
+<li><a href="../scp-series-2-tales-edition.htm">» 系列 II 故事</a></li>
+<li><a href="../scp-series.htm">系列 I (001 - 999)</a></li>
+<li><a href="../scp-series-1-tales-edition.htm">» 系列 I 故事</a></li>
+<li><a href="../joke-scps.htm">搞笑SCP</a></li>
+<li><a href="../scp-ex.htm">已解明SCP</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="../user-curated-lists.htm">用户推荐清单</a></li>
+<li><a href="../log-of-anomalous-items.htm">异常物品记录</a></li>
+<li><a href="../log-of-extranormal-events.htm">超常现象记录</a></li>
+<li><a href="../goi-formats.htm">GoI格式</a></li>
+<li><a href="../audio-adaptations.htm">音频记录</a></li>
+<li><a href="../scp-artwork-hub.htm">艺术作品</a></li>
+<li><a href="../contest-archive.htm">征文竞赛</a></li>
+<li><a href="../wanderers_3astart.htm">被放逐者之图书馆</a></li>
+<li><a href="../wanderers_3athe-library-cn.htm">原创图书馆中心</a></li>
+</ul>
+</li>
+<li>故事
+<ul>
+<li><a href="../foundation-tales.htm">基金会故事</a></li>
+<li><a href="../canon-hub.htm">设定中心</a></li>
+<li><a href="../series-archive.htm">故事系列</a></li>
+<li><a href="../incident-reports-eye-witness-interviews-and-personal-logs.htm">事故报告</a></li>
+<li><a href="../creepy-pasta.htm">Creepy-Pasta 归档</a></li>
+</ul>
+</li>
+<li>SCP-CN系列
+<ul>
+<li><a href="../scp-series-cn-2.htm">CN系列 II (CN-1000 - CN-1999)</a></li>
+<li><a href="../scp-series-cn.htm">CN系列 I (CN-001 - CN-999)</a></li>
+<li><a href="../joke-scps-cn.htm">搞笑SCP-CN</a></li>
+<li><a href="../scp-ex-cn.htm">已解明SCP-CN</a></li>
+<li><a href="../log-of-anomalous-items-cn.htm">中国异常物品记录</a></li>
+<li><a href="../log-of-extranormal-events-cn.htm">中国超常现象记录</a></li>
+<li><a href="../foundation-tales-cn.htm">中国分部故事</a></li>
+<li><a href="../short-stories.htm">原创短篇故事合集</a></li>
+<li><a href="../canon-hub-cn.htm">中国分部设定中心</a></li>
+<li><a href="../contest-archive-cn.htm">中国分部征文竞赛</a></li>
+</ul>
+</li>
+<li>SCP国际
+<ul>
+<li><a href="../scp-international.htm">SCP国际翻译中心</a></li>
+<li><a href="http://scp-int.wikidot.com/">SCP国际翻译站</a></li>
+<li><a href="http://scpfoundation.net/">Russian Branch(-RU)</a></li>
+<li><a href="http://ko.scp-wiki.net/">SCP 재단(-KO)</a></li>
+<li><a href="http://fondationscp.wikidot.com/">Fondation SCP(-FR)</a></li>
+<li><a href="http://scp-wiki.net.pl/">Fundacja SCP(-PL)</a></li>
+<li><a href="http://scp-es.com/">La Fundación SCP(-ES)</a></li>
+<li><a href="http://scp-th.wikidot.com/">สถาบัน SCP(-TH)</a></li>
+<li><a href="http://ja.scp-wiki.net/">SCP財団(-JP)</a></li>
+<li><a href="http://scp-wiki-de.wikidot.com/">SCP auf Deutsch(-DE)</a></li>
+<li><a href="http://fondazionescp.wikidot.com/">Fondazione SCP(-IT)</a></li>
+<li><a href="http://scp-ukrainian.wikidot.com/">Ukrainian Branch(-UA)</a></li>
+<li><a href="http://scp-pt-br.wikidot.com/">Fundação SCP(-PT/BR)</a></li>
+<li><a href="http://scp-cs.wikidot.com/">SCP Nadace(-CZ)</a></li>
+</ul>
+</li>
+<li>背景资料
+<ul>
+<li><a href="../about-the-scp-foundation.htm">关于基金会</a></li>
+<li><a href="../groups-of-interest.htm">相关组织</a></li>
+<li><a href="../object-classes.htm">项目等级</a></li>
+<li><a href="../personnel-and-character-dossier.htm">职员档案</a></li>
+<li><a href="../security-clearance-levels.htm">安保许可等级</a></li>
+<li><a href="../secure-facilities-locations.htm">安保设施</a></li>
+<li><a href="../task-forces.htm">机动特遣队</a></li>
+<li><a href="../groups-of-interest-cn.htm">中国相关组织</a></li>
+<li><a href="../secure-facilities-locations-cn.htm">中国分部设施</a></li>
+<li><a href="../task-forces-cn.htm">中国分部机动特遣队</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="../guide-hub.htm">指导中心</a></li>
+<li><a href="../guide-for-newbies.htm">新手指南</a></li>
+<li><a href="../how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></li>
+<li><a href="../image-use-policy.htm">图像使用守则</a></li>
+<li><a href="../licensing-guide.htm">授权指南</a></li>
+<li><a href="../tag-guide.htm">标签指导</a></li>
+<li><a href="../tag-search.htm">标签搜索</a></li>
+<li><a href="../translation-movement-guide.htm">翻译发布及搬运指南</a></li>
+<li><a href="../faq.htm">常见问题解答</a></li>
+<li><a href="../site-rules.htm">网站站规</a></li>
+<li><a href="../deletions-guide.htm">删帖指导</a></li>
+<li><a href="../criticism-policy.htm">批评守则</a></li>
+<li><a href="../links.htm">链接</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="mobile-top-bar">
+<div class="open-menu">
+<p><a href="#side-bar">≡</a></p>
+</div>
+<ul>
+<li>SCP系列
+<ul>
+<li><a href="../scp-series-5.htm">系列 V (4000 - 4999)</a></li>
+<li><a href="../scp-series-4.htm">系列 IV (3000 - 3999)</a></li>
+<li><a href="../scp-series-4-tales-edition.htm">» 系列 IV 故事</a></li>
+<li><a href="../scp-series-3.htm">系列 III (2000 - 2999)</a></li>
+<li><a href="../scp-series-3-tales-edition.htm">» 系列 III 故事</a></li>
+<li><a href="../scp-series-2.htm">系列 II (1000 - 1999)</a></li>
+<li><a href="../scp-series-2-tales-edition.htm">» 系列 II 故事</a></li>
+<li><a href="../scp-series.htm">系列 I (001 - 999)</a></li>
+<li><a href="../scp-series-1-tales-edition.htm">» 系列 I 故事</a></li>
+<li><a href="../scp-series-cn-2.htm">CN系列 II (CN-1000 - CN-1999)</a></li>
+<li><a href="../scp-series-cn.htm">CN系列 I (CN-001 - CN-999)</a></li>
+<li><a href="../joke-scps.htm">搞笑SCP</a></li>
+<li><a href="../scp-ex.htm">已解明SCP</a></li>
+<li><a href="../joke-scps-cn.htm">搞笑SCP-CN</a></li>
+<li><a href="../scp-ex-cn.htm">已解明SCP-CN</a></li>
+<li><a href="../scp-international.htm">SCP国际翻译中心</a></li>
+</ul>
+</li>
+<li>故事
+<ul>
+<li><a href="../foundation-tales.htm">基金会故事</a></li>
+<li><a href="../canon-hub.htm">设定中心</a></li>
+<li><a href="../series-archive.htm">故事系列</a></li>
+<li><a href="../incident-reports-eye-witness-interviews-and-personal-logs.htm">事故报告</a></li>
+<li><a href="../creepy-pasta.htm">Creepy-Pasta 归档</a></li>
+<li><a href="../foundation-tales-cn.htm">中国分部故事</a></li>
+<li><a href="../short-stories.htm">原创短篇故事合集</a></li>
+<li><a href="../canon-hub-cn.htm">中国分部设定中心</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="../user-curated-lists.htm">用户推荐清单</a></li>
+<li><a href="../log-of-anomalous-items.htm">异常物品记录</a></li>
+<li><a href="../log-of-extranormal-events.htm">超常现象记录</a></li>
+<li><a href="../goi-formats.htm">GoI格式</a></li>
+<li><a href="../audio-adaptations.htm">音频记录</a></li>
+<li><a href="../scp-artwork-hub.htm">艺术作品</a></li>
+<li><a href="../contest-archive.htm">征文竞赛</a></li>
+<li><a href="../log-of-anomalous-items-cn.htm">中国异常物品记录</a></li>
+<li><a href="../log-of-extranormal-events-cn.htm">中国超常现象记录</a></li>
+<li><a href="../contest-archive-cn.htm">中国分部征文竞赛</a></li>
+<li><a href="../wanderers_3astart.htm">被放逐者之图书馆</a></li>
+<li><a href="../wanderers_3athe-library-cn.htm">原创图书馆中心</a></li>
+</ul>
+</li>
+<li>背景资料
+<ul>
+<li><a href="../about-the-scp-foundation.htm">关于基金会</a></li>
+<li><a href="../groups-of-interest.htm">相关组织</a></li>
+<li><a href="../object-classes.htm">项目等级</a></li>
+<li><a href="../personnel-and-character-dossier.htm">职员档案</a></li>
+<li><a href="../security-clearance-levels.htm">安保许可等级</a></li>
+<li><a href="../secure-facilities-locations.htm">安保设施</a></li>
+<li><a href="../task-forces.htm">机动特遣队</a></li>
+<li><a href="../groups-of-interest-cn.htm">中国相关组织</a></li>
+<li><a href="../secure-facilities-locations-cn.htm">中国分部设施</a></li>
+<li><a href="../task-forces-cn.htm">中国分部机动特遣队</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="../guide-hub.htm">指导中心</a></li>
+<li><a href="../guide-for-newbies.htm">新手指南</a></li>
+<li><a href="../how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></li>
+<li><a href="../image-use-policy.htm">图像使用守则</a></li>
+<li><a href="../licensing-guide.htm">授权指南</a></li>
+<li><a href="../tag-guide.htm">标签指导</a></li>
+<li><a href="../tag-search.htm">标签搜索</a></li>
+<li><a href="../translation-movement-guide.htm">翻译发布及搬运指南</a></li>
+<li><a href="../faq.htm">常见问题解答</a></li>
+<li><a href="../site-rules.htm">网站站规</a></li>
+<li><a href="../deletions-guide.htm">删帖指导</a></li>
+<li><a href="../criticism-policy.htm">批评守则</a></li>
+<li><a href="../links.htm">链接</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+                    </div>
+                
+                <div id="login-status"><a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">建立帐号</a> <span>或</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">登入</a> </div>
+                <div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+            </div>
+            
+            <div id="content-wrap">
+                
+                    <div id="side-bar">
+                        
+
+
+                        
+
+<div class="side-block" style="background-color: #f0fff6;">
+<div class="heading">
+<p>新人资讯</p>
+</div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../guide-for-newbies.htm">新手指南</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../site-rules.htm">网站站规</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="../system_3ajoin.htm">加入网站</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scpsandboxcn.wikidot.com/">SCP中文沙盒站</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../faq.htm">常见问题解答</a></div>
+</div>
+<div class="side-block">
+<div class="menu-item"><img src="../local--files/nav_3aside/home.png" alt="home.png" class="image" /><a href="../default.htm">主页</a></div>
+<div class="heading">
+<p>SCP资料库</p>
+</div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../scp-series-5.htm">SCP系列 V</a> <span class="sub-text">(4000-4999)</span></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../scp-series-4.htm">SCP系列 IV</a> <span class="sub-text">(3000-3999)</span></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../scp-series-3.htm">SCP系列 III</a> <span class="sub-text">(2000-2999)</span></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../scp-series-2.htm">SCP系列 II</a> <span class="sub-text">(1000-1999)</span></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../scp-series.htm">SCP系列 I</a> <span class="sub-text">(001-999)</span></div>
+<hr />
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../scp-series-cn-2.htm">SCP-CN系列 II</a> <span class="sub-text">(1000-1999)</span></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../scp-series-cn.htm">SCP-CN系列 I</a> <span class="sub-text">(001-999)</span></div>
+<div class="heading">
+<p>SCP图书馆</p>
+</div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../foundation-tales.htm">基金会故事</a> | <a href="../foundation-tales-cn.htm">原创故事</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../canon-hub.htm">设定中心</a> | <a href="../canon-hub-cn.htm">原创设定中心</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../goi-formats.htm">GoI格式</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../scp-international.htm">SCP国际翻译中心</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="../wanderers_3astart.htm">被放逐者之图书馆</a> | <a href="../wanderers_3athe-library-cn.htm">原创区</a></div>
+<div class="heading">
+<p>网站</p>
+</div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../most-recently-created.htm">最近新增的页面</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="../random_3arandom-scp">随机SCP</a> | <a href="../random_3arandom-tale">故事</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="../random_3arandom-scp-cn">随机原创SCP</a> | <a href="../random_3arandom-tale-cn">原创故事</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../system_3arecent-changes">最近的更新</a> | <a href="../most-recently-edited">修改的页面</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../top-rated-pages.htm">最高评分的页面</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../lowest-rated-pages.htm">最低评分的页面</a></div>
+<div class="heading">
+<p>社交</p>
+</div>
+<div class="menu-item"><img src="../local--files/nav_3aside/forum.png" alt="forum.png" class="image" /><a href="../forum_3astart">讨论区</a> | <a href="../forum_3arecent-posts">最近发帖</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../criticism-policy.htm">批评守则</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../members-pages.htm">成员页</a> | <a href="../members-pages-cn.htm">中国分部成员页</a></div>
+<div class="heading">
+<p>相关网站</p>
+</div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scp-tech-cn.wikidot.com/" target="_blank">SCP技术部门</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scp-int.wikidot.com/" target="_blank">SCP国际翻译站</a></div>
+</div>
+<div class="side-block" style="background-color: #e7e5e8;">
+<div class="heading">
+<p>写作指导</p>
+</div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../guide-hub.htm">指导中心</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../tag-guide.htm">标签指导</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../tag-search.htm">标签搜索</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../translation-movement-guide.htm">翻译发布及搬运指南</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="../wiki-syntax.htm">维基语法</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../syntax-quick-reference.htm">语法速查</a></div>
+</div>
+<div class="side-block" style="background-color: #fff0f0;">
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-content">
+<div class="menu-item"><img src="../local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="../_admin.htm">后台管理</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="http://05command-cn.wikidot.com/" target="_blank">职员专站</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../system_3alist-all-categories.htm">所有页面</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../system_3amembers.htm">会员一览</a></div>
+<div class="menu-item"><img src="../local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="../nav_3aside.htm">侧栏</a> | <a href="../nav_3atop.htm">顶栏</a> | <a href="../component_3atheme">版式</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="side-block" style="background-color: #e5e5ff;">
+<div class="heading">
+<p>相关媒体</p>
+</div>
+<div class="menu-item">
+<div style="text-align: center;"><a href="https://space.bilibili.com/872507" target="_blank"><img src="../local--files/nav_3aside/bilibili_icon.png" style="width:30px; height:30px;" alt="Bilibili_icon.png" class="image" /></a></div>
+</div>
+</div>
+<div class="side-block" style="background-color: #f0f0f0;">
+<div style="text-align: center;"><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank"><img src="http://scp-wiki-cn.wikidot.com/local--files/nav:side/cc-by-sa.svg" style="margin-bottom: 10px;" alt="cc-by-sa.svg" class="image" /></a><br />
+<span style="font-size:80%;">© SCP基金会<br />
+<a href="../licensing-guide.htm">授权指南</a></span></div>
+</div>
+<div class="scpnet-interwiki-wrapper"><div class="list-pages-box">    <div class="list-pages-item">
+
+
+<p><iframe src="http://interwiki.scpdb.org/?wiki=scp-wiki-cn&lang=cn&page=_default:css-theme-preparation-tool" align="" frameborder="" height="" scrolling="" width="" class="scpnet-interwiki-frame" style=""></iframe></p>
+</div>
+    
+    
+    
+    </div><div class="list-pages-box">    
+    
+    
+    
+    </div></div>
+<div style="clear:both; height: 0px; font-size: 1px"></div>
+<a class="close-menu" href="###"><br />
+<img src="../../scp-wiki.wikidot.com/local--files/nav_3aside/black.png" style="z-index=-1; opacity: 0.3;" alt="black.png" class="image" /><br /></a>
+                        
+
+
+                    </div>
+                
+                
+                <!-- google_ad_section_end -->
+                
+                <div id="main-content">
+                    <div id="action-area-top"></div>
+                    
+                    
+                        <div id="page-title">
+                            CSS主题制作工具
+                        </div>
+                    
+
+                    
+                        <div id="breadcrumbs">
+                            <a href="../guide-hub.htm">指导中心</a> &raquo; CSS主题制作工具
+                        </div>
+                    
+
+                    
+
+
+
+                    <div id="page-content">
+                        
+
+<div class="unmargined" style="margin: 0 auto 20px; background-color: #b7a; border: solid 1px #b7a; border-radius: 20px; box-shadow: 0 1px 6px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.8), inset 0 10px 1px rgba(255,255,255,.6), inset 0 -15px 30px rgba(0,0,0,.2); text-align: center; width: 500px;">
+<div class="unmargined" style="margin: 20px 0; font-size: 300%; color: #fff; font-weight: bold; text-shadow: 1px 2px 3px rgba(0,0,0,.5);">
+<p>开始你的<span class="ruby">梦中南柯<span class="rt">C S S</span></span>之旅&#8230;&#8230;</p>
+</div>
+<div class="unmargined" style="margin: 20px 0; color: #fff;">
+<p>用这东西你就能够弄出简单的CSS主题了。如果你想要学习更多的维基语法魔术，可以看看以下的文章：<br /></p>
+<div style="text-align: left;">
+<ul>
+<li><a href="../advanced-formatting-and-you.htm">你与高级格式</a><br />
+&#8212; 由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/drmagnus" onclick="WIKIDOT.page.listeners.userInfo(318209); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=318209&amp;size=small&amp;timestamp=1579924476" alt="DrMagnus" style="background-image:url(http://www.wikidot.com/userkarma.php?u=318209)" /></a><a href="http://www.wikidot.com/user:info/drmagnus" onclick="WIKIDOT.page.listeners.userInfo(318209); return false;">DrMagnus</a></span> 撰写</li>
+<li><a href="../scp-style-resource.htm">SCP格式资源</a><br />
+&#8212; 由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/shaggydredlocks" onclick="WIKIDOT.page.listeners.userInfo(1722371); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1722371&amp;size=small&amp;timestamp=1579924476" alt="Shaggydredlocks" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1722371)" /></a><a href="http://www.wikidot.com/user:info/shaggydredlocks" onclick="WIKIDOT.page.listeners.userInfo(1722371); return false;">Shaggydredlocks</a></span> 撰写</li>
+<li><a href="../listpages-magic-and-you.htm">Listpages魔法与你</a><br />
+&#8212; 由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/croquembouche" onclick="WIKIDOT.page.listeners.userInfo(2893766); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=2893766&amp;size=small&amp;timestamp=1579924476" alt="Croquembouche" style="background-image:url(http://www.wikidot.com/userkarma.php?u=2893766)" /></a><a href="http://www.wikidot.com/user:info/croquembouche" onclick="WIKIDOT.page.listeners.userInfo(2893766); return false;">Croquembouche</a></span> 和 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/rounderhouse" onclick="WIKIDOT.page.listeners.userInfo(4187885); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=4187885&amp;size=small&amp;timestamp=1579924476" alt="Rounderhouse" style="background-image:url(http://www.wikidot.com/userkarma.php?u=4187885)" /></a><a href="http://www.wikidot.com/user:info/rounderhouse" onclick="WIKIDOT.page.listeners.userInfo(4187885); return false;">Rounderhouse</a></span> 撰写</li>
+<li><a href="../wiki-syntax.htm">维基语法</a><br />
+&#8212; 由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/ghostchibi" onclick="WIKIDOT.page.listeners.userInfo(1382994); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1382994&amp;size=small&amp;timestamp=1579924476" alt="ghostchibi" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1382994)" /></a><a href="http://www.wikidot.com/user:info/ghostchibi" onclick="WIKIDOT.page.listeners.userInfo(1382994); return false;">ghostchibi</a></span> 撰写</li>
+</ul>
+</div>
+<div>
+
+
+<div class="creditRate">
+<div class="creditButtonStandalone">
+<p><a class="fa fa-info" href="#u-credit-view"></a></p>
+</div>
+</div>
+<div style="clear:both;"></div>
+<div id="u-credit-view">
+<div class="fader">
+<p><iframe src="../credit_3acode.htm/code/1" align="" frameborder="" height="" scrolling="" width="" class="" style=""></iframe></p>
+</div>
+<div class="modalcontainer">
+<div class="modalbox">
+<div style="text-align: center;">
+<h2><span>著作信息</span></h2>
+</div>
+<hr />
+<div class="credit first">
+<p><iframe src="../credit_3acode.htm/code/4" align="" frameborder="" height="" scrolling="" width="" class="close-credits" style="height:2em;margin: 0;padding: 0;border: 0;background: transparent;"></iframe></p>
+<p style="text-align: center;">CSS主题制作工具</p>
+<p>作者：<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/7happy7" onclick="WIKIDOT.page.listeners.userInfo(3427263); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3427263&amp;size=small&amp;timestamp=1579924476" alt="7happy7" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3427263)" /></a><a href="http://www.wikidot.com/user:info/7happy7" onclick="WIKIDOT.page.listeners.userInfo(3427263); return false;">7happy7</a></span></p>
+<p>特别鸣谢（以字母顺序排列）：<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/boyu12" onclick="WIKIDOT.page.listeners.userInfo(3316163); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3316163&amp;size=small&amp;timestamp=1579924476" alt="Boyu12" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3316163)" /></a><a href="http://www.wikidot.com/user:info/boyu12" onclick="WIKIDOT.page.listeners.userInfo(3316163); return false;">Boyu12</a></span>, <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/c-take" onclick="WIKIDOT.page.listeners.userInfo(2872372); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=2872372&amp;size=small&amp;timestamp=1579924476" alt="C-take" style="background-image:url(http://www.wikidot.com/userkarma.php?u=2872372)" /></a><a href="http://www.wikidot.com/user:info/c-take" onclick="WIKIDOT.page.listeners.userInfo(2872372); return false;">C-take</a></span>, <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/dr-devan" onclick="WIKIDOT.page.listeners.userInfo(1396679); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1396679&amp;size=small&amp;timestamp=1579924476" alt="Dr Devan" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1396679)" /></a><a href="http://www.wikidot.com/user:info/dr-devan" onclick="WIKIDOT.page.listeners.userInfo(1396679); return false;">Dr Devan</a></span>, <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/etinjat" onclick="WIKIDOT.page.listeners.userInfo(4055881); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=4055881&amp;size=small&amp;timestamp=1579924476" alt="Etinjat" style="background-image:url(http://www.wikidot.com/userkarma.php?u=4055881)" /></a><a href="http://www.wikidot.com/user:info/etinjat" onclick="WIKIDOT.page.listeners.userInfo(4055881); return false;">Etinjat</a></span>, <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/mrpines" onclick="WIKIDOT.page.listeners.userInfo(2241229); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=2241229&amp;size=small&amp;timestamp=1579924476" alt="MrPines" style="background-image:url(http://www.wikidot.com/userkarma.php?u=2241229)" /></a><a href="http://www.wikidot.com/user:info/mrpines" onclick="WIKIDOT.page.listeners.userInfo(2241229); return false;">MrPines</a></span>, <span class="error-inline"><em>Nanimono Demonai</em> 不匹配任何一个现有的用户名</span>, <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/physicslike" onclick="WIKIDOT.page.listeners.userInfo(2802578); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=2802578&amp;size=small&amp;timestamp=1579924476" alt="physicslike" style="background-image:url(http://www.wikidot.com/userkarma.php?u=2802578)" /></a><a href="http://www.wikidot.com/user:info/physicslike" onclick="WIKIDOT.page.listeners.userInfo(2802578); return false;">physicslike</a></span>, <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/sekai-s" onclick="WIKIDOT.page.listeners.userInfo(4476849); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=4476849&amp;size=small&amp;timestamp=1579924476" alt="Sekai_s" style="background-image:url(http://www.wikidot.com/userkarma.php?u=4476849)" /></a><a href="http://www.wikidot.com/user:info/sekai-s" onclick="WIKIDOT.page.listeners.userInfo(4476849); return false;">Sekai_s</a></span>, <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/shu-yabiyabi" onclick="WIKIDOT.page.listeners.userInfo(3182029); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3182029&amp;size=small&amp;timestamp=1579924476" alt="shu_yabiyabi" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3182029)" /></a><a href="http://www.wikidot.com/user:info/shu-yabiyabi" onclick="WIKIDOT.page.listeners.userInfo(3182029); return false;">shu_yabiyabi</a></span>, <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/zyn" onclick="WIKIDOT.page.listeners.userInfo(1404533); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1404533&amp;size=small&amp;timestamp=1579924476" alt="Zyn" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1404533)" /></a><a href="http://www.wikidot.com/user:info/zyn" onclick="WIKIDOT.page.listeners.userInfo(1404533); return false;">Zyn</a></span></p>
+</div>
+<hr />
+<div class="credit-back" style="text-align: center;">
+<p><iframe src="../credit_3acode.htm/code/2" align="" frameborder="" height="" scrolling="no" width="" class="" style="height:2em;width: 100%;margin: 0;padding: 0;border: 0;background: transparent;"></iframe></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="list-pages-box">    <div class="list-pages-item">
+
+
+<div class="sp-tab"><script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/yahooui/tabview-min.js">
+</script>
+<div id="wiki-tabview-1fb57d3f8d94ba0fd74539842b86bb21" class="yui-navset">
+<ul class="yui-nav">
+<li class="selected"><a href="javascript:;"><em>CSS主题制作工具</em></a></li>
+<li><a href="javascript:;"><em>“我想要找到的选项在哪里？”</em></a></li>
+<li><a href="javascript:;"><em>提示1：text-shadow 文字阴影</em></a></li>
+<li><a href="javascript:;"><em>提示2：box-shadow 边框阴影</em></a></li>
+<li><a href="javascript:;"><em>提示3：border 边缘</em></a></li>
+<li><a href="javascript:;"><em>提示4：Interwiki filter 跨维基滤镜</em></a></li>
+</ul>
+<div class="yui-content">
+<div id="wiki-tab-0-0">
+<h1><span>CSS主题制作工具</span></h1>
+<div class="col-warning">
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">如何使用？</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">关闭</a></div>
+<div class="collapsible-block-content">
+<h1><span>如何使用？</span></h1>
+<div class="scp-image-block block-right" style="width:280px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/htu1.png" style="width:280px;" alt="htu1.png" class="image" />
+<div class="scp-image-caption" style="width:280px;">
+<p>(1) 输入数值</p>
+</div>
+</div>
+<div class="reload-wrap" style="display: inline-block;">
+<div class="scp-image-block block-right" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/htu2.png" style="width:300px;" alt="htu2.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>(2) 点击 <strong>重新载入</strong></p>
+</div>
+</div>
+</div>
+<div class="copy-wrap" style="display: inline-block;">
+<div class="scp-image-block block-right" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/htu3.png" style="width:300px;" alt="htu3.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>(3) 点击 <strong>复制</strong></p>
+</div>
+</div>
+</div>
+<div class="scp-image-block block-right" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/htu4.png" style="width:300px;" alt="htu4.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>(4) &#8230;然后粘贴！</p>
+</div>
+</div>
+<h4><span>你在寻找更多资讯吗？去看看 “</span></h4>
+<p>我想要找到的选项在哪里？”！</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="textchange">
+
+<div class="sitemember" style="text-align: center;">
+<h1><span>请先登入Wikidot&#8230;</span></h1>
+</div>
+</div>
+</div>
+<div id="wiki-tab-0-1" style="display:none">
+<p>这个工具是为那些想要为自己页面更改主题的人而设的。你想要试试吗？那就让我们立即开始吧！<br />
+<a name="top"></a></p>
+<table style="margin:0; padding:0">
+<tr>
+<td style="margin:0; padding:0">
+<div id="toc">
+<div id="toc-action-bar"><a href="javascript:;" onclick="WIKIDOT.page.listeners.foldToc(event)">折叠</a><a style="display: none" href="javascript:;" onclick="WIKIDOT.page.listeners.unfoldToc(event)">展开</a></div>
+<div class="title">目录</div>
+<div id="toc-list">
+<div style="margin-left: 1em;"><a href="#toc0">选择你想要使用的颜色。</a></div>
+<div style="margin-left: 1em;"><a href="#toc1">将页面版头标题从 “SCP基金会” 改变</a></div>
+<div style="margin-left: 1em;"><a href="#toc2">将页面版头副标题从 “控制，收容，保护” 改变</a></div>
+<div style="margin-left: 1em;"><a href="#toc3">将页面版头标志从 　 改变</a></div>
+<div style="margin-left: 1em;"><a href="#toc4">将页面版头背景从 　 改变</a></div>
+<div style="margin-left: 1em;"><a href="#toc5">改变链接颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc6">改变字体颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc7">改变标准背景颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc8">改变内容标题颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc9">改变标准字体</a></div>
+<div style="margin-left: 1em;"><a href="#toc10">改变内容标题的字体</a></div>
+<div style="margin-left: 1em;"><a href="#toc11">改变侧边栏颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc12">改变侧边栏标题颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc13">改变移动端侧边栏按钮颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc14">改变 tab 背景颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc15">改变 tab 选择器颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc16">改变跨维基颜色</a></div>
+<div style="margin-left: 1em;"><a href="#toc17">改变评分模块颜色</a></div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<p><a name="toc0"></a><a href="#top">回到目录</a></p>
+<h1><span>选择你想要使用的颜色。</span></h1>
+<div class="bq">
+<ol>
+<li>» <span style="color: #901">颜色选择器与例子</span></li>
+</ol>
+<hr />
+<p>&quot;<span style="color: #901">颜色选择器与例子</span>&quot; 可以为你准备自定颜色。<br />
+请跟从下列步骤：</p>
+<div class="bq">
+<div class="scp-image-block block-right" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/color1.png" style="width:300px;" alt="color1.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>(1) “这是我想要的颜色！”</p>
+</div>
+</div>
+</div>
+<div class="reload-wrap bq">
+<div class="scp-image-block block-right" style="width:400px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/color2.png" style="width:400px;" alt="color2.png" class="image" />
+<div class="scp-image-caption" style="width:400px;">
+<p>(2) 点击 <strong>重新载入</strong></p>
+</div>
+</div>
+</div>
+<div class="substitute-wrap bq">
+<div class="scp-image-block block-right" style="width:400px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/color3.png" style="width:400px;" alt="color3.png" class="image" />
+<div class="scp-image-caption" style="width:400px;">
+<p>(3) 点选列表上的 <strong>以选择器数值取代</strong></p>
+</div>
+</div>
+</div>
+</div>
+<p><a name="toc1"></a><a href="#top">回到目录</a></p>
+<h1><span>将页面版头标题从 “<span class="siteTitle">SCP基金会</span>” 改变</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">版头</span> » <strong>伪标题</strong> » 标题 <span style="font-size:80%;">(<strong>div#header h1 a:before</strong>)</span></p>
+<hr />
+<p><strong>备注：</strong> 当此栏未被填写，“颜色” 和 “字体阴影” 栏将不会起作用。</p>
+</div>
+<p><a name="toc2"></a><a href="#top">回到目录</a></p>
+<h1><span>将页面版头副标题从 “<span class="siteSubTitle">控制，收容，保护</span>” 改变</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">版头</span> » <strong>伪标题</strong> » 副标题 <span style="font-size:80%;">(<strong>div#header h2 span:before</strong>)</span></p>
+<hr />
+<p><strong>备注：</strong> 当此栏未被填写时，“颜色” 和 “字体阴影” 栏将不会起作用。</p>
+</div>
+<p><a name="toc3"></a><a href="#top">回到目录</a></p>
+<h1><span>将页面版头标志从 <span class="h-logo"><span>　</span></span> 改变</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">版头</span> » 标志 <span style="font-size:80%;">(<strong>div#header</strong>)</span></p>
+</div>
+<p><a name="toc4"></a><a href="#top">回到目录</a></p>
+<h1><span>将页面版头背景从 <span class="h-back"><span>　</span></span> 改变</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">版头</span> » <strong>div#container-wrap</strong></p>
+</div>
+<p><a name="toc5"></a><a href="#top">回到目录</a></p>
+<h1><span>改变链接颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">一般选项</span> » 链接颜色</p>
+</div>
+<p><a name="toc6"></a><a href="#top">回到目录</a></p>
+<h1><span>改变字体颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">一般选项</span> » <strong>内容</strong> » 字体颜色</p>
+</div>
+<p><a name="toc7"></a><a href="#top">回到目录</a></p>
+<h1><span>改变标准背景颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">一般选项</span> » <strong>内容</strong> » 背景</p>
+</div>
+<p><a name="toc8"></a><a href="#top">回到目录</a></p>
+<h1><span>改变内容标题颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">一般选项</span> » <strong>内容标题</strong> » 颜色</p>
+<hr />
+<p><strong>备注：</strong> 你可以选择 “<strong>只对 h1 有效</strong>” 或 “<strong>对所有内容标题有效</strong>”（h1, h2, h3, h4, h5, h6）。</p>
+</div>
+<p><a name="toc9"></a><a href="#top">回到目录</a></p>
+<h1><span>改变标准字体</span></h1>
+<div class="bq">
+<ol>
+<li>: » <span style="color: #901">一般选项</span> » 字体 » @import <span style="font-size:80%;"><a href="https://fonts.google.com/" target="_blank">（谷歌字体）</a></span></li>
+<li>: » <span style="color: #901">一般选项</span> » <strong>内容</strong> » 字体</li>
+</ol>
+<hr />
+<h4><span>备注：“1.” 到 “3.” 因谷歌字体在大陆被墙而禁用。</span></h4>
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;show&nbsp;block</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">–&nbsp;hide&nbsp;block</a></div>
+<div class="collapsible-block-content">
+<h5><span>1. 去 <a href="https://fonts.google.com/" target="_blank">https://fonts.google.com/</a>。</span></h5>
+<h5><span>2. 选择想用的字体。</span></h5>
+<div class="bq" style="margin-top: 0;margin-bottom: 0.5em;">
+<div class="scp-image-block block-right" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/font1.png" style="width:300px;" alt="font1.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>选择想用的字体</p>
+</div>
+</div>
+</div>
+<h5><span><span id="u-font1">3. 复制 &quot;@import url('https://fonts.googleapis.com/css?family=XXXXX');&quot; 并粘贴至 &quot;α&quot;.</span></span></h5>
+<div class="bq" style="margin-top: 0;margin-bottom: 0.5em;">
+<div class="scp-image-block block-right" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/font2.png" style="width:300px;" alt="font2.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>不要复制 “<strong><tt>&lt;style&gt;</tt></strong>” 和 “<strong><tt>&lt;/style&gt;</tt></strong>”</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h5><span><span id="u-font2">4. 复制 &quot;'&lt;你的字体&gt;', &lt;字体关键词&gt;<a href="javascript:;" class="bibcite" id="bibcite-663457-1-2048a" onclick="WIKIDOT.page.utils.scrollToReference('bibitem-663457-1')">1</a>&quot; 至 &quot;<strong>β</strong>&quot;.</span></span></h5>
+<div class="bq" style="margin-top: 0;">
+<div class="scp-image-block block-right" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/font3.png" style="width:300px;" alt="font3.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>不要复制 &quot;<strong><tt>font-family:</tt></strong>&quot; 和 &quot;<strong><tt>;</tt></strong>&quot;</p>
+</div>
+</div>
+</div>
+</div>
+<p><a name="toc10"></a><a href="#top">回到目录</a></p>
+<h1><span>改变内容标题的字体</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">一般选项</span> » 字体 » @import <span style="font-size:80%;"><a href="https://fonts.google.com/" target="_blank">(谷歌字体)</a></span><br />
+» <span style="color: #901">一般选项</span> » <strong>内容标题元素</strong> » 字体</p>
+<hr />
+<p><strong>备注：</strong> 请浏览 <a href="#toc9">“改变标准字体” (4.)</a>。</p>
+</div>
+<p><a name="toc11"></a><a href="#top">回到目录</a></p>
+<h1><span>改变侧边栏颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">侧边栏</span> » <strong>div.side-block</strong> » 背景</p>
+</div>
+<p><a name="toc12"></a><a href="#top">回到目录</a></p>
+<h1><span>改变侧边栏标题颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">侧边栏</span> » <strong>div.side-block</strong> » 颜色 <span style="font-size:80%;">(<strong>div.side-block div.heading</strong>)</span></p>
+</div>
+<p><a name="toc13"></a><a href="#top">回到目录</a></p>
+<h1><span>改变移动端侧边栏按钮颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">侧边栏</span> » <strong>open-menu（打开列表）</strong> » 颜色</p>
+</div>
+<p><a name="toc14"></a><a href="#top">回到目录</a></p>
+<h1><span>改变 tab 背景颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">tab</span> » <strong>div.yui-content</strong> » 背景</p>
+</div>
+<p><a name="toc15"></a><a href="#top">回到目录</a></p>
+<h1><span>改变 tab 选择器颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">tab</span> » <strong>普通选择器</strong><br />
+» <span style="color: #901">tab</span> » <strong>悬浮选择器</strong><br />
+» <span style="color: #901">tab</span> » <strong>已选选择器</strong></p>
+<hr />
+<div class="bq">
+<div class="scp-image-block block-right" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/tab1.png" style="width:300px;" alt="tab1.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>已选/悬浮/普通选择器</p>
+</div>
+</div>
+</div>
+</div>
+<p><a name="toc16"></a><a href="#top">回到目录</a></p>
+<h1><span>改变跨维基颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">跨维基</span> » <strong>div.scpnet-interwiki-wrapper</strong> » 滤镜</p>
+<hr />
+<p><strong>备注：</strong> 更多资讯请参见 &quot;<span style="color: #fff; background: #333;"><span class="fa fa-folder"><span style="white-space: pre-wrap;">&nbsp;</span></span>提示4：Interwiki filter 跨维基滤镜</span>&quot;。</p>
+</div>
+<p><a name="toc17"></a><a href="#top">回到目录</a></p>
+<h1><span>改变评分模块颜色</span></h1>
+<div class="bq">
+<p>» <span style="color: #901">评分模块</span> » 背景<br />
+» <span style="color: #901">评分模块</span> » 颜色</p>
+</div>
+<div id="u-font1-hovertip">α. : » <span style="color: #901">一般选项</span> » 字体 » @import <span style="font-size:80%;"><a href="https://fonts.google.com/" target="_blank">(Google font)</a></span></div>
+<div id="u-font2-hovertip">β. : » <span style="color: #901">一般选项</span> » <strong>内容</strong> » font-family</div>
+
+
+</div>
+<div id="wiki-tab-0-2" style="display:none">
+<blockquote>
+<h1><span>text-shadow 文字阴影</span></h1>
+<p><strong>&lt;offset-x&gt;, &lt;offset-y&gt;:</strong> 必选。这些长度值指定阴影相对文字的偏移量。&lt;offset-x&gt; 指定水平偏移量，若是负值则阴影位于文字左边。 &lt;offset-y&gt; 指定垂直偏移量，若是负值则阴影位于文字上面。如果两者均为0，则阴影位于文字正后方（如果设置了&lt;blur-radius&gt; （模糊半径）则会产生模糊效果)。</p>
+<blockquote>
+<p style="text-align: center;"><span style="color: blue">&lt;length&gt;（长度）<a href="javascript:;" class="bibcite" id="bibcite-663457-2-34378a" onclick="WIKIDOT.page.utils.scrollToReference('bibitem-663457-2')">2</a></span></p>
+</blockquote>
+<p><strong>&lt;blur-radius&gt;:</strong> 可选。这是 &lt;length&gt; 长度值。如果没有指定，则默认为0。值越大，模糊半径越大，阴影也就越大越淡（wider and lighter）。</p>
+<blockquote>
+<p style="text-align: center;"><span style="color: blue">&lt;length&gt;（长度）<a href="javascript:;" class="bibcite" id="bibcite-663457-2-57768a" onclick="WIKIDOT.page.utils.scrollToReference('bibitem-663457-2')">2</a></span></p>
+</blockquote>
+<p><strong>&lt;color&gt;:</strong> 可选。可以在偏移量之前或之后指定。如果没有指定颜色，则使用UA（用户代理）自行选择的颜色。因此如果想确保跨浏览器的一致性，请明确地指定一种颜色。</p>
+<blockquote>
+<p style="text-align: center;"><span style="color: blue">&lt;rgb()&gt; | &lt;rgba()&gt; | &lt;hsl()&gt; | &lt;hsla()&gt; | &lt;hex-color&gt; | &lt;named-color&gt;<a href="javascript:;" class="bibcite" id="bibcite-663457-3-71571a" onclick="WIKIDOT.page.utils.scrollToReference('bibitem-663457-3')">3</a> | currentcolor | &lt;deprecated-system-color&gt;</span></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><strong>/* offset-x | offset-y | blur-radius | color */</strong></p>
+<p><span style="background: #fdd; padding: 0.5em; text-shadow: 1px 1px 2px black;">text-shadow: 1px 1px 2px black;</span></p>
+</blockquote>
+<blockquote>
+<p><strong>/* color | offset-x | offset-y | blur-radius */</strong></p>
+<p><span style="background: #fdd; padding: 0.5em; text-shadow: #fc0 1px 0 10px;">text-shadow: #fc0&#160;1px 0&#160;10px;</span></p>
+</blockquote>
+<blockquote>
+<p><strong>/* offset-x | offset-y | color */</strong></p>
+<p><span style="background: #fdd; padding: 0.5em; text-shadow: 5px 5px #558abb;">text-shadow: 5px 5px #558abb;</span></p>
+</blockquote>
+<blockquote>
+<p><strong>/* color | offset-x | offset-y */</strong></p>
+<p><span style="background: #fdd; padding: 0.5em; text-shadow: white 2px 5px;">text-shadow: white 2px 5px;</span></p>
+</blockquote>
+<blockquote>
+<p><strong>/* offset-x | offset-y*/</strong><br />
+<strong>/* color（颜色）和 blur-radius（模糊半径）使用预设值。 */</strong></p>
+<p><span style="background: #fdd; padding: 0.5em; text-shadow: 5px 10px;">text-shadow: 5px 10px;</span></p>
+</blockquote>
+<hr />
+<div style="text-align: right;">
+<p><strong><em><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow" target="_blank">text-shadow - CSS：层叠样式表 | MDN</a></em></strong><br />
+由 <strong><em><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-shadow$history" target="_blank">Mozilla 贡献者</a></em></strong> 撰写<br />
+CC-BY-SA 2.5</p>
+</div>
+</div>
+<div id="wiki-tab-0-3" style="display:none">
+<blockquote>
+<h1><span>box-shadow 边框阴影</span></h1>
+<p><em><strong>其与 “text-shadow” 文字阴影类似，但可以选择&lt;inset&gt;。</strong></em></p>
+<hr />
+<p><strong>&lt;inset&gt;:</strong> 不使用inset，默认阴影在边框外，即阴影向外扩散。</p>
+</blockquote>
+<p>使用 inset 后，阴影在边框内（即使是透明边框），即阴影向内扩散，背景之上内容之下。</p>
+<blockquote>
+<blockquote>
+<p style="text-align: center;"><span style="color: blue">inset</span></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><strong>/* offset-x | offset-y | color */</strong></p>
+<div style="box-shadow: 60px -16px teal; padding: 0.5em; border: 1px solid #333;&quot; margin-bottom: 0.5em;">
+<p>box-shadow: 60px -16px teal;</p>
+</div>
+</blockquote>
+<blockquote>
+<p><strong>/* offset-x | offset-y | blur-radius | color */</strong></p>
+<div style="box-shadow: 10px 5px 5px black; padding: 0.5em; border: 1px solid #333;&quot; margin-bottom: 0.5em;">
+<p>box-shadow: 10px 5px 5px black;</p>
+</div>
+</blockquote>
+<blockquote>
+<p><strong>/* offset-x | offset-y | blur-radius | spread-radius（阴影扩散半径） | color */</strong></p>
+<div style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 0.5em; border: 1px solid #333;&quot; margin-bottom: 0.5em;">
+<p>box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);</p>
+</div>
+</blockquote>
+<blockquote>
+<p><strong>/* inset | offset-x | offset-y | color */</strong></p>
+<div style="box-shadow: inset 5em 1em gold; padding: 0.5em; border: 1px solid #333;">
+<p>box-shadow: inset 5em 1em gold;</p>
+</div>
+</blockquote>
+<blockquote>
+<p><strong>/* 指定多个阴影时，以逗号将阴影隔开。 */</strong></p>
+<div style="box-shadow: 3px 3px red, -1em 0 0.4em olive; padding: 0.5em; border: 1px solid #333;&quot; margin-bottom: 0.5em;">
+<p>box-shadow: 3px 3px red, -1em 0&#160;0.4em olive;</p>
+</div>
+</blockquote>
+<hr />
+<div style="text-align: right;">
+<p><strong><em><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow" target="_blank">box-shadow - CSS：层叠样式表 | MDN</a></em></strong><br />
+由 <strong><em><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow$history" target="_blank">Mozilla 贡献者</a></em></strong> 撰写<br />
+CC-BY-SA 2.5</p>
+</div>
+</div>
+<div id="wiki-tab-0-4" style="display:none">
+<blockquote>
+<h1><span>border</span></h1>
+<p><strong>&lt;width&gt;:</strong> 设置盒子模型的边框宽度。如果这个值没有被设置，它的默认值是medium。</p>
+<blockquote>
+<p style="text-align: center;"><span style="color: blue">&lt;length&gt;<a href="javascript:;" class="bibcite" id="bibcite-663457-2-93605a" onclick="WIKIDOT.page.utils.scrollToReference('bibitem-663457-2')">2</a> | thin（薄） | medium（中等） | thick（厚）</span></p>
+</blockquote>
+<p><strong>&lt;style&gt;:</strong> 设定元素所有边框的样式。如果这个值没有被设置，它的默认值是none。</p>
+<blockquote>
+<p style="text-align: center;"><span style="color: blue">none（无） | hidden（隐藏） | dotted（点线） | dashed（虚线） | solid（实线） | double（双线） | groove（雕刻效果） | ridge（浮雕效果） | inset（陷入效果） | outset（突出效果）</span></p>
+</blockquote>
+<p><strong>&lt;color&gt;:</strong> 可以确定border的颜色。如果这个值没有设置，它的默认值是元素的当前颜色属性值（是文字颜色而非背景色）。</p>
+<blockquote>
+<p style="text-align: center;"><span style="color: blue">&lt;rgb()&gt; | &lt;rgba()&gt; | &lt;hsl()&gt; | &lt;hsla()&gt; | &lt;hex-color&gt; | &lt;named-color&gt;<a href="javascript:;" class="bibcite" id="bibcite-663457-3-88726a" onclick="WIKIDOT.page.utils.scrollToReference('bibitem-663457-3')">3</a> | currentcolor | &lt;deprecated-system-color&gt;</span></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><strong>/* style */</strong></p>
+<p><span style="padding: 0.2em 0.5em; border: solid;">border: solid;</span></p>
+</blockquote>
+<blockquote>
+<p><strong>/* width | style */</strong></p>
+<p><span style="padding: 0.2em 0.5em; border: 2px dotted;">border: 2px dotted;</span></p>
+</blockquote>
+<blockquote>
+<p><strong>/* style | color */</strong></p>
+<p><span style="padding: 0.2em 0.5em; border: outset #f33;">border: outset #f33;</span></p>
+</blockquote>
+<blockquote>
+<p><strong>/* width | style | color */</strong></p>
+<p><span style="padding: 0.2em 0.5em; border: medium dashed green;">border: medium dashed green;</span></p>
+</blockquote>
+<hr />
+<div style="text-align: right;">
+<p><strong><em><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/border" target="_blank">border - CSS：层叠样式表 | MDN</a></em></strong><br />
+由 <strong><em><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/border$history" target="_blank">Mozilla 贡献者</a></em></strong> 撰写<br />
+CC-BY-SA 2.5</p>
+</div>
+</div>
+<div id="wiki-tab-0-5" style="display:none">
+<p><iframe src="../local--code/css-theme-preparation-tool/4.htm" style="width: 100%; height: 200px; border: none;"></iframe></p>
+<table class="wiki-content-table t-sample" style="float: left;">
+<tr>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<td>355deg</td>
+<td>100%</td>
+<td>73%</td>
+</tr>
+<tr>
+<td><strong>色调偏移度</strong></td>
+<td><strong>饱和度</strong></td>
+<td>/</td>
+</tr>
+<tr>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td><strong>亮度</strong></td>
+</tr>
+<tr>
+<td colspan="3">&#8230;</td>
+</tr>
+<tr>
+<td colspan="3">&#8230;</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="2">
+<p>hue-rotate(0deg)</p>
+<p>saturate(100%)</p>
+<p>&#8212;</p>
+</th>
+</tr>
+</table>
+<div class="scp-image-block block-left" style="width:300px;"><img src="../../scp-wiki-cn.wdfiles.com/local--files/css-theme-preparation-tool/interwiki1.png" style="width:300px;" alt="interwiki1.png" class="image" />
+<div class="scp-image-caption" style="width:300px;">
+<p>&quot;如何更改跨维基板块颜色？&quot;</p>
+</div>
+</div>
+<h1><span><span style="display: inline-block; width: 100%; font-size: 0px;">a</span></span></h1>
+<p><strong>备注1：</strong> 使用上面的工具只能计算出大概数值。<br />
+<strong>备注2：</strong> 如果侧边栏 side-block 的颜色并非单色 <span style="font-size:80%;">（#ffffff, #DCDCDC 等等）</span>，那么这个方法的效果并不会如同 “第三定律版式” <span style="font-size:80%;">（#E2E4E7）</span>那样好。<br />
+<strong>备注3：</strong> 色调偏移度(-70deg) = 色调偏移度(290deg)</p>
+<h1><span><span style="display: inline-block; width: 100%;">基本的例子</span></span></h1>
+<table class="wiki-content-table sam" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p>默认主题 (Sigma-9)</p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/aelanna" onclick="WIKIDOT.page.listeners.userInfo(334454); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=334454&amp;size=small&amp;timestamp=1579938178" alt="Aelanna" style="background-image:url(http://www.wikidot.com/userkarma.php?u=334454)" /></a><a href="http://www.wikidot.com/user:info/aelanna" onclick="WIKIDOT.page.listeners.userInfo(334454); return false;">Aelanna</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>color code</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">Link</th>
+<td rowspan="2"><strong><span style="color: #bb0011">#bb0011</span></strong></td>
+<td>355deg</td>
+<td>100%</td>
+<td>73%</td>
+</tr>
+<tr>
+<td>0deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);{$style}">
+<p><a style="font-weight: bold; color: #bb0011;" href="#">side-block sample</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper none" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">Interwiki sample</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4">
+<p><span style="display: none;">hue-rotate(360deg)</span> <span>&#8212;</span><br />
+&#8212;<br />
+&#8212;</p>
+</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-cn" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p>默认主题 (Sigma-9)</p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/aelanna" onclick="WIKIDOT.page.listeners.userInfo(334454); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=334454&amp;size=small&amp;timestamp=1579938178" alt="Aelanna" style="background-image:url(http://www.wikidot.com/userkarma.php?u=334454)" /></a><a href="http://www.wikidot.com/user:info/aelanna" onclick="WIKIDOT.page.listeners.userInfo(334454); return false;">Aelanna</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #bb0011">#bb0011</span></strong></td>
+<td>355deg</td>
+<td>100%</td>
+<td>73%</td>
+</tr>
+<tr>
+<td>0deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);{$style}">
+<p><a style="font-weight: bold; color: #bb0011;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper none" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span style="display: none;">色调偏移(360deg)</span> <span>&#8212;</span><br />
+&#8212;<br />
+&#8212;</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-jp" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p>默认主题 (Sigma-9)</p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/aelanna" onclick="WIKIDOT.page.listeners.userInfo(334454); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=334454&amp;size=small&amp;timestamp=1579938178" alt="Aelanna" style="background-image:url(http://www.wikidot.com/userkarma.php?u=334454)" /></a><a href="http://www.wikidot.com/user:info/aelanna" onclick="WIKIDOT.page.listeners.userInfo(334454); return false;">Aelanna</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>カラーコード</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">リンク</th>
+<td rowspan="2"><strong><span style="color: #bb0011">#bb0011</span></strong></td>
+<td>355deg</td>
+<td>100%</td>
+<td>73%</td>
+</tr>
+<tr>
+<td>0deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);{$style}">
+<p><a style="font-weight: bold; color: #bb0011;" href="#">side-blockサンプル</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper none" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">インターウィキサンプル</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span style="display: none;">hue-rotate(360deg)</span> <span>&#8212;</span><br />
+&#8212;<br />
+&#8212;</th>
+</tr>
+</table>
+
+
+
+<table class="wiki-content-table sam" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3amcd-theme.htm">MC&amp;D 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1379080&amp;size=small&amp;timestamp=1579938178" alt="Randomini" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1379080)" /></a><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;">Randomini</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>color code</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">Link</th>
+<td rowspan="2"><strong><span style="color: #6c4279">#6C4279</span></strong></td>
+<td>285deg</td>
+<td>45%</td>
+<td>47%</td>
+</tr>
+<tr>
+<td>-70deg</td>
+<td>45%</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border-color: #8B198B; box-shadow: 0 2px 6px rgba(50,0,50,.5);">
+<p><a style="font-weight: bold; color: #6C4279;" href="#">side-block sample</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper mcd" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">Interwiki sample</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4">
+<p><span>hue-rotate(290deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(45%)<br />
+&#8212;</p>
+</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-cn" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3amcd-theme.htm">MC&amp;D 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1379080&amp;size=small&amp;timestamp=1579938178" alt="Randomini" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1379080)" /></a><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;">Randomini</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #6c4279">#6C4279</span></strong></td>
+<td>285deg</td>
+<td>45%</td>
+<td>47%</td>
+</tr>
+<tr>
+<td>-70deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border-color: #8B198B; box-shadow: 0 2px 6px rgba(50,0,50,.5);">
+<p><a style="font-weight: bold; color: #6C4279;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper mcd" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>色调偏移(290deg)</span> <span style="display: none;">&#8212;</span><br />
+饱和度(45%)<br />
+&#8212;</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-jp" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3amcd-theme.htm">MC&amp;D 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1379080&amp;size=small&amp;timestamp=1579938178" alt="Randomini" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1379080)" /></a><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;">Randomini</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>カラーコード</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">リンク</th>
+<td rowspan="2"><strong><span style="color: #6c4279">#6C4279</span></strong></td>
+<td>285deg</td>
+<td>45%</td>
+<td>47%</td>
+</tr>
+<tr>
+<td>-70deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border-color: #8B198B; box-shadow: 0 2px 6px rgba(50,0,50,.5);">
+<p><a style="font-weight: bold; color: #6C4279;" href="#">side-blockサンプル</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper mcd" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">インターウィキサンプル</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>hue-rotate(290deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(45%)<br />
+&#8212;</th>
+</tr>
+</table>
+
+
+
+<table class="wiki-content-table sam" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3ash-theme.htm">被放逐者主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/zerostrider" onclick="WIKIDOT.page.listeners.userInfo(2331082); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=2331082&amp;size=small&amp;timestamp=1579938178" alt="ZeroStrider" style="background-image:url(http://www.wikidot.com/userkarma.php?u=2331082)" /></a><a href="http://www.wikidot.com/user:info/zerostrider" onclick="WIKIDOT.page.listeners.userInfo(2331082); return false;">ZeroStrider</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/salamander724" onclick="WIKIDOT.page.listeners.userInfo(1486450); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1486450&amp;size=small&amp;timestamp=1579938178" alt="Salamander724" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1486450)" /></a><a href="http://www.wikidot.com/user:info/salamander724" onclick="WIKIDOT.page.listeners.userInfo(1486450); return false;">Salamander724</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>color code</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">Link</th>
+<td rowspan="2"><strong><span style="color: #059400">#059400</span></strong></td>
+<td>117deg</td>
+<td>100%</td>
+<td>58%</td>
+</tr>
+<tr>
+<td>-238deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px dotted black; box-shadow: 0 2px 6px rgba(0,30,0,.5);">
+<p><a style="font-weight: bold; color: #059400;" href="#">side-block sample</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper sh" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">Interwiki sample</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4">
+<p><span>hue-rotate(122deg)</span> <span style="display: none;">&#8212;</span><br />
+&#8212;<br />
+&#8212;</p>
+</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-cn" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3ash-theme.htm">被放逐者主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/zerostrider" onclick="WIKIDOT.page.listeners.userInfo(2331082); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=2331082&amp;size=small&amp;timestamp=1579938178" alt="ZeroStrider" style="background-image:url(http://www.wikidot.com/userkarma.php?u=2331082)" /></a><a href="http://www.wikidot.com/user:info/zerostrider" onclick="WIKIDOT.page.listeners.userInfo(2331082); return false;">ZeroStrider</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/salamander724" onclick="WIKIDOT.page.listeners.userInfo(1486450); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1486450&amp;size=small&amp;timestamp=1579938178" alt="Salamander724" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1486450)" /></a><a href="http://www.wikidot.com/user:info/salamander724" onclick="WIKIDOT.page.listeners.userInfo(1486450); return false;">Salamander724</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #059400">#059400</span></strong></td>
+<td>117deg</td>
+<td>100%</td>
+<td>58%</td>
+</tr>
+<tr>
+<td>-238deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px dotted black; box-shadow: 0 2px 6px rgba(0,30,0,.5);">
+<p><a style="font-weight: bold; color: #059400;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper sh" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>色调偏移(122deg)</span> <span style="display: none;">&#8212;</span><br />
+&#8212;<br />
+&#8212;</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-jp" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3ash-theme.htm">被放逐者主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/zerostrider" onclick="WIKIDOT.page.listeners.userInfo(2331082); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=2331082&amp;size=small&amp;timestamp=1579938178" alt="ZeroStrider" style="background-image:url(http://www.wikidot.com/userkarma.php?u=2331082)" /></a><a href="http://www.wikidot.com/user:info/zerostrider" onclick="WIKIDOT.page.listeners.userInfo(2331082); return false;">ZeroStrider</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/salamander724" onclick="WIKIDOT.page.listeners.userInfo(1486450); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1486450&amp;size=small&amp;timestamp=1579938178" alt="Salamander724" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1486450)" /></a><a href="http://www.wikidot.com/user:info/salamander724" onclick="WIKIDOT.page.listeners.userInfo(1486450); return false;">Salamander724</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>カラーコード</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">リンク</th>
+<td rowspan="2"><strong><span style="color: #059400">#059400</span></strong></td>
+<td>117deg</td>
+<td>100%</td>
+<td>58%</td>
+</tr>
+<tr>
+<td>-238deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px dotted black; box-shadow: 0 2px 6px rgba(0,30,0,.5);">
+<p><a style="font-weight: bold; color: #059400;" href="#">side-blockサンプル</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper sh" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">インターウィキサンプル</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>hue-rotate(122deg)</span> <span style="display: none;">&#8212;</span><br />
+&#8212;<br />
+&#8212;</th>
+</tr>
+</table>
+
+
+
+<table class="wiki-content-table sam" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3a3lawtheme.htm">第三定律主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/greenwolf" onclick="WIKIDOT.page.listeners.userInfo(1814684); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1814684&amp;size=small&amp;timestamp=1579938178" alt="GreenWolf" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1814684)" /></a><a href="http://www.wikidot.com/user:info/greenwolf" onclick="WIKIDOT.page.listeners.userInfo(1814684); return false;">GreenWolf</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1379080&amp;size=small&amp;timestamp=1579938178" alt="Randomini" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1379080)" /></a><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;">Randomini</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>color code</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">Link</th>
+<td rowspan="2"><strong><span style="color: #4682b4">#4682B4</span></strong></td>
+<td>207deg</td>
+<td>61%</td>
+<td>70%</td>
+</tr>
+<tr>
+<td>-148deg</td>
+<td>61%</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #e2e4e7">#E2E4E7</span></td>
+<td>216deg</td>
+<td>2%</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>90%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #E2E4E7; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px solid #315B7D; background: #E2E4E7; box-shadow: none;">
+<p><a style="font-weight: bold; color: #4682B4;" href="#">side-block sample</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper tl" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">Interwiki sample</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4">
+<p><span>hue-rotate(212deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(61%)<br />
+brightness(90%)</p>
+</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-cn" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3a3lawtheme.htm">第三定律主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/greenwolf" onclick="WIKIDOT.page.listeners.userInfo(1814684); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1814684&amp;size=small&amp;timestamp=1579938178" alt="GreenWolf" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1814684)" /></a><a href="http://www.wikidot.com/user:info/greenwolf" onclick="WIKIDOT.page.listeners.userInfo(1814684); return false;">GreenWolf</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1379080&amp;size=small&amp;timestamp=1579938178" alt="Randomini" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1379080)" /></a><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;">Randomini</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #4682b4">#4682B4</span></strong></td>
+<td>207deg</td>
+<td>61%</td>
+<td>70%</td>
+</tr>
+<tr>
+<td>-148deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="color: #e2e4e7">#E2E4E7</span></td>
+<td>216deg</td>
+<td>2%</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>90%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #E2E4E7; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px solid #315B7D; background: #E2E4E7; box-shadow: none;">
+<p><a style="font-weight: bold; color: #4682B4;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper tl" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>色调偏移(212deg)</span> <span style="display: none;">&#8212;</span><br />
+饱和度(61%)<br />
+亮度(90%)</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-jp" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3a3lawtheme.htm">第三定律主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/greenwolf" onclick="WIKIDOT.page.listeners.userInfo(1814684); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1814684&amp;size=small&amp;timestamp=1579938178" alt="GreenWolf" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1814684)" /></a><a href="http://www.wikidot.com/user:info/greenwolf" onclick="WIKIDOT.page.listeners.userInfo(1814684); return false;">GreenWolf</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1379080&amp;size=small&amp;timestamp=1579938178" alt="Randomini" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1379080)" /></a><a href="http://www.wikidot.com/user:info/randomini" onclick="WIKIDOT.page.listeners.userInfo(1379080); return false;">Randomini</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>カラーコード</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">リンク</th>
+<td rowspan="2"><strong><span style="color: #4682b4">#4682B4</span></strong></td>
+<td>207deg</td>
+<td>61%</td>
+<td>70%</td>
+</tr>
+<tr>
+<td>-148deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #e2e4e7">#E2E4E7</span></td>
+<td>216deg</td>
+<td>2%</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>90%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #E2E4E7; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px solid #315B7D; background: #E2E4E7; box-shadow: none;">
+<p><a style="font-weight: bold; color: #4682B4;" href="#">side-blockサンプル</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper tl" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">インターウィキサンプル</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>hue-rotate(212deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(61%)<br />
+brightness(90%)</th>
+</tr>
+</table>
+
+
+
+<table class="wiki-content-table sam" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3aspc-theme.htm">SPC 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/peppersghost" onclick="WIKIDOT.page.listeners.userInfo(1553042); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1553042&amp;size=small&amp;timestamp=1579938178" alt="PeppersGhost" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1553042)" /></a><a href="http://www.wikidot.com/user:info/peppersghost" onclick="WIKIDOT.page.listeners.userInfo(1553042); return false;">PeppersGhost</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>color code</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">Link</th>
+<td rowspan="2"><strong><span style="color: #0c499c">#0c499c</span></strong></td>
+<td>214deg</td>
+<td>92%</td>
+<td>61%</td>
+</tr>
+<tr>
+<td>-141deg</td>
+<td>92%</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);{$style}">
+<p><a style="font-weight: bold; color: #0c499c;" href="#">side-block sample</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper spc" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">Interwiki sample</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4">
+<p><span>hue-rotate(219deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(92%)<br />
+&#8212;</p>
+</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-cn" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3aspc-theme.htm">SPC 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/peppersghost" onclick="WIKIDOT.page.listeners.userInfo(1553042); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1553042&amp;size=small&amp;timestamp=1579938178" alt="PeppersGhost" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1553042)" /></a><a href="http://www.wikidot.com/user:info/peppersghost" onclick="WIKIDOT.page.listeners.userInfo(1553042); return false;">PeppersGhost</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #0c499c">#0c499c</span></strong></td>
+<td>214deg</td>
+<td>92%</td>
+<td>61%</td>
+</tr>
+<tr>
+<td>-141deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);{$style}">
+<p><a style="font-weight: bold; color: #0c499c;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper spc" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>色调偏移(219deg)</span> <span style="display: none;">&#8212;</span><br />
+饱和度(92%)<br />
+&#8212;</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-jp" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3aspc-theme.htm">SPC 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/peppersghost" onclick="WIKIDOT.page.listeners.userInfo(1553042); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1553042&amp;size=small&amp;timestamp=1579938178" alt="PeppersGhost" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1553042)" /></a><a href="http://www.wikidot.com/user:info/peppersghost" onclick="WIKIDOT.page.listeners.userInfo(1553042); return false;">PeppersGhost</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>カラーコード</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">リンク</th>
+<td rowspan="2"><strong><span style="color: #0c499c">#0c499c</span></strong></td>
+<td>214deg</td>
+<td>92%</td>
+<td>61%</td>
+</tr>
+<tr>
+<td>-141deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #333">#ffffff</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>100%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: false; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);{$style}">
+<p><a style="font-weight: bold; color: #0c499c;" href="#">side-blockサンプル</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper spc" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">インターウィキサンプル</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>hue-rotate(219deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(92%)<br />
+&#8212;</th>
+</tr>
+</table>
+
+
+
+<table class="wiki-content-table sam" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="http://kontainer.djkakt.us/component:darkbodytheme">Darkbody 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/djkaktus" onclick="WIKIDOT.page.listeners.userInfo(1888434); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1888434&amp;size=small&amp;timestamp=1579938178" alt="djkaktus" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1888434)" /></a><a href="http://www.wikidot.com/user:info/djkaktus" onclick="WIKIDOT.page.listeners.userInfo(1888434); return false;">djkaktus</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>color code</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">Link</th>
+<td rowspan="2"><strong><span style="color: #2f4f4f">#2F4F4F</span></strong></td>
+<td>180deg</td>
+<td>40%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>-175deg</td>
+<td>40%</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #dcdcdc">#DCDCDC</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>86%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>86%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #DCDCDC; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px solid #2F4F4F;box-shadow: 0 2px 6px rgba(32,32,32,1);background-color: #DCDCDC;">
+<p><a style="font-weight: bold; color: #2F4F4F;" href="#">side-block sample</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper db" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">Interwiki sample</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4">
+<p><span>hue-rotate(185deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(40%)<br />
+brightness(86%)</p>
+</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-cn" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="http://kontainer.djkakt.us/component:darkbodytheme">Darkbody 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/djkaktus" onclick="WIKIDOT.page.listeners.userInfo(1888434); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1888434&amp;size=small&amp;timestamp=1579938178" alt="djkaktus" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1888434)" /></a><a href="http://www.wikidot.com/user:info/djkaktus" onclick="WIKIDOT.page.listeners.userInfo(1888434); return false;">djkaktus</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #2f4f4f">#2F4F4F</span></strong></td>
+<td>180deg</td>
+<td>40%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>-175deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="color: #dcdcdc">#DCDCDC</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>86%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>86%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #DCDCDC; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px solid #2F4F4F;box-shadow: 0 2px 6px rgba(32,32,32,1);background-color: #DCDCDC;">
+<p><a style="font-weight: bold; color: #2F4F4F;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper db" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>色调偏移(185deg)</span> <span style="display: none;">&#8212;</span><br />
+饱和度(40%)<br />
+亮度(86%)</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-jp" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="http://kontainer.djkakt.us/component:darkbodytheme">Darkbody 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/djkaktus" onclick="WIKIDOT.page.listeners.userInfo(1888434); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1888434&amp;size=small&amp;timestamp=1579938178" alt="djkaktus" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1888434)" /></a><a href="http://www.wikidot.com/user:info/djkaktus" onclick="WIKIDOT.page.listeners.userInfo(1888434); return false;">djkaktus</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>カラーコード</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">リンク</th>
+<td rowspan="2"><strong><span style="color: #2f4f4f">#2F4F4F</span></strong></td>
+<td>180deg</td>
+<td>40%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>-175deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #dcdcdc">#DCDCDC</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>86%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>86%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #DCDCDC; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border: 1px solid #2F4F4F;box-shadow: 0 2px 6px rgba(32,32,32,1);background-color: #DCDCDC;">
+<p><a style="font-weight: bold; color: #2F4F4F;" href="#">side-blockサンプル</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper db" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">インターウィキサンプル</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>hue-rotate(185deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(40%)<br />
+brightness(86%)</th>
+</tr>
+</table>
+
+
+
+<table class="wiki-content-table sam" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3apataphysics-theme.htm">超形上学部主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="error-inline"><em>FloppyPhoenix</em> 不匹配任何一个现有的用户名</span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/tsatpwtcotttadc" onclick="WIKIDOT.page.listeners.userInfo(3681296); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3681296&amp;size=small&amp;timestamp=1579938178" alt="TSATPWTCOTTTADC" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3681296)" /></a><a href="http://www.wikidot.com/user:info/tsatpwtcotttadc" onclick="WIKIDOT.page.listeners.userInfo(3681296); return false;">TSATPWTCOTTTADC</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/woedenaz" onclick="WIKIDOT.page.listeners.userInfo(1404096); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1404096&amp;size=small&amp;timestamp=1579938178" alt="Woedenaz" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1404096)" /></a><a href="http://www.wikidot.com/user:info/woedenaz" onclick="WIKIDOT.page.listeners.userInfo(1404096); return false;">Woedenaz</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>color code</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">Link</th>
+<td rowspan="2"><strong><span style="color: #5b2f8e">#5b2f8e</span></strong></td>
+<td>268deg</td>
+<td>67%</td>
+<td>56%</td>
+</tr>
+<tr>
+<td>-87deg</td>
+<td>67%</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #f3f3f3">#f3f3f3</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>95%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>95%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #f3f3f3; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);background: #f3f3f3;border: 2px solid #3e2659;border-radius: 0;box-shadow: 0 2px 6px rgba(32,32,32,0);">
+<p><a style="font-weight: bold; color: #5b2f8e;" href="#">side-block sample</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper pt" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">Interwiki sample</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4">
+<p><span>hue-rotate(273deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(67%)<br />
+brightness(95%)</p>
+</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-cn" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3apataphysics-theme.htm">超形上学部主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="error-inline"><em>FloppyPhoenix</em> 不匹配任何一个现有的用户名</span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/tsatpwtcotttadc" onclick="WIKIDOT.page.listeners.userInfo(3681296); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3681296&amp;size=small&amp;timestamp=1579938178" alt="TSATPWTCOTTTADC" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3681296)" /></a><a href="http://www.wikidot.com/user:info/tsatpwtcotttadc" onclick="WIKIDOT.page.listeners.userInfo(3681296); return false;">TSATPWTCOTTTADC</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/woedenaz" onclick="WIKIDOT.page.listeners.userInfo(1404096); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1404096&amp;size=small&amp;timestamp=1579938178" alt="Woedenaz" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1404096)" /></a><a href="http://www.wikidot.com/user:info/woedenaz" onclick="WIKIDOT.page.listeners.userInfo(1404096); return false;">Woedenaz</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #5b2f8e">#5b2f8e</span></strong></td>
+<td>268deg</td>
+<td>67%</td>
+<td>56%</td>
+</tr>
+<tr>
+<td>-87deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="color: #f3f3f3">#f3f3f3</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>95%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>95%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #f3f3f3; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);background: #f3f3f3;border: 2px solid #3e2659;border-radius: 0;box-shadow: 0 2px 6px rgba(32,32,32,0);">
+<p><a style="font-weight: bold; color: #5b2f8e;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper pt" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>色调偏移(273deg)</span> <span style="display: none;">&#8212;</span><br />
+饱和度(67%)<br />
+亮度(95%)</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-jp" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="../component_3apataphysics-theme.htm">超形上学部主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="error-inline"><em>FloppyPhoenix</em> 不匹配任何一个现有的用户名</span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/tsatpwtcotttadc" onclick="WIKIDOT.page.listeners.userInfo(3681296); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3681296&amp;size=small&amp;timestamp=1579938178" alt="TSATPWTCOTTTADC" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3681296)" /></a><a href="http://www.wikidot.com/user:info/tsatpwtcotttadc" onclick="WIKIDOT.page.listeners.userInfo(3681296); return false;">TSATPWTCOTTTADC</a></span>，<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/woedenaz" onclick="WIKIDOT.page.listeners.userInfo(1404096); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1404096&amp;size=small&amp;timestamp=1579938178" alt="Woedenaz" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1404096)" /></a><a href="http://www.wikidot.com/user:info/woedenaz" onclick="WIKIDOT.page.listeners.userInfo(1404096); return false;">Woedenaz</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>カラーコード</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">リンク</th>
+<td rowspan="2"><strong><span style="color: #5b2f8e">#5b2f8e</span></strong></td>
+<td>268deg</td>
+<td>67%</td>
+<td>56%</td>
+</tr>
+<tr>
+<td>-87deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #f3f3f3">#f3f3f3</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>95%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>95%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #f3f3f3; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);background: #f3f3f3;border: 2px solid #3e2659;border-radius: 0;box-shadow: 0 2px 6px rgba(32,32,32,0);">
+<p><a style="font-weight: bold; color: #5b2f8e;" href="#">side-blockサンプル</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper pt" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">インターウィキサンプル</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>hue-rotate(273deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(67%)<br />
+brightness(95%)</th>
+</tr>
+</table>
+
+
+
+<table class="wiki-content-table sam" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="http://topia.wikidot.com/component:saphir-theme">SAPPHIRE 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/stormbreath" onclick="WIKIDOT.page.listeners.userInfo(3075960); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3075960&amp;size=small&amp;timestamp=1579938178" alt="stormbreath" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3075960)" /></a><a href="http://www.wikidot.com/user:info/stormbreath" onclick="WIKIDOT.page.listeners.userInfo(3075960); return false;">stormbreath</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>color code</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">Link</th>
+<td rowspan="2"><strong><span style="color: #151a61">#151a61</span></strong></td>
+<td>236deg</td>
+<td>78%</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>-119deg</td>
+<td>78%</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #e5e5e5">#e5e5e5</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>90%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #e5e5e5; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border-color: #333;border-radius: 0;box-shadow: 0 2px 6px rgba(102,102,102,.5);">
+<p><a style="font-weight: bold; color: #151a61;" href="#">side-block sample</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper sap" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">Interwiki sample</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4">
+<p><span>hue-rotate(241deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(78%)<br />
+brightness(90%)</p>
+</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-cn" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="http://topia.wikidot.com/component:saphir-theme">SAPPHIRE 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/stormbreath" onclick="WIKIDOT.page.listeners.userInfo(3075960); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3075960&amp;size=small&amp;timestamp=1579938178" alt="stormbreath" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3075960)" /></a><a href="http://www.wikidot.com/user:info/stormbreath" onclick="WIKIDOT.page.listeners.userInfo(3075960); return false;">stormbreath</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #151a61">#151a61</span></strong></td>
+<td>236deg</td>
+<td>78%</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>-119deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="color: #e5e5e5">#e5e5e5</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>90%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #e5e5e5; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border-color: #333;border-radius: 0;box-shadow: 0 2px 6px rgba(102,102,102,.5);">
+<p><a style="font-weight: bold; color: #151a61;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper sap" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>色调偏移(241deg)</span> <span style="display: none;">&#8212;</span><br />
+饱和度(78%)<br />
+亮度(90%)</th>
+</tr>
+</table>
+<table class="wiki-content-table sam-jp" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5">
+<p><a href="http://topia.wikidot.com/component:saphir-theme">SAPPHIRE 主题版式</a></p>
+<p><strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/stormbreath" onclick="WIKIDOT.page.listeners.userInfo(3075960); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=3075960&amp;size=small&amp;timestamp=1579938178" alt="stormbreath" style="background-image:url(http://www.wikidot.com/userkarma.php?u=3075960)" /></a><a href="http://www.wikidot.com/user:info/stormbreath" onclick="WIKIDOT.page.listeners.userInfo(3075960); return false;">stormbreath</a></span> 制作</span></strong></p>
+</th>
+</tr>
+<tr>
+<td></td>
+<th>カラーコード</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">リンク</th>
+<td rowspan="2"><strong><span style="color: #151a61">#151a61</span></strong></td>
+<td>236deg</td>
+<td>78%</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>-119deg</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">side-bg</th>
+<td rowspan="2"><span style="color: #e5e5e5">#e5e5e5</span></td>
+<td>0deg</td>
+<td>0%</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>90%</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; background: #e5e5e5; border: 1px solid #660000;box-shadow: 0 2px 6px rgba(102,0,0,.5);border-color: #333;border-radius: 0;box-shadow: 0 2px 6px rgba(102,102,102,.5);">
+<p><a style="font-weight: bold; color: #151a61;" href="#">side-blockサンプル</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper sap" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">インターウィキサンプル</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>filter:</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><span>hue-rotate(241deg)</span> <span style="display: none;">&#8212;</span><br />
+saturate(78%)<br />
+brightness(90%)</th>
+</tr>
+</table>
+
+
+
+<h1><span><span style="display: inline-block; width: 100%;">例外</span></span></h1>
+<table class="wiki-content-table" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5"><a href="http://kontainer.djkakt.us/component:thewayitendstheme">终结的方式版式</a><br />
+<strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/djkaktus" onclick="WIKIDOT.page.listeners.userInfo(1888434); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1888434&amp;size=small&amp;timestamp=1579938178" alt="djkaktus" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1888434)" /></a><a href="http://www.wikidot.com/user:info/djkaktus" onclick="WIKIDOT.page.listeners.userInfo(1888434); return false;">djkaktus</a></span> 制作</span></strong></th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><span style="text-decoration: line-through;"><strong><span style="color: #e80e0e">#e80e0e</span></strong></span></td>
+<td><span style="text-decoration: line-through;">0deg</span></td>
+<td><span style="text-decoration: line-through;">93%</span></td>
+<td><span style="text-decoration: line-through;">90%</span></td>
+</tr>
+<tr>
+<td><span style="text-decoration: line-through;">-5deg</span></td>
+<td><span style="text-decoration: line-through;">93%</span></td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><span style="text-decoration: line-through;"><strong><span style="color: #161616">#161616</span></strong></span></td>
+<td><span style="text-decoration: line-through;">0deg</span></td>
+<td><span style="text-decoration: line-through;">0%</span></td>
+<td><span style="text-decoration: line-through;">8%</span></td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td><span style="text-decoration: line-through;">8%</span></td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; border: 1px solid #920909;box-shadow: 0 2px 6px rgba(32,32,32,1);background: #161616;">
+<p><a style="font-weight: bold; color: #e80e0e;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper end-re" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><strong><span style="text-decoration: underline;"><span style="color: #e80e0e">反转效果(92%)</span></span></strong><a href="javascript:;" class="bibcite" id="bibcite-663457-4-52482a" onclick="WIKIDOT.page.utils.scrollToReference('bibitem-663457-4')">4</a><br />
+<strong><span style="text-decoration: underline;"><span style="color: #e80e0e">色调偏移(189deg)</span></span></strong><a href="javascript:;" class="bibcite" id="bibcite-663457-5-91717a" onclick="WIKIDOT.page.utils.scrollToReference('bibitem-663457-5')">5</a><br />
+<strong><span style="text-decoration: underline;"><span style="color: #e80e0e">饱和度(1200%)</span></span></strong></th>
+</tr>
+</table>
+<table class="wiki-content-table" style="float: left; margin-right: 0.8em;">
+<tr>
+<th colspan="5"><a href="../component_3aijamea-theme.htm">IJAMEA 版式主题</a><br />
+<strong><span style="font-size:80%;">由 <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/dr-solo" onclick="WIKIDOT.page.listeners.userInfo(1476008); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=1476008&amp;size=small&amp;timestamp=1579938178" alt="Dr Solo" style="background-image:url(http://www.wikidot.com/userkarma.php?u=1476008)" /></a><a href="http://www.wikidot.com/user:info/dr-solo" onclick="WIKIDOT.page.listeners.userInfo(1476008); return false;">Dr Solo</a></span> 制作</span></strong></th>
+</tr>
+<tr>
+<td></td>
+<th>颜色代码</th>
+<th>H</th>
+<th>S</th>
+<th>V</th>
+</tr>
+<tr>
+<th rowspan="2">链接</th>
+<td rowspan="2"><strong><span style="color: #000000">#000000</span></strong></td>
+<td>0deg</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<th rowspan="2">侧边栏背景</th>
+<td rowspan="2"><strong>#FFFFFF</strong></td>
+<td>0deg</td>
+<td>0%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>/</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="5">
+<div class="side-block" style="width: 17em; border: 1px solid #000000;box-shadow: 0 2px 6px #000000;background-color: #ffffff;">
+<p><a style="font-weight: bold; color: #000000;" href="#">侧边栏样本</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="scpnet-interwiki-wrapper ij" style="padding: 0; text-align: left;" colspan="5">
+<div class="interwiki">
+<div class="interwiki__title">跨维基样本</div>
+<div class="interwiki__entry"><a href="#asap">Esperanto</a></div>
+<div class="interwiki__entry"><a href="#asap">tlhIngan Hol</a></div>
+<div class="interwiki__entry"><a href="#asap">Na'vi</a></div>
+<div class="interwiki__entry"><a href="#asap">Qenya</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<th>滤镜：</th>
+<th style="font-weight: normal; text-align: left;" colspan="4"><strong><span style="text-decoration: underline;"><span style="color: #e80e0e">灰阶(100%)</span></span></strong><br />
+<strong><span style="text-decoration: underline;"><span style="color: #e80e0e">整体阴影(0&#160;1px 1px #000000)</span></span></strong></th>
+</tr>
+</table>
+<h1><span><span style="display: inline-block; width: 100%; font-size: 0px;">a</span></span></h1>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+OZONE.dom.onDomReady(function(){
+        var tabView1fb57d3f8d94ba0fd74539842b86bb21 = new YAHOO.widget.TabView('wiki-tabview-1fb57d3f8d94ba0fd74539842b86bb21');
+                }, "dummy-ondomready-block");
+        
+//]]>
+</script></div>
+<div class="wiki-note">
+<p><a href="offset/1/local-code_limit/1.htm">检视原始码</a></p>
+</div>
+<div class="bibitems">
+<div class="title">Footnote</div>
+<div class="bibitem" id="bibitem-663457-1">1. sans-serif, serif, cursive, fantasy, monospace&#8230;</div>
+<div class="bibitem" id="bibitem-663457-2">2. 1px, 1em… （1像素，1點數等等）</div>
+<div class="bibitem" id="bibitem-663457-3">3. red, green… （红色，绿色等等）</div>
+<div class="bibitem" id="bibitem-663457-4">4. 100% - 8% = 92%</div>
+<div class="bibitem" id="bibitem-663457-5">5. -5deg - (180deg * 0.92)<sub><span style="color: blue">[invert]</span></sub> + 360deg = 189.4 ≒ 189deg</div>
+</div>
+</div>
+    
+    
+    
+    </div><div class="list-pages-box">    
+    
+    
+    
+    </div>
+<div class="open-menu">
+<p><a href="#side-bar">≡</a></p>
+</div>
+
+
+
+
+
+
+
+                    </div>
+
+                            
+            <!-- wikidot_bottom_300x250 -->
+<div id="wad-scp-wiki-cn-below-content" class="wd-adunit wd-ad-np wd-adunit-below_content"></div>
+<script type='text/javascript'>
+nads.createAd('wad-scp-wiki-cn-below-content', {
+  "refreshLimit": 10,
+  "refreshTime": 83,
+  "sizes": [ [ 300, 250 ] ],
+  "report": {
+    "enabled": true,
+    "wording": "Report Ad",
+    "position": "bottom-right"
+  }
+  });
+</script>
+        
+    
+
+                    
+
+
+
+                    
+                        <div class="page-tags">
+                            <span>
+                                <a href="../system_3apage-tags/tag/_25e6_2596_2587_25e7_25ab_25a0.htm#pages">文章</a>
+                            </span>
+                        </div>
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                        <div id="page-options-container">
+                            <div id="page-info">页面版本: 24, 最后编辑于: <span class="odate time_1579924475 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20%E5%89%8D%29">25 Jan 2020 03:54</span></div>
+            <div id="page-options-bottom"  class="page-options-bottom">
+            <a href="javascript:;" class="btn btn-default" id="edit-button">编辑</a>
+<a href="javascript:;" class="btn btn-default" id="pagerate-button">评分 (<span id="prw54355">+36</span>)</a>
+<a href="javascript:;" class="btn btn-default" id="tags-button">标签</a>
+<a href="../forum/t-10762725/css-theme-preparation-tool" class="btn btn-default" id="discuss-button">讨论 (14)</a>
+<a href="javascript:;" class="btn btn-default" id="history-button">历史记录</a>
+<a href="javascript:;" class="btn btn-default" id="files-button">附件</a>
+<a href="javascript:;" class="btn btn-default" id="print-button">打印</a>
+<a href="javascript:;" class="btn btn-default" id="site-tools-button">网站工具</a>
+<a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;选项</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none">
+    <a href="javascript:;" class="btn btn-default" id="edit-sections-button">编辑段落</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-append-button">附加</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-meta-button">编辑元信息</a>
+    <a href="javascript:;" class="btn btn-default" id="watchers-button">关注者</a> 
+    <a href="javascript:;" class="btn btn-default" id="backlinks-button">反向链接</a> 
+    <a href="javascript:;" class="btn btn-default" id="view-source-button">页面源代码</a> 
+    <a href="javascript:;" class="btn btn-default" id="parent-page-button">父页面</a> 
+    <a href="javascript:;" class="btn btn-default" id="page-block-button">锁定页面</a>    
+    <a href="javascript:;" class="btn btn-default" id="rename-move-button">重新命名</a> 
+    <a href="javascript:;" class="btn btn-default" id="delete-button">删除</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+
+                        </div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer" style="display: block; visibility: visible;">
+                <div class="options" style="display: block; visibility: visible;">
+    <a href="http://www.wikidot.com/doc" id="wikidot-help-button">说明</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">服务条款</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">隐私</a>
+    &nbsp;|
+    <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">报告错误</a>
+    &nbsp;|
+    <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">标记为令人反感的</a>
+</div>
+自豪地采用 <a href="../../www.wikidot.com/default.htm">Wikidot.com</a> 
+            </div>
+            
+                <div id="license-area" class="license-area">
+                    除非特别注明，本页内容采用以下授权方式： <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>
+                </div>
+            
+            
+            
+
+
+
+            <div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+            
+            
+            
+            
+                <div id="footer-bar">
+  <div>
+     </div>
+  <h2>其它有趣的网站</h2>
+  
+  <div class="units">
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://masonic.wikidot.com/">
+              <img class="thumbnail" alt="" src="../../thumbnails.wdfiles.com/thumbnail/site/masonic.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://masonic.wikidot.com/">Masonic</a></h3>
+            <div class="desc">          
+              A Freemason&#039;s Compendium
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://psi-ppwg.wikidot.com/">
+              <img class="thumbnail" alt="" src="../../thumbnails.wdfiles.com/thumbnail/site/psi-ppwg.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://psi-ppwg.wikidot.com/">Performance &amp; Philosophy</a></h3>
+            <div class="desc">          
+              
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://patriot-box-office.wikidot.com/">
+              <img class="thumbnail" alt="" src="../../thumbnails.wdfiles.com/thumbnail/site/patriot-box-office.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://patriot-box-office.wikidot.com/">Patriot Box Office Media Player (PBO)</a></h3>
+            <div class="desc">          
+              More Than Meets the Eye
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://iatkos.wikidot.com/">
+              <img class="thumbnail" alt="" src="../../thumbnails.wdfiles.com/thumbnail/site/iatkos.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://iatkos.wikidot.com/">Iatkos</a></h3>
+            <div class="desc">          
+              
+            </div>
+          </div>
+        </div>
+        </div>
+  </div>
+
+            
+        </div>
+        
+    </div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+</div>
+
+
+
+
+</div>
+<div id="dummy-ondomready-block" style="display: none;" ></div>
+    <!-- Google Analytics load -->
+    <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https:///' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure/' : 'http://edge/') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script>
+    <noscript>
+        <img src="../../pixel.quantserve.com/pixel/p-edl3gsnujjzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    </noscript>
+
+
+
+
+<div id="page-options-bottom-tips" style="display: none;">
+    <div id="edit-button-hovertip">
+        请点此编辑本页内容。    </div>
+</div>
+<div id="page-options-bottom-2-tips"  style="display: none;">
+    <div id="edit-sections-button-hovertip">
+        单击此处切换页面各部分的编辑按钮（如果有可能）。 在标题边会显示“编辑”链接。    </div>
+    <div id="edit-append-button-hovertip">
+        在不编辑整个页面源代码的情况下添加内容。    </div>
+    <div id="history-button-hovertip">
+        看看本页过去是如何沿革的。    </div>
+    <div id="discuss-button-hovertip">
+        若您想要讨论本页内容 - 这是最简单的方法。    </div>
+    <div id="files-button-hovertip">
+        检视并管理本页附件。    </div>
+    <div id="site-tools-button-hovertip">
+        管理网站的实用工具。    </div>
+    <div id="backlinks-button-hovertip">
+        检视链接至本页或引用本页的页面。    </div>
+    <div id="rename-move-button-hovertip">
+        变更页面名称（及URL 位址，或许会影响分类）。    </div>
+    <div id="view-source-button-hovertip">
+        在不编辑的情形下检视维基原始码。    </div>
+    <div id="parent-page-button-hovertip">  
+        检视/ 设定父页面（用以建立浏览足迹与结构化​​配置）。    </div>
+            <div id="abuse-report-button-hovertip">
+            向管理员举报本页有令人反感的内容。        </div>
+        <div id="bug-report-button-hovertip">
+            事情不如预期？看看您可以做些什么。        </div>
+        <div id="wikidot-help-button-hovertip">
+            一般的 Wikidot.com 文件与说明。        </div>
+        <div id="wikidot-tos-button-hovertip">
+            Wikidot.com 服务条款- 您可以做的事，您不该做的事之类的。        </div>
+        <div id="wikidot-privacy-button-hovertip">
+            Wikidot.com 隐私政策。          
+        </div>
+    </div>
+</body>
+</html>

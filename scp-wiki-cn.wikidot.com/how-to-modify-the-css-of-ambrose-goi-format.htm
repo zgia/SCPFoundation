@@ -1,0 +1,1414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- saved from url=(0074)http://scp-wiki-cn.wikidot.com/how-to-modify-the-css-of-ambrose-goi-format --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cn" lang="cn">
+
+<head>
+    <title>為不懂 CSS 的人所寫的說明：如何修改安布羅斯 GOI 格式的代碼 - SCP基金会</title>
+    
+    
+    
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/init.combined.js"></script>
+    <script  type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "scp-wiki-cn.wikidot.com";
+        WIKIREQUEST.info.siteId = 530812;
+        WIKIREQUEST.info.siteUnixName = "scp-wiki-cn";
+        WIKIREQUEST.info.categoryId = 3342264;
+        WIKIREQUEST.info.themeId = 1;
+        WIKIREQUEST.info.requestPageName = "how-to-modify-the-css-of-ambrose-goi-format";
+        OZONE.request.timestamp = 1579938155;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'cn';
+                WIKIREQUEST.info.pageUnixName = "how-to-modify-the-css-of-ambrose-goi-format";
+        WIKIREQUEST.info.pageId = 598227216;
+                        WIKIREQUEST.info.lang = "cn";
+        OZONE.lang = "cn";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script  type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+                            <meta name="robots" content="index,follow"/>
+                                <meta name="language" content="zh,zh-cn"/>
+                                                            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="zh,zh-cn"/>
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css" id="internal-style">
+        
+        /* modules */
+@import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/css/pagerate/PageRateWidgetModule.css);
+
+
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--theme/base/css/style.css);
+                    @import url(component_3atheme/code/1.css);
+            </style>
+    
+        
+        
+        
+    <link rel="shortcut icon" href="local--favicon/favicon.gif"/>
+    <link rel="icon" type="image/gif" href="local--favicon/favicon.gif"/>
+    
+            <link rel="apple-touch-icon" href="common--images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="common--images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="common--images/apple-touch-icon-114x114.png" />
+        
+        
+            <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript_3awikidot.page.listeners.editclick%28%29"/>
+    
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+            </script>
+    
+    <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script>
+    
+        <link rel="manifest" href="onesignal/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" acync=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: null,
+          });
+        });
+    </script>
+        
+<style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|ZCOOL+XiaoWei');
+
+.menu a:link{color: #88AA00}
+.menu a:newpage{color: #88AA00}
+.menu a:visited{color: #88AA00}
+.menu a:hover{color: #ADFF2F}
+</style>
+<script src="https://s.nitropay.com/ads-143.js"></script>
+<script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/js/list/ListPagesModule.js"></script>
+<script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/js/pagerate/PageRateWidgetModule.js"></script>
+</head>
+<body id="html-body">
+<div id="skrollr-body">
+<a name="page-top"></a>
+
+
+
+
+
+<div id="container-wrap-wrap">
+    <div id="container-wrap">
+        <div id="container">
+            <div id="header">
+              <h1><a href="default.htm"><span>SCP基金会</span></a></h1>
+                
+                    <h2><span>控制，收容，保护</span></h2>
+                
+                
+                <!-- google_ad_section_start(weight=ignore) -->
+                
+                <div id="search-top-box" class="form-search">
+    <form id="search-top-box-form" action="dummy" class="input-append">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="搜索网站" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"/><input class="button btn" type="submit" name="search" value="搜索"/>
+    </form>
+</div>
+                
+                
+                    <div id="top-bar">
+                        
+
+<div class="top-bar">
+<ul>
+<li>SCP系列
+<ul>
+<li><a href="scp-series-5.htm">系列 V (4000 - 4999)</a></li>
+<li><a href="scp-series-4.htm">系列 IV (3000 - 3999)</a></li>
+<li><a href="scp-series-4-tales-edition.htm">» 系列 IV 故事</a></li>
+<li><a href="scp-series-3.htm">系列 III (2000 - 2999)</a></li>
+<li><a href="scp-series-3-tales-edition.htm">» 系列 III 故事</a></li>
+<li><a href="scp-series-2.htm">系列 II (1000 - 1999)</a></li>
+<li><a href="scp-series-2-tales-edition.htm">» 系列 II 故事</a></li>
+<li><a href="scp-series.htm">系列 I (001 - 999)</a></li>
+<li><a href="scp-series-1-tales-edition.htm">» 系列 I 故事</a></li>
+<li><a href="joke-scps.htm">搞笑SCP</a></li>
+<li><a href="scp-ex.htm">已解明SCP</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="user-curated-lists.htm">用户推荐清单</a></li>
+<li><a href="log-of-anomalous-items.htm">异常物品记录</a></li>
+<li><a href="log-of-extranormal-events.htm">超常现象记录</a></li>
+<li><a href="goi-formats.htm">GoI格式</a></li>
+<li><a href="audio-adaptations.htm">音频记录</a></li>
+<li><a href="scp-artwork-hub.htm">艺术作品</a></li>
+<li><a href="contest-archive.htm">征文竞赛</a></li>
+<li><a href="wanderers_3astart.htm">被放逐者之图书馆</a></li>
+<li><a href="wanderers_3athe-library-cn.htm">原创图书馆中心</a></li>
+</ul>
+</li>
+<li>故事
+<ul>
+<li><a href="foundation-tales.htm">基金会故事</a></li>
+<li><a href="canon-hub.htm">设定中心</a></li>
+<li><a href="series-archive.htm">故事系列</a></li>
+<li><a href="incident-reports-eye-witness-interviews-and-personal-logs.htm">事故报告</a></li>
+<li><a href="creepy-pasta.htm">Creepy-Pasta 归档</a></li>
+</ul>
+</li>
+<li>SCP-CN系列
+<ul>
+<li><a href="scp-series-cn-2.htm">CN系列 II (CN-1000 - CN-1999)</a></li>
+<li><a href="scp-series-cn.htm">CN系列 I (CN-001 - CN-999)</a></li>
+<li><a href="joke-scps-cn.htm">搞笑SCP-CN</a></li>
+<li><a href="scp-ex-cn.htm">已解明SCP-CN</a></li>
+<li><a href="log-of-anomalous-items-cn.htm">中国异常物品记录</a></li>
+<li><a href="log-of-extranormal-events-cn.htm">中国超常现象记录</a></li>
+<li><a href="foundation-tales-cn.htm">中国分部故事</a></li>
+<li><a href="short-stories.htm">原创短篇故事合集</a></li>
+<li><a href="canon-hub-cn.htm">中国分部设定中心</a></li>
+<li><a href="contest-archive-cn.htm">中国分部征文竞赛</a></li>
+</ul>
+</li>
+<li>SCP国际
+<ul>
+<li><a href="scp-international.htm">SCP国际翻译中心</a></li>
+<li><a href="http://scp-int.wikidot.com/">SCP国际翻译站</a></li>
+<li><a href="http://scpfoundation.net/">Russian Branch(-RU)</a></li>
+<li><a href="http://ko.scp-wiki.net/">SCP 재단(-KO)</a></li>
+<li><a href="http://fondationscp.wikidot.com/">Fondation SCP(-FR)</a></li>
+<li><a href="http://scp-wiki.net.pl/">Fundacja SCP(-PL)</a></li>
+<li><a href="http://scp-es.com/">La Fundación SCP(-ES)</a></li>
+<li><a href="http://scp-th.wikidot.com/">สถาบัน SCP(-TH)</a></li>
+<li><a href="http://ja.scp-wiki.net/">SCP財団(-JP)</a></li>
+<li><a href="http://scp-wiki-de.wikidot.com/">SCP auf Deutsch(-DE)</a></li>
+<li><a href="http://fondazionescp.wikidot.com/">Fondazione SCP(-IT)</a></li>
+<li><a href="http://scp-ukrainian.wikidot.com/">Ukrainian Branch(-UA)</a></li>
+<li><a href="http://scp-pt-br.wikidot.com/">Fundação SCP(-PT/BR)</a></li>
+<li><a href="http://scp-cs.wikidot.com/">SCP Nadace(-CZ)</a></li>
+</ul>
+</li>
+<li>背景资料
+<ul>
+<li><a href="about-the-scp-foundation.htm">关于基金会</a></li>
+<li><a href="groups-of-interest.htm">相关组织</a></li>
+<li><a href="object-classes.htm">项目等级</a></li>
+<li><a href="personnel-and-character-dossier.htm">职员档案</a></li>
+<li><a href="security-clearance-levels.htm">安保许可等级</a></li>
+<li><a href="secure-facilities-locations.htm">安保设施</a></li>
+<li><a href="task-forces.htm">机动特遣队</a></li>
+<li><a href="groups-of-interest-cn.htm">中国相关组织</a></li>
+<li><a href="secure-facilities-locations-cn.htm">中国分部设施</a></li>
+<li><a href="task-forces-cn.htm">中国分部机动特遣队</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="guide-hub.htm">指导中心</a></li>
+<li><a href="guide-for-newbies.htm">新手指南</a></li>
+<li><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></li>
+<li><a href="image-use-policy.htm">图像使用守则</a></li>
+<li><a href="licensing-guide.htm">授权指南</a></li>
+<li><a href="tag-guide.htm">标签指导</a></li>
+<li><a href="tag-search.htm">标签搜索</a></li>
+<li><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></li>
+<li><a href="faq.htm">常见问题解答</a></li>
+<li><a href="site-rules.htm">网站站规</a></li>
+<li><a href="deletions-guide.htm">删帖指导</a></li>
+<li><a href="criticism-policy.htm">批评守则</a></li>
+<li><a href="links.htm">链接</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="mobile-top-bar">
+<div class="open-menu">
+<p><a href="#side-bar">≡</a></p>
+</div>
+<ul>
+<li>SCP系列
+<ul>
+<li><a href="scp-series-5.htm">系列 V (4000 - 4999)</a></li>
+<li><a href="scp-series-4.htm">系列 IV (3000 - 3999)</a></li>
+<li><a href="scp-series-4-tales-edition.htm">» 系列 IV 故事</a></li>
+<li><a href="scp-series-3.htm">系列 III (2000 - 2999)</a></li>
+<li><a href="scp-series-3-tales-edition.htm">» 系列 III 故事</a></li>
+<li><a href="scp-series-2.htm">系列 II (1000 - 1999)</a></li>
+<li><a href="scp-series-2-tales-edition.htm">» 系列 II 故事</a></li>
+<li><a href="scp-series.htm">系列 I (001 - 999)</a></li>
+<li><a href="scp-series-1-tales-edition.htm">» 系列 I 故事</a></li>
+<li><a href="scp-series-cn-2.htm">CN系列 II (CN-1000 - CN-1999)</a></li>
+<li><a href="scp-series-cn.htm">CN系列 I (CN-001 - CN-999)</a></li>
+<li><a href="joke-scps.htm">搞笑SCP</a></li>
+<li><a href="scp-ex.htm">已解明SCP</a></li>
+<li><a href="joke-scps-cn.htm">搞笑SCP-CN</a></li>
+<li><a href="scp-ex-cn.htm">已解明SCP-CN</a></li>
+<li><a href="scp-international.htm">SCP国际翻译中心</a></li>
+</ul>
+</li>
+<li>故事
+<ul>
+<li><a href="foundation-tales.htm">基金会故事</a></li>
+<li><a href="canon-hub.htm">设定中心</a></li>
+<li><a href="series-archive.htm">故事系列</a></li>
+<li><a href="incident-reports-eye-witness-interviews-and-personal-logs.htm">事故报告</a></li>
+<li><a href="creepy-pasta.htm">Creepy-Pasta 归档</a></li>
+<li><a href="foundation-tales-cn.htm">中国分部故事</a></li>
+<li><a href="short-stories.htm">原创短篇故事合集</a></li>
+<li><a href="canon-hub-cn.htm">中国分部设定中心</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="user-curated-lists.htm">用户推荐清单</a></li>
+<li><a href="log-of-anomalous-items.htm">异常物品记录</a></li>
+<li><a href="log-of-extranormal-events.htm">超常现象记录</a></li>
+<li><a href="goi-formats.htm">GoI格式</a></li>
+<li><a href="audio-adaptations.htm">音频记录</a></li>
+<li><a href="scp-artwork-hub.htm">艺术作品</a></li>
+<li><a href="contest-archive.htm">征文竞赛</a></li>
+<li><a href="log-of-anomalous-items-cn.htm">中国异常物品记录</a></li>
+<li><a href="log-of-extranormal-events-cn.htm">中国超常现象记录</a></li>
+<li><a href="contest-archive-cn.htm">中国分部征文竞赛</a></li>
+<li><a href="wanderers_3astart.htm">被放逐者之图书馆</a></li>
+<li><a href="wanderers_3athe-library-cn.htm">原创图书馆中心</a></li>
+</ul>
+</li>
+<li>背景资料
+<ul>
+<li><a href="about-the-scp-foundation.htm">关于基金会</a></li>
+<li><a href="groups-of-interest.htm">相关组织</a></li>
+<li><a href="object-classes.htm">项目等级</a></li>
+<li><a href="personnel-and-character-dossier.htm">职员档案</a></li>
+<li><a href="security-clearance-levels.htm">安保许可等级</a></li>
+<li><a href="secure-facilities-locations.htm">安保设施</a></li>
+<li><a href="task-forces.htm">机动特遣队</a></li>
+<li><a href="groups-of-interest-cn.htm">中国相关组织</a></li>
+<li><a href="secure-facilities-locations-cn.htm">中国分部设施</a></li>
+<li><a href="task-forces-cn.htm">中国分部机动特遣队</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="guide-hub.htm">指导中心</a></li>
+<li><a href="guide-for-newbies.htm">新手指南</a></li>
+<li><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></li>
+<li><a href="image-use-policy.htm">图像使用守则</a></li>
+<li><a href="licensing-guide.htm">授权指南</a></li>
+<li><a href="tag-guide.htm">标签指导</a></li>
+<li><a href="tag-search.htm">标签搜索</a></li>
+<li><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></li>
+<li><a href="faq.htm">常见问题解答</a></li>
+<li><a href="site-rules.htm">网站站规</a></li>
+<li><a href="deletions-guide.htm">删帖指导</a></li>
+<li><a href="criticism-policy.htm">批评守则</a></li>
+<li><a href="links.htm">链接</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+                    </div>
+                
+                <div id="login-status"><a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">建立帐号</a> <span>或</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">登入</a> </div>
+                <div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+            </div>
+            
+            <div id="content-wrap">
+                
+                    <div id="side-bar">
+                        
+
+
+                        
+
+<div class="side-block" style="background-color: #f0fff6;">
+<div class="heading">
+<p>新人资讯</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="guide-for-newbies.htm">新手指南</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="site-rules.htm">网站站规</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="system_3ajoin.htm">加入网站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="how-to-write-an-scp.htm">如何撰写一篇SCP文档</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scpsandboxcn.wikidot.com/">SCP中文沙盒站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="faq.htm">常见问题解答</a></div>
+</div>
+<div class="side-block">
+<div class="menu-item"><img src="local--files/nav_3aside/home.png" alt="home.png" class="image" /><a href="default.htm">主页</a></div>
+<div class="heading">
+<p>SCP资料库</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-5.htm">SCP系列 V</a> <span class="sub-text">(4000-4999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-4.htm">SCP系列 IV</a> <span class="sub-text">(3000-3999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-3.htm">SCP系列 III</a> <span class="sub-text">(2000-2999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-2.htm">SCP系列 II</a> <span class="sub-text">(1000-1999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series.htm">SCP系列 I</a> <span class="sub-text">(001-999)</span></div>
+<hr />
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-cn-2.htm">SCP-CN系列 II</a> <span class="sub-text">(1000-1999)</span></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-series-cn.htm">SCP-CN系列 I</a> <span class="sub-text">(001-999)</span></div>
+<div class="heading">
+<p>SCP图书馆</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="foundation-tales.htm">基金会故事</a> | <a href="foundation-tales-cn.htm">原创故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="canon-hub.htm">设定中心</a> | <a href="canon-hub-cn.htm">原创设定中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="goi-formats.htm">GoI格式</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="scp-international.htm">SCP国际翻译中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/series.png" alt="series.png" class="image" /><a href="wanderers_3astart.htm">被放逐者之图书馆</a> | <a href="wanderers_3athe-library-cn.htm">原创区</a></div>
+<div class="heading">
+<p>网站</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="most-recently-created.htm">最近新增的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="random_3arandom-scp">随机SCP</a> | <a href="random_3arandom-tale">故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="random_3arandom-scp-cn">随机原创SCP</a> | <a href="random_3arandom-tale-cn">原创故事</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3arecent-changes">最近的更新</a> | <a href="most-recently-edited">修改的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="top-rated-pages.htm">最高评分的页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="lowest-rated-pages.htm">最低评分的页面</a></div>
+<div class="heading">
+<p>社交</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/forum.png" alt="forum.png" class="image" /><a href="forum_3astart">讨论区</a> | <a href="forum_3arecent-posts">最近发帖</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="criticism-policy.htm">批评守则</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="members-pages.htm">成员页</a> | <a href="members-pages-cn.htm">中国分部成员页</a></div>
+<div class="heading">
+<p>相关网站</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scp-tech-cn.wikidot.com/" target="_blank">SCP技术部门</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="http://scp-int.wikidot.com/" target="_blank">SCP国际翻译站</a></div>
+</div>
+<div class="side-block" style="background-color: #e7e5e8;">
+<div class="heading">
+<p>写作指导</p>
+</div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="guide-hub.htm">指导中心</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="tag-guide.htm">标签指导</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="tag-search.htm">标签搜索</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="translation-movement-guide.htm">翻译发布及搬运指南</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/help.png" alt="help.png" class="image" /><a href="wiki-syntax.htm">维基语法</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="syntax-quick-reference.htm">语法速查</a></div>
+</div>
+<div class="side-block" style="background-color: #fff0f0;">
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-content">
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="_admin.htm">后台管理</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/main.png" alt="main.png" class="image" /><a href="http://05command-cn.wikidot.com/" target="_blank">职员专站</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3alist-all-categories.htm">所有页面</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="system_3amembers.htm">会员一览</a></div>
+<div class="menu-item"><img src="local--files/nav_3aside/default.png" alt="default.png" class="image" /><a href="nav_3aside.htm">侧栏</a> | <a href="nav_3atop.htm">顶栏</a> | <a href="component_3atheme">版式</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="side-block" style="background-color: #e5e5ff;">
+<div class="heading">
+<p>相关媒体</p>
+</div>
+<div class="menu-item">
+<div style="text-align: center;"><a href="https://space.bilibili.com/872507" target="_blank"><img src="local--files/nav_3aside/bilibili_icon.png" style="width:30px; height:30px;" alt="Bilibili_icon.png" class="image" /></a></div>
+</div>
+</div>
+<div class="side-block" style="background-color: #f0f0f0;">
+<div style="text-align: center;"><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank"><img src="../scp-wiki-cn.wdfiles.com/local--files/nav_253aside/cc-by-sa.svg" style="margin-bottom: 10px;" alt="cc-by-sa.svg" class="image" /></a><br />
+<span style="font-size:80%;">© SCP基金会<br />
+<a href="licensing-guide.htm">授权指南</a></span></div>
+</div>
+<div class="scpnet-interwiki-wrapper"><div class="list-pages-box">    <div class="list-pages-item">
+
+
+<p><iframe src="http://interwiki.scpdb.org/?wiki=scp-wiki-cn&lang=cn&page=_default:how-to-modify-the-css-of-ambrose-goi-format" align="" frameborder="" height="" scrolling="" width="" class="scpnet-interwiki-frame" style=""></iframe></p>
+</div>
+    
+    
+    
+    </div><div class="list-pages-box">    
+    
+    
+    
+    </div></div>
+<div style="clear:both; height: 0px; font-size: 1px"></div>
+<a class="close-menu" href="###"><br />
+<img src="../scp-wiki.wikidot.com/local--files/nav_3aside/black.png" style="z-index=-1; opacity: 0.3;" alt="black.png" class="image" /><br /></a>
+                        
+
+
+                    </div>
+                
+                
+                <!-- google_ad_section_end -->
+                
+                <div id="main-content">
+                    <div id="action-area-top"></div>
+                    
+                    
+                        <div id="page-title">
+                            為不懂 CSS 的人所寫的說明：如何修改安布羅斯 GOI 格式的代碼
+                        </div>
+                    
+
+                    
+                        <div id="breadcrumbs">
+                            <a href="guide-hub.htm">指导中心</a> &raquo; <a href="groups-of-interest.htm">相关组织</a> &raquo; <a href="ambrose-restaurant-hub.htm">安布罗斯餐厅 中心页</a> &raquo; 為不懂 CSS 的人所寫的說明：如何修改安布羅斯 GOI 格式的代碼
+                        </div>
+                    
+
+                    
+
+
+
+                    <div id="page-content">
+                        
+
+<div style="text-align: right;"><div class="page-rate-widget-box"><span class="rate-points">评分:&nbsp;<span class="number prw54353">+23</span></span><span class="rateup btn btn-default"><a title="我喜欢" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.rate(event, 1)">+</a></span><span class="ratedown btn btn-default"><a title="我不喜欢" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.rate(event, -1)">&#8211;</a></span><span class="cancel btn btn-default"><a title="取消我的投票" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.cancelVote(event)">x</a></span></div></div>
+
+
+
+<p>安布羅斯 GOI 格式分成菜單 + 評論兩部分。評論的區塊也許可以千篇一律，但菜單可不行，因為安布羅斯餐廳跨足許多領域──除非你想用別人的 CSS 來寫同一種餐廳的不同品項。</p>
+<p>事實上，雖然無法直接複製菜單的代碼用在不同店家，但你可以基於別的安布羅斯的菜單代碼來設計自己想要的顏色。這裡將為不懂設計 CSS 的人簡單敘述如何自己修改別人的 CSS 來寫安布羅斯 GOI 格式。（基於 CC BY-SA 3.0 的精神，最好說明你從哪邊修改得來的）</p>
+<p>我們拿<a href="ambrose-thorn-valley.htm">棘刺谷的安布羅斯餐廳</a>來試試看。</p>
+<p>下面這一段是構成菜單框的東西：<br />
+<span style="white-space: pre-wrap;">[[div&#32;style=&quot;border:&#32;double&#32;12px&#32;#9a4040;&#32;background-image:&#32;radial-gradient(#edcbb1&#32;60%,&#32;#c68e8c&#32;);&#32;padding-top:&#32;3em;&#32;padding-right:&#32;3em;&#32;padding-left:&#32;3em;&#32;padding-bottom:&#32;6em;&#32;margin-bottom:&#32;3em;&#32;color:&#32;#710309;&quot;]]</span></p>
+<p><span style="white-space: pre-wrap;">[[/div]]</span><br />
+別忘了最後要用上面那東西封口！</p>
+<p>效果會是這樣：</p>
+<div style="border: double 12px #9a4040; background-image: radial-gradient(#edcbb1 60%, #c68e8c ); padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em; margin-bottom: 3em; color: #710309;"></div>
+<h3 id="toc0"><span>一、菜單外框的 CSS</span></h3>
+<p>我們來說明這些 div 後面的東西到底是什麼吧：</p>
+<hr />
+<h5 id="toc1"><span>邊框</span></h5>
+<blockquote>
+<p>border: double 12px #9a4040</p>
+</blockquote>
+<p>border: 之後分別代表 [樣式] [粗細] [色碼]。</p>
+<p>[樣式]：<br />
+平面的線有 double（雙線，這是安布羅斯最常用的）、solid（單條實線）、dashed（虛線）、dotted（點線）。<br />
+立體的線有 groove（谷線）、ridge（脊線）、inset（嵌入效果）、outset（浮出效果） 。</p>
+<p>[粗細]：<br />
+需要注意的是，如果你用了 double 之類的雙線邊框，那麼這個粗細是共同佔有的寬度，而不是單條的寬度。</p>
+<p>[色碼]：<br />
+網路上可以找到很多色碼表的網站，挑幾個自己喜歡的吧。<br />
+<a href="https://www.color-hex.com/">Color Hex</a>很好用，會給單色顏色的不同明暗與色調變化。<br />
+如果你不會自己調，也有一些網站放了依色系排列的色表，像<a href="https://www.toodoo.com/db/color.html">這個</a>或<a href="https://www.ebaomonthly.com/window/photo/lesson/colorList.htm">這個</a>。另外維基百科顏色列表的<a href="https://zh.wikipedia.org/wiki/%E9%A2%9C%E8%89%B2%E5%88%97%E8%A1%A8">中</a>、<a href="https://en.wikipedia.org/wiki/List_of_colors_(compact)">英</a>、<a href="https://ja.wikipedia.org/wiki/%E8%89%B2%E5%90%8D%E4%B8%80%E8%A6%A7">日</a>也都很齊全。</p>
+<hr />
+<h5 id="toc2"><span>背景色</span></h5>
+<blockquote>
+<p>background-image: radial-gradient(#edcbb1&#160;60%, #c68e8c);<br />
+這是背景「圖片」，你沒看錯！背景的漸層色其實是一張函數生成的圖片。</p>
+</blockquote>
+<p>radial-gradient 是徑向漸層，用來營造從中間擴散的顏色效果。這邊可能是最頭痛的東西了，我們一層一層來說明：</p>
+<p>(#edcbb1&#160;60%, #c68e8c)<br />
+逗號左邊的色碼是起始色；逗號右邊色碼是結束色。</p>
+<p>那 XX% 是顏色範圍，你可以把 100% 當成最大範圍，0% 當成中心小點。</p>
+<p>#edcbb1&#160;60%：我的起始色 #edcbb1 要在 60% 的地方都是純的 #edcbb1，之後才開始變色；如果你為結束色設定了範圍，他的意思會是：我的結束色在 XX% 開始是純的結束色，不過會被起始色的設定壓過去。</p>
+<p>你起始色和結束色都可以設定範圍，也可以都不設定。但是記得，如果兩個都設定了，那結束色的 XX% 要比較大，不然就會毫無漸層，以 (#edcbb1&#160;60%, #c68e8c 30% ) 為例：</p>
+<div style="border: double 12px #9a4040; background-image: radial-gradient(#edcbb1 60%, #c68e8c 30% ); padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em; margin-bottom: 3em; color: #710309;"></div>
+<br />
+下面這張則是 (#edcbb1 , #c68e8c )：
+<div style="border: double 12px #9a4040; background-image: radial-gradient(#edcbb1 , #c68e8c ); padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em; margin-bottom: 3em; color: #710309;"></div>
+<p>你可以找到一些網站可以直接觀看 CSS 的效果，讓你不用一直點預覽：<br />
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient">https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient</a><br />
+<a href="https://www.we-shop.net/css3/css-gradient.html">https://www.we-shop.net/css3/css-gradient.html</a></p>
+特別是下面那個網站，可以用直覺操作的方式看到成果：<br />
+<img src="../scp-wiki-cn.wdfiles.com/local--files/how-to-modify-the-css-of-ambrose-goi-format/css.png" width="60%" alt="CSS.PNG" class="image" />
+<p>我想拉出一張內白外綠的薄荷色，網站上方會有效果預覽。你對效果滿意了，就把操作數據填回你的 CSS 中，像這個就是 (#EAFCEC 10%, #A1D99A 64%)，效果如下：</p>
+<div style="border: double 12px #9a4040; background-image: radial-gradient(#EAFCEC 10%, #A1D99A 64% ); padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em; margin-bottom: 3em; color: #710309;"></div>
+<p>如果你想放棄使用漸層，只想用單色，那麼可以把 background-image: radial-gradient(#edcbb1 , #c68e8c ) 改成：<br />
+background: 色碼</p>
+<p>下面這塊是 background:#E8E3D0 的效果</p>
+<div style="border: double 12px #9a4040; background:#E8E3D0; padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em; margin-bottom: 3em; color: #710309;"></div>
+<hr />
+<h5 id="toc3"><span>內距與外距</span></h5>
+<blockquote>
+<p>padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em;</p>
+</blockquote>
+<p>padding 用來調整區塊內的東西和邊框的距離，直接複製別人的 CSS 之後你有可能會想修改一下。依我寫過的<a href="oneiroi-food-guide-ambrose-dreams-teashop.htm">夢神美食指南</a>來說：我加了上端裝飾線，還有下部分的頁碼，如果我直接用了別人的 CSS，會非常不協調：</p>
+<div style="border: double 12px #9a4040; background-image: radial-gradient(#edcbb1 60%, #c68e8c ); padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em; margin-bottom: 3em; color: #710309;">
+<div style="text-align: center;"><img src="../scp-wiki-cn.wdfiles.com/local--files/oneiroi-food-guide-ambrose-dreams-teashop/divider-2154993_960_720-e.png" width="100%" alt="divider-2154993_960_720-e.png" class="image" /><br />
+<br />
+<br />
+<br />
+<br />
+- 1 -</div>
+</div>
+<br />
+改動 padding-top: 2em; padding-bottom: 0.8em;
+<div style="border: double 12px #9a4040; background-image: radial-gradient(#edcbb1 60%, #c68e8c ); padding-top: 2em; padding-right: 3em; padding-left: 3em; padding-bottom: 0.8m; margin-bottom: 3em; color: #710309;">
+<div style="text-align: center;"><img src="../scp-wiki-cn.wdfiles.com/local--files/oneiroi-food-guide-ambrose-dreams-teashop/divider-2154993_960_720-e.png" width="100%" alt="divider-2154993_960_720-e.png" class="image" /><br />
+<br />
+<br />
+<br />
+<br />
+- 1 -</div>
+</div>
+<br />
+這樣就比較像樣了。
+<p>margin-bottom 則是這個區塊下方外面的東西和邊框會有多近。</p>
+<div style="border: double 12px #9a4040; background-image: radial-gradient(#edcbb1 60%, #c68e8c ); padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em; margin-bottom: 3em; color: #710309;"></div>
+<br />
+上面那段空白那是 margin-bottom: 3em。
+<div style="border: double 12px #9a4040; background-image: radial-gradient(#edcbb1 60%, #c68e8c ); padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 6em; margin-bottom: 1em; color: #710309;"></div>
+<br />
+上面那段空白是 margin-bottom: 1em。
+<hr />
+<h5 id="toc4"><span>文字屬性</span></h5>
+<blockquote>
+<p>color: #710309</p>
+</blockquote>
+<p>這邊的 color 是這個區塊內的文字的預設顏色，你依然可以在這個區塊內另外指定顏色。<br />
+你也可以在這用font-family: '字型名字' 設定區塊內的字型。<br />
+font-size: 則可以設定區塊內的字大小。<br />
+line-height: 可以設定行高。<br />
+不過字的大小和行高我通常會在菜單內部才調整。另外要注意的是：主站複製過來的 CSS 套用在中文有可能會字太小而且行高太窄。</p>
+<p><br />
+<br /></p>
+<h3 id="toc5"><span>二、菜單內部</span></h3>
+<p><br /></p>
+<h5 id="toc6"><span>字型</span></h5>
+<p>font-family: '字型名字' 可以用來設定字型，可是這樣只有電腦有安裝此種字型的人看的到，其他人只會見到預設字型。所以就需要 CSS 嵌入字型，推薦使用 <a href="https://fonts.google.com/">Google Fonts</a>，不過很可惜的是免費的中文雲端字型沒有太多選擇。另外就是中文字型檔案比較大，不要嵌入太多字形檔。</p>
+<p>在 Google Fonts 裡面挑選想要的字形（你可以像主站一樣，選個漂亮的英文放在菜單最上端）。這次我用簡體的 ZCOOL XiaoWei 以及思源黑體繁體來示範。</p>
+點擊你想要的字型左上方的 (+) ，會出現這樣的視窗：<br />
+<img src="../scp-wiki-cn.wdfiles.com/local--files/how-to-modify-the-css-of-ambrose-goi-format/font.png" width="80%" alt="font.PNG" class="image" />
+<p>中間那條 @import 你需要像這樣放在原始碼中：</p>
+<div class="code">
+<pre>
+<code>[[module css]]
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|ZCOOL+XiaoWei');
+[[/module]]</code>
+</pre></div>
+<p>CSS 寫法也告訴你了：</p>
+<blockquote>
+<p>font-family: 'ZCOOL XiaoWei', serif;<br />
+font-family: 'Noto Sans TC', sans-serif;</p>
+</blockquote>
+<p>你有兩種方法可以設定文字屬性：</p>
+<blockquote>
+<p><span style="white-space: pre-wrap;">[[span&#32;style=&quot;font-family:&#32;'ZCOOL&#32;XiaoWei',&#32;serif;font-size:150%;&quot;]]安&#32;布&#32;罗&#32;斯&#32;有&#32;机&#32;蔬&#32;食&#32;[[/span]]</span><br />
+<span style="font-family: 'ZCOOL XiaoWei', serif;font-size:150%;">安 布 罗 斯 有 机 蔬 食</span></p>
+</blockquote>
+<p>用 span 的話是這一行的文字有這屬性。</p>
+<blockquote>
+<p><span style="white-space: pre-wrap;">[[div&#32;style=&quot;font-family:&#32;'ZCOOL&#32;XiaoWei',&#32;serif;font-size:150%;&quot;]]</span><br />
+<span style="white-space: pre-wrap;">安&#32;布&#32;罗&#32;斯&#32;有&#32;机&#32;蔬&#32;食</span><br />
+<span style="white-space: pre-wrap;">[[/div]]</span></p>
+<div style="font-family: 'ZCOOL XiaoWei', serif;font-size:150%;">
+<p>安 布 罗 斯 有 机 蔬 食</p>
+</div>
+</blockquote>
+<p>用 div 則是再分一個區塊，區塊裡的文字有這個屬性。</p>
+<hr />
+<h5 id="toc7"><span>分隔線</span></h5>
+<blockquote>
+<p>wikidot 自帶的分隔線是灰色的：</p>
+<hr />
+<p>你可能覺得這和你的菜單不搭，<br />
+實際上我在夢神美食指南的菜單中底部用的水平線是用別的方式畫出來的：</p>
+<div style="border-bottom:2px solid #ab68d9; margin-bottom:1px;"></div>
+<br />
+看到了嗎？</blockquote>
+<p><br />
+我是這樣做的：<br />
+<span style="white-space: pre-wrap;">[[div&#32;style=&quot;border-bottom:2px&#32;solid&#32;#ab68d9;&#32;margin-bottom:1px;&quot;]]</span><br />
+<span style="white-space: pre-wrap;">[[/div]]</span><br />
+前面講過一些 CSS 的東西了，所以顏色粗細和樣式應該知道怎麼調整了，那麼我就不再重複。<br />
+<br />
+順便給兩條不同形式的水平線：</p>
+<div class="code">
+<pre>
+<code>代碼1
+[[div style=&quot;border-bottom:2px solid #98aca3; margin-bottom:1px;&quot;]]
+[[/div]]
+[[div style=&quot;border-bottom:1px solid #98aca3;&quot;]]
+[[/div]]</code>
+</pre></div>
+<blockquote>
+<p>效果1<br />
+<br /></p>
+<div style="border-bottom:2px solid #98aca3; margin-bottom:1px;"></div>
+<div style="border-bottom:1px solid #98aca3;"></div>
+<br />
+<br /></blockquote>
+<div class="code">
+<pre>
+<code>代碼2
+[[div style=&quot;border-bottom:1px solid #222;&quot;]]
+[[/div]]
+[[div style=&quot;border-bottom:1px solid #444;&quot;]]
+[[/div]]
+[[div style=&quot;border-bottom:1px solid #666;&quot;]]
+[[/div]]
+[[div style=&quot;border-bottom:1px solid #888;&quot;]]
+[[/div]]
+[[div style=&quot;border-bottom:1px solid #AAA;&quot;]]
+[[/div]]</code>
+</pre></div>
+<blockquote>
+<p>效果2<br />
+<br /></p>
+<div style="border-bottom:1px solid #222;"></div>
+<div style="border-bottom:1px solid #444;"></div>
+<div style="border-bottom:1px solid #666;"></div>
+<div style="border-bottom:1px solid #888;"></div>
+<div style="border-bottom:1px solid #AAA;"></div>
+<br />
+<br /></blockquote>
+<hr />
+<h5 id="toc8"><span>內部排版</span></h5>
+<p>本樣品中所有中文亂數假文來自於李怡志所編寫的<a href="http://www.richyli.com/tool/loremipsum/wordcount.asp">亂數假文產生器</a>。</p>
+<p>推薦 pixabay 的 <a href="https://pixabay.com/en/photos/divider/">divider</a>、<a href="https://pixabay.com/zh/photos/%E5%88%86%E9%9A%94%E7%BA%BF/">分隔線</a>或<a href="https://pixabay.com/zh/photos/%E8%A3%85%E9%A5%B0/?image_type=vector">裝飾</a>分類，有很多可以放在菜單上的分隔線。</p>
+<div style="border: double 10px #4D80E6; background-image: radial-gradient(#EAFCEC 10%, #A1D99A 64% ); padding-top: 3em; padding-right: 3em; padding-left: 3em; padding-bottom: 2em; margin-bottom: 3em; color: #704214;">
+<p style="text-align: center;">你的標題可以用花一點的字型（ Google Fonts 簡體中文的字型比繁體多了一些）</p>
+<p style="text-align: center;"><span style="font-family: 'ZCOOL XiaoWei', serif;font-size:300%;">安 布 罗 斯 有 机 蔬 食</span></p>
+<blockquote>
+<p>這裡可以放張圖<br />
+<a href="http://scp-wiki-cn.wikidot.com/forum/t-9295483/cc">如何找到合乎CC的圖像</a><br />
+<a href="photoshopping-your-scp.htm">PS你的SCP</a></p>
+</blockquote>
+<div style="font-family: 'ZCOOL XiaoWei', serif;font-size:150%;">
+<p>这里是餐厅的说明文，餐厅什么时候开幕，餐厅特色，目前有没有特别活动等等。标题以及这一段说明文我觉得可以用比较花俏的字型。</p>
+</div>
+<p style="text-align: center;">如果是套餐之類的價格固定的菜單就把價格放在這裡</p>
+<div style="border-bottom:1px solid #008B8B; margin-bottom:1px;"></div>
+<p style="text-align: center;">免責聲明，或其他什麼東西</p>
+<div style="border-bottom:1px solid #008B8B; margin-bottom:1px;"></div>
+<div style="font-family: 'ZCOOL XiaoWei', serif;font-size:200%;">
+<p style="text-align: center;"><em>食品分类</em></p>
+</div>
+<br />
+<span style="font-family: 'ZCOOL XiaoWei', serif;font-size:180%;color:#2F4F4F"><span style="text-decoration: underline;">菜名</span>：价格</span><br />
+<span style="font-family: 'Noto Sans TC', sans-serif;font-size:120%">這裡是品項的解說，這邊我推薦用看得比較清楚的思源黑體。後面是排版用的亂數假文，別在意<sup class="footnoteref"><a id="footnoteref-1" href="javascript:;" class="footnoteref" onclick="WIKIDOT.page.utils.scrollToReference('footnote-1')">1</a></sup>。不他寶內也步中中麼；創離具商目活值手設大輕本開中第魚哥一交情；感持要本入，主是親火喜講設物最海道河示就：是不考到十細時傳省離數帶個車苦？下加夫</span><br />
+<br />
+<br />
+<div style="border-bottom:1px solid #008B8B; margin-bottom:1px;"></div>
+<br />
+這裡可以放餐廳地址，電話，頁碼等等你覺得會出現在菜單底部的東西<br />
+你有在菜單上加註解記得放一段下面那種東西在這裡<br />
+<span style="white-space: pre-wrap;">[[footnoteblock&#32;title=&quot;&#32;&quot;]]</span>
+<div class="footnotes-footer">
+<div class="title"></div>
+<div class="footnote-footer" id="footnote-1"><a href="javascript:;" onclick="WIKIDOT.page.utils.scrollToReference('footnoteref-1')">1</a>. 這後面就是沒有意義的文章</div>
+</div>
+<p>要不然腳註會自動跑到文章最底部。</p>
+</div>
+<br />
+<br />
+<br />
+<h3 id="toc9"><span>三、評論</span></h3>
+<p>雖說評論區可以重複，但目前每篇安布羅斯GOI格式用的技巧都不太一樣。</p>
+<ul>
+<li><a href="ambrose-temecula.htm">特曼庫拉市的安布羅斯餐廳</a></li>
+</ul>
+<p>這看起來很像 Facebook 或 Google map 的評價。</p>
+<div class="code">
+<pre>
+<code>&gt; [[&gt;]]
+&gt; [[size 150%]] @帳號
+&gt; ★★★☆☆ [[/size]]
+&gt; [[/&gt;]]
+&gt; 評論
+&gt; @@ @@</code>
+</pre></div>
+<blockquote>
+<div style="text-align: right;">
+<p><span style="font-size:150%;">@帳號<br />
+★★★☆☆</span></p>
+</div>
+<br />
+評論<br />
+<span style="white-space: pre-wrap;">&#32;</span></blockquote>
+<p>注意，如果你要用顯示讀者帳號的代碼，你要這樣寫：</p>
+<div class="code">
+<pre>
+<code>[[module ListUsers users=&quot;.&quot;]]
+&gt; [[&gt;]]
+&gt; [[size 150%]] @%%title%%
+&gt; ★★☆☆☆ [[/size]]
+&gt; [[/&gt;]]
+&gt; 評論
+&gt; @@ @@
+[[/module]]</code>
+</pre></div>
+<hr />
+<ul>
+<li><a href="ambrose-london-prix-fixe.htm">安布羅斯餐廳倫敦店的套餐菜單</a></li>
+</ul>
+<p>這個比較複雜<br />
+用div畫了一個背景區塊，然後又用 div 切出評論區。對不熟悉的人來說可怕的是這個 div 很多，可能會出錯。</p>
+<blockquote>
+<p>最外層的框<br />
+<span style="white-space: pre-wrap;">[[div&#32;style=&quot;background:&#32;這裡是背景區塊的顏色;&#32;border:&#32;1px&#32;solid&#32;silver;&#32;padding:&#32;1em;&quot;]]</span><br />
+<span style="white-space: pre-wrap;">[[=]]</span><br />
+<span style="white-space: pre-wrap;">[[size&#32;400%]]##firebrick|**大標題**##[[/size]]</span><br />
+<span style="white-space: pre-wrap;">,,副標題之類的,,</span><br />
+<span style="white-space: pre-wrap;">[[/=]]</span></p>
+<p>最後面 (也就是評論的 <span style="white-space: pre-wrap;">[[/div]]</span> 之後) 有個 <span style="white-space: pre-wrap;">[[/div]]</span> 把框封起來。</p>
+</blockquote>
+<p>在實際的例子裡背景顏色是 antiquewhite，你可以換成色碼，顏色名字就查維基百科的<a href="https://zh.wikipedia.org/wiki/%E7%BD%91%E9%A1%B5%E9%A2%9C%E8%89%B2">網頁顏色</a>吧。<br />
+<span style="white-space: pre-wrap;">##firebrick|**大標題**##</span>這個是<a href="wiki-syntax.htm">wikidot 語法</a>的顏色寫法，你當然也能修改。<br /></p>
+<blockquote>
+<p>這個是放評論的白格子<br />
+<span style="white-space: pre-wrap;">[[div&#32;style=&quot;float:&#32;center;&#32;width:&#32;80%;&#32;margin:&#32;auto;&#32;box-shadow:&#32;2px&#32;2px&#32;2px&#32;rgba(0,0,0,.4);&#32;padding:&#32;1em;&#32;background:&#32;white&quot;]]</span><br />
+(此處插入裝評論者資料的 div，見下方)<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis lacus sed elit consequat consectetur in non augue. Maecenas non ornare eros. In tincidunt magna quis condimentum ornare. Cras facilisis dolor sed malesuada ornare.</p>
+<p><span style="white-space: pre-wrap;">[[/div]]</span></p>
+</blockquote>
+<p>注意：如果你想要開另一個評論，在<span style="white-space: pre-wrap;">[[/div]]</span> 與新的 <span style="white-space: pre-wrap;">[[div&#32;style=&quot;float:&#32;center;&#32;width:&#32;80%;&#32;margin:&#32;auto;&#32;box-shadow:&#32;2px&#32;2px&#32;2px&#32;rgba(0,0,0,.4);&#32;padding:&#32;1em;&#32;background:&#32;white&quot;]]</span><br />
+　之間必須強制用@@@@空一行，不然兩個白塊會黏在一起。</p>
+<blockquote>
+<p>這個 div 是裝評論者資料<br />
+<span style="white-space: pre-wrap;">[[div&#32;style=&quot;text-align:&#32;right;&#32;font-size:&#32;1.2em;&#32;font-family:&#32;serif&quot;]]</span><br />
+<span style="white-space: pre-wrap;">**名字**</span><br />
+★★★★☆<br />
+<span style="white-space: pre-wrap;">[[/div]]</span></p>
+</blockquote>
+<p><br />
+改了一下顏色和字型大小，效果會像這樣：</p>
+<div style="background: #E6C3C3; border: 1px solid silver; padding: 1em;">
+<div style="text-align: center;">
+<p><span style="font-size:250%;"><span style="color: #50301e"><strong>大 標 題</strong></span></span><br />
+<br />
+<sub>副標題之類的</sub></p>
+</div>
+<div style="float: center; width: 80%; margin: auto; box-shadow: 2px 2px 2px rgba(0,0,0,.4); padding: 1em; background: white">
+<div style="text-align: right; font-size: 1.2em; font-family: serif">
+<p><strong>名字</strong><br />
+★★★★☆</p>
+</div>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis lacus sed elit consequat consectetur in non augue. Maecenas non ornare eros. In tincidunt magna quis condimentum ornare. Cras facilisis dolor sed malesuada ornare.</div>
+</div>
+<br />
+<br />
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;代碼與模板</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">-&nbsp;關閉</a></div>
+<div class="collapsible-block-content">
+<div style="background: #E6C3C3; border: 1px solid silver; padding: 1em;">
+<div style="text-align: center;">
+<p><span style="font-size:250%;"><span style="color: #50301e"><strong>大 標 題</strong></span></span><br />
+<br />
+<sub>副標題之類的</sub></p>
+</div>
+<div style="float: center; width: 80%; margin: auto; box-shadow: 2px 2px 2px rgba(0,0,0,.4); padding: 1em; background: white">
+<div style="text-align: right; font-size: 1.2em; font-family: serif">
+<p><strong>名字1</strong><br />
+★★★★☆</p>
+</div>
+<br />
+這是第一個評論。</div>
+<br />
+<div style="float: center; width: 80%; margin: auto; box-shadow: 2px 2px 2px rgba(0,0,0,.4); padding: 1em; background: white">
+<div style="text-align: right; font-size: 1.2em; font-family: serif">
+<p><strong>名字2</strong><br />
+★★★★☆</p>
+</div>
+<br />
+這是第二個評論。</div>
+<br />
+<div style="float: center; width: 80%; margin: auto; box-shadow: 2px 2px 2px rgba(0,0,0,.4); padding: 1em; background: white">
+<div style="text-align: right; font-size: 1.2em; font-family: serif">
+<p><strong>名字3</strong><br />
+★★★★☆</p>
+</div>
+<br />
+這是第三個評論。</div>
+</div>
+<br />
+<div class="code">
+<pre>
+<code>[[div style=&quot;background: #E6C3C3; border: 1px solid silver; padding: 1em;&quot;]]
+[[=]]
+[[size 250%]]##50301E|**大 標 題**##[[/size]]
+@@@@
+,,副標題之類的,,
+[[/=]]
+
+[[div style=&quot;float: center; width: 80%; margin: auto; box-shadow: 2px 2px 2px rgba(0,0,0,.4); padding: 1em; background: white&quot;]]
+[[div style=&quot;text-align: right; font-size: 1.2em; font-family: serif&quot;]]
+**名字1**
+★★★★☆
+[[/div]]
+這是第一個評論。
+[[/div]]
+@@@@
+[[div style=&quot;float: center; width: 80%; margin: auto; box-shadow: 2px 2px 2px rgba(0,0,0,.4); padding: 1em; background: white&quot;]]
+[[div style=&quot;text-align: right; font-size: 1.2em; font-family: serif&quot;]]
+**名字2**
+★★★★☆
+[[/div]]
+這是第二個評論。
+[[/div]]
+@@@@
+[[div style=&quot;float: center; width: 80%; margin: auto; box-shadow: 2px 2px 2px rgba(0,0,0,.4); padding: 1em; background: white&quot;]]
+[[div style=&quot;text-align: right; font-size: 1.2em; font-family: serif&quot;]]
+**名字3**
+★★★★☆
+[[/div]]
+這是第三個評論。
+[[/div]]
+[[/div]]</code>
+</pre></div>
+</div>
+</div>
+</div>
+<hr />
+<ul>
+<li><a href="ambrose-thorn-valley.htm">棘刺谷的安布羅斯餐廳</a></li>
+</ul>
+<p>這個雖然看起來很和倫敦店很像，但是這篇不是用 div 畫評論格，而是直接用 wikidot 的引用代碼。</p>
+<p><span style="white-space: pre-wrap;">[[div&#32;style=&quot;background:&#32;#201420;&#32;border:&#32;1px&#32;solid&#32;silver;&#32;padding:&#32;1em;&#32;margin-top:&#32;2.5em;&quot;]]</span><br />
+<span style="white-space: pre-wrap;">[[=]]</span><br />
+<span style="white-space: pre-wrap;">[[span&#32;style=&quot;color:&#32;#ffe4e1;&#32;font-family:&#32;'Ruluko';&#32;font-size:&#32;2em&quot;]]</span><br />
+<span style="white-space: pre-wrap;">MICHELIN&#32;GUIDE&#32;ONLINE[[/span]]</span><br />
+<span style="white-space: pre-wrap;">[[span&#32;class=&quot;dark&#32;web&quot;&#32;style=&quot;color:&#32;#eebfeb;&#32;font-family:&#32;'Ruluko';&#32;font-size:&#32;1.5em&quot;]]**//Powered&#32;by&#32;[http://www.scp-wiki.net/the-dark-web-dke79-o2rg5-4jlw6&#32;The&#32;Dark&#32;Web]//**[[/span]]</span><br />
+<span style="white-space: pre-wrap;">[[/=]]</span><br />
+<span style="white-space: pre-wrap;">&gt;&#32;★★★★☆</span><br />
+<span style="white-space: pre-wrap;">&gt;&#32;Lorem&#32;ipsum&#32;dolor&#32;sit&#32;amet,&#32;consectetur&#32;adipisicing&#32;elit,&#32;sed&#32;do&#32;eiusmod&#32;tempor&#32;incididunt&#32;ut&#32;labore&#32;et&#32;dolore&#32;magna&#32;aliqua.&#32;</span><br />
+<span style="white-space: pre-wrap;">&gt;</span><br />
+<span style="white-space: pre-wrap;">&gt;&#32;名字</span><br />
+<span style="white-space: pre-wrap;">[[/div]]</span></p>
+<p>效果是這樣的：</p>
+<div style="background: #201420; border: 1px solid silver; padding: 1em; margin-top: 2.5em;">
+<div style="text-align: center;">
+<p><span style="color: #ffe4e1; font-family: 'Ruluko'; font-size: 2em"><br />
+MICHELIN GUIDE ONLINE</span><br />
+<span class="dark web" style="color: #eebfeb; font-family: 'Ruluko'; font-size:1.5em"><strong><em>Powered by <a href="http://www.scp-wiki.net/the-dark-web-dke79-o2rg5-4jlw6">The Dark Web</a></em></strong></span></p>
+</div>
+<blockquote>
+<p>★★★★☆<br />
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>名字</p>
+</blockquote>
+</div>
+<br />
+這裡的字型不一樣是因為我沒有嵌入 Ruluko 這個字型，<br />
+超連結顏色不同的原因，還有 span class=&quot;dark web&quot; 的涵義請看第四節的連結顏色。
+<p>我們把那一串連結與顏色的代碼先清掉，簡化以後得到下列模板：</p>
+<div style="background: #c9ad7f; border: 1px solid silver; padding: 1em; margin-top: 2.5em;">
+<div style="text-align: center;">
+<p><span style="font-size: 2em">大標題</span><br />
+<span style="font-size:1.2em"><em>副標題</em></span></p>
+</div>
+<blockquote>
+<p>★★★★☆<br />
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>名字</p>
+</blockquote>
+<blockquote>
+<p>★★★★☆<br />
+評論欄之間的分隔只要空行就好</p>
+<p>名字</p>
+</blockquote>
+</div>
+<div class="code">
+<pre>
+<code>[[div style=&quot;background: #c9ad7f; border: 1px solid silver; padding: 1em; margin-top: 2.5em;&quot;]]
+[[=]]
+[[span style=&quot;font-size: 2em&quot;]]大標題[[/span]]
+[[span style=&quot;font-size: 1.2em&quot;]]//副標題//[[/span]]
+[[/=]]
+&gt; ★★★★☆
+&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+&gt; 
+&gt; 名字
+
+&gt; ★★★★☆
+&gt; 評論欄之間的分隔只要空行就好
+&gt; 
+&gt; 名字
+[[/div]]</code>
+</pre></div>
+<hr />
+<ul>
+<li><a href="http://www.scp-wiki.net/ambrose-makiling">Ambrose Makiling</a></li>
+</ul>
+<p>這篇值得注意的是，他的評論區底色寫法不是用單色的　background: #201420<br />
+而是用和菜單一樣的漸層 background-image: radial-gradient(#201420&#160;60%, #d356d3 )</p>
+<hr />
+<h3 id="toc10"><span>四、連結的小把戲</span></h3>
+<h5 id="toc11"><span>連結顏色</span></h5>
+<p>安布羅斯的 GOI 格式會參考很多網站上的其他異常，通常還會加個連結。但是 SCP 基金會用的連結顏色可能會和菜單不合：</p>
+<p><span style="font-family:'Noto Sans TC',sans-serif;color:#16982B">蘆筍、高麗菜、黃瓜、莧菜、山蘇、空心菜、龍鬚菜、小白菜、青花菜、<a href="scp-167-jp.htm">荷蘭芹</a>、西洋芹</span></p>
+<p>你需要在原始碼中加入這個：</p>
+<div class="code">
+<pre>
+<code>[[module css]]
+.menu a:link{color: #88AA00}
+.menu a:newpage{color: #88AA00}
+.menu a:visited{color: #88AA00}
+.menu a:hover{color: #ADFF2F}
+[[/module]]</code>
+</pre></div>
+<br />
+我分了一個分類叫：menu<br />
+從上至下分別是：
+<ul>
+<li>連結顏色</li>
+<li>本 wiki 上還沒有的頁面的連結顏色 (註：需使用內連語法，外連語法連到不存在的頁面和一般連結色相同)</li>
+<li>點過的連結的顏色</li>
+<li>滑鼠移到上方時連結的顏色</li>
+</ul>
+<p>接下來你要用 span class=&quot;menu&quot; 或 div class=&quot;menu&quot;</p>
+<div style="font-family: 'Noto Sans TC',sans-serif">
+<p>（這裡的字型我已經設定成思源黑體了，下面的代碼會省略掉設定字體的代碼。）</p>
+<blockquote>
+<p><span style="white-space: pre-wrap;">[http://scp-wiki-cn.wikidot.com/scp-167-jp&#32;荷蘭芹]&#32;[[[sdewfefwee|&#32;不存在]]]</span></p>
+<p><span style="white-space: pre-wrap;">[[span&#32;class=&quot;menu&quot;]]&#32;[http://scp-wiki-cn.wikidot.com/scp-167-jp&#32;荷蘭芹]&#32;[[[sdewfefwee|&#32;不存在]]][[/span]]</span></p>
+</blockquote>
+<blockquote>
+<p><a href="scp-167-jp.htm">荷蘭芹</a> <a class="newpage" href="sdewfefwee.htm">不存在</a></p>
+<p><span class="menu"><a href="scp-167-jp.htm">荷蘭芹</a> <a class="newpage" href="sdewfefwee.htm">不存在</a></span></p>
+</blockquote>
+</div>
+<br />
+不過到底要怎麼配色就是必須多次嘗試的事情了。
+<p>或者您可以使用 HTML &lt;a&gt; 標籤：<br />
+<span style="white-space: pre-wrap;">[[a&#32;href=&quot;網址&quot;&#32;style=&quot;color:#色碼&quot;]]文字[[/a]]</span></p>
+<p><span style="white-space: pre-wrap;">[[a&#32;href=&quot;http://www.scp-wiki.net/main&quot;&#32;style=&quot;color:#366da8&quot;]]點我回主站[[/a]]</span><br />
+<a style="color:#366da8" href="http://www.scp-wiki.net/main">點我回主站</a></p>
+<hr />
+<h5 id="toc12"><span>什麼也連不到的連結</span></h5>
+<p>代碼<br />
+<span style="white-space: pre-wrap;">[#&#32;點我前往安布羅斯官方網站]</span><br />
+效果<br />
+<a href="javascript:;">點我前往安布羅斯官方網站</a></p>
+<p>這和可以和上面結合起來成為改顏色的連結：<br />
+<span style="white-space: pre-wrap;">[[span&#32;class=&quot;menu&quot;]][#&#32;點我前往安布羅斯官方網站][[/span]]</span><br />
+<span class="menu"><a href="javascript:;">點我前往安布羅斯官方網站</a></span></p>
+<p>不過如果你要用 a href 的語法，「網址」是：javascript:void(0);<br />
+<span style="white-space: pre-wrap;">[[a&#32;href=&quot;javascript:void(0);&quot;&#32;style=&quot;color:#366da8&quot;]]點我前往安布羅斯官方網站[[/a]]</span><br />
+<a style="color:#366da8" href="javascript_3avoid-0">點我前往安布羅斯官方網站</a></p>
+<hr />
+<h3 id="toc13"><span>五、評論擴展包</span></h3>
+<p><br /></p>
+<h5 id="toc14"><span>類推特</span></h5>
+<p>這是三波特蘭設定中的 Void，由於安布羅斯設定上和三波特蘭關係滿大的，所以使用這種東西發評論也很合理。</p>
+<div style="background-color: #ffffff; float: center; border: grey 4px; width: 370px; padding: 10px; margin: auto; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"><span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"><br />
+<a href="http://scp-wiki-cn.wdfiles.com/local--files/how-to-modify-the-css-of-ambrose-goi-format/%E9%A0%AD%E5%83%8F%E5%9C%96"><img src="../scp-wiki-cn.wdfiles.com/local--resized-images/how-to-modify-the-css-of-ambrose-goi-format/_25e9_25a0_25ad_25e5_2583_258f_25e5_259c_2596/medium.jpg.htm" width="50px" alt="頭像圖" class="image" /></a><br /></span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:1.5em;"><span style="color: grey">暱稱<br />
+⁂Loremipsum（這是帳號）</span></span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:1.5em;"><span style="color: blue">#Void的井字標籤是藍色的</span> <span style="color: blue">⁂ambrose-restaurant</span> <span style="color: black">別忘記標籤還有 tag 帳號之後要加空格</span></span><br />
+<span style="white-space: pre-wrap;">&#32;</span>
+<ul>
+<li><span style="font-size:.8em;"><span style="color: grey">迴響(ECHOES)</span></span> <span style="font-size:1.1em;"><span style="color: blue">12</span></span></li>
+<li><span style="font-size:.8em;"><span style="color: grey">哼(HUMS)</span></span> <span style="font-size:1.1em;"><span style="color: blue">20</span></span></li>
+</ul>
+<p><span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:.8em;"><span style="color: grey">XX:XX PM - X XXXX XXX (反正就填時間)</span></span></p>
+</div>
+<br />
+<span style="white-space: pre-wrap;">&#32;</span>
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;代碼點我</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">-&nbsp;隱藏</a></div>
+<div class="collapsible-block-content">
+<div class="code">
+<pre>
+<code>[[div style=&quot;background-color: #ffffff; float: center; border: grey 4px; width: 370px; padding: 10px; margin: auto; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);&quot;]]
+[[span style=&quot;float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;&quot;]]
+[[image 頭像圖 width=&quot;50px&quot;]]
+[[/span]]
+@@ @@
+[[size 1.5em]] ##grey|暱稱
+⁂Loremipsum（這是帳號）## [[/size]]
+@@ @@
+@@ @@
+[[size 1.5em]] ##blue|#Void的井字標籤是藍色的## ##blue|⁂ambrose-restaurant## ##black|別忘記標籤還有 tag 帳號之後要加空格##[[/size]]
+@@ @@
+* [[size .8em]] ##grey|迴響(ECHOES)## [[/size]][[size 1.1em]] ##blue| 12## [[/size]]
+* [[size .8em]] ##grey|哼(HUMS)## [[/size]][[size 1.1em]] ##blue| 20## [[/size]]
+@@ @@
+[[size .8em]] ##grey|XX:XX PM - X XXXX XXX (反正就填時間)## [[/size]]
+[[/div]]
+@@ @@</code>
+</pre></div>
+</div>
+</div>
+</div>
+<br />
+理論上你可以把表示轉推和喜歡的東西換個詞或是換顏色，還有把 ⁂ 換成 @ 就是別的社群網站了。<br />
+<br />
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;如果你想要回應的那種效果</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">-&nbsp;隱藏</a></div>
+<div class="collapsible-block-content">
+<p>就是說這種連起來的推特：</p>
+<div style="background-color: #ffffff; float: center; border: grey 4px; width: 370px; padding: 10px; margin: auto; background-color: light gray; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);"><span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"><br />
+<a href="http://scp-wiki-cn.wdfiles.com/local--files/how-to-modify-the-css-of-ambrose-goi-format/%E9%A0%AD%E5%83%8F%E5%9C%96"><img src="../scp-wiki-cn.wdfiles.com/local--resized-images/how-to-modify-the-css-of-ambrose-goi-format/_25e9_25a0_25ad_25e5_2583_258f_25e5_259c_2596/medium.jpg.htm" width="50px" alt="頭像圖" class="image" /></a><br /></span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:1.5em;"><span style="color: grey">暱稱<br />
+⁂Loremipsum（這是帳號）</span></span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:1.5em;"><span style="color: blue">#Void的井字標籤是藍色的</span> <span style="color: blue">⁂ambrose-restaurant</span> <span style="color: black">別忘記標籤還有 tag 帳號之後要加空格</span></span><br />
+<span style="white-space: pre-wrap;">&#32;</span>
+<ul>
+<li><span style="font-size:.8em;"><span style="color: grey">迴響(ECHOES)</span></span> <span style="font-size:1.1em;"><span style="color: blue">12</span></span></li>
+<li><span style="font-size:.8em;"><span style="color: grey">哼(HUMS)</span></span> <span style="font-size:1.1em;"><span style="color: blue">20</span></span></li>
+</ul>
+<p><span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:.8em;"><span style="color: grey">XX:XX PM - X XXXX XXX (反正就填時間)</span></span></p>
+<hr />
+<span style="float:left; margin-left:5px; margin-top:12px; background-color: #ffffff; padding: 0px 10px;"><br />
+<a href="http://scp-wiki-cn.wdfiles.com/local--files/how-to-modify-the-css-of-ambrose-goi-format/%E9%A0%AD%E5%83%8F%E5%9C%96"><img src="../scp-wiki-cn.wdfiles.com/local--resized-images/how-to-modify-the-css-of-ambrose-goi-format/_25e9_25a0_25ad_25e5_2583_258f_25e5_259c_2596/medium.jpg.htm" width="50px" alt="頭像圖" class="image" /></a><br /></span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:1.5em;"><span style="color: grey">暱稱<br />
+⁂Loremipsum（這是帳號）</span></span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:1.5em;"><span style="color: blue">#Void的井字標籤是藍色的</span> <span style="color: blue">⁂ambrose-restaurant</span> <span style="color: black">別忘記標籤還有 tag 帳號之後要加空格</span></span><br />
+<span style="white-space: pre-wrap;">&#32;</span>
+<ul>
+<li><span style="font-size:.8em;"><span style="color: grey">迴響(ECHOES)</span></span> <span style="font-size:1.1em;"><span style="color: blue">12</span></span></li>
+<li><span style="font-size:.8em;"><span style="color: grey">哼(HUMS)</span></span> <span style="font-size:1.1em;"><span style="color: blue">20</span></span></li>
+</ul>
+<p><span style="white-space: pre-wrap;">&#32;</span><br />
+<span style="font-size:.8em;"><span style="color: grey">XX:XX PM - X XXXX XXX (反正就填時間)</span></span></p>
+</div>
+<br />
+<span style="white-space: pre-wrap;">&#32;</span><br />
+<br />
+<br />
+那你要把前一個推特後端的這東西去掉：
+<blockquote>
+<p><span style="white-space: pre-wrap;">[[/div]]</span><br />
+@@@@</p>
+</blockquote>
+<p>中間加上一條水平線，</p>
+<p>還要把後一個推特前端的這東西去掉：</p>
+<blockquote>
+<p><span style="white-space: pre-wrap;">[[div&#32;style=&quot;background-color:&#32;#ffffff;&#32;float:&#32;center;&#32;border:&#32;grey&#32;4px;&#32;width:&#32;370px;&#32;padding:&#32;10px;&#32;margin:&#32;auto;&#32;background-color:&#32;light&#32;gray;&#32;box-shadow:&#32;2px&#32;2px&#32;2px&#32;2px&#32;rgba(0,0,0,.1);&quot;]]</span></p>
+</blockquote>
+</div>
+</div>
+</div>
+<hr />
+<h5 id="toc15"><span>類 Reddit</span></h5>
+<p>嗯，其實是夢神中心頁的東西，不過那邊有個問題：有些 &quot; 變成了 ”　，所以代碼實際的呈現會怪怪的，我有空去修。還有我有個魔法要玩：</p>
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;點我</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">-&nbsp;頭像不符合CC協議就趕快點這個隱藏</a></div>
+<div class="collapsible-block-content">
+</div>
+</div>
+</div>
+<br />
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;點我看代碼與講解</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">-&nbsp;隱藏</a></div>
+<div class="collapsible-block-content">
+<div class="code">
+<pre>
+<code>[[module ListUsers users=&quot;.&quot;]]
+[[div style=&quot;background: url(/local--files/experimental-2-no-tocar/archivelogobackground.png) center top no-repeat ; float: center; border: gray 1px; padding: 7px; margin: 3px; background-color: #fafafa; team-win-chance: 100%; box-shadow: 1px 1px 1px 1px&quot;]]
+[[span style=&quot;float:left; margin-right: 15px;&quot;]]
+[[image http://www.wikidot.com/avatar.php?userid=%%number%% width=&quot;50px&quot;]]
+[[/span]]
+**%%title%%** 
+★★★☆☆
+希望你的頭像符合 CC 協議
+@@ @@
+##gray|**Upvote Reply +某些數字** - 時間##
+[[/div]]
+[[/module]]</code>
+</pre></div>
+<br />
+module ListUsers 不只可以顯示暱稱（%%title%%），也可以顯示對方數字ID（%%number%%）<br />
+名稱那邊放 %%title%% 已經是很常見的手法了，<br />
+而你的頭像圖會放在這個地方：<span style="white-space: pre-wrap;">http://www.wikidot.com/avatar.php?userid=%%number%%</span><br />
+所以把貼圖代碼中的：<br />
+<span style="white-space: pre-wrap;">[[image&#32;這段網址]]</span> 替換掉就能顯示讀者頭像</div>
+</div>
+</div>
+<br />
+<br />
+
+                    </div>
+
+                            
+            <!-- wikidot_bottom_300x250 -->
+<div id="wad-scp-wiki-cn-below-content" class="wd-adunit wd-ad-np wd-adunit-below_content"></div>
+<script type='text/javascript'>
+nads.createAd('wad-scp-wiki-cn-below-content', {
+  "refreshLimit": 10,
+  "refreshTime": 83,
+  "sizes": [ [ 300, 250 ] ],
+  "report": {
+    "enabled": true,
+    "wording": "Report Ad",
+    "position": "bottom-right"
+  }
+  });
+</script>
+        
+    
+
+                    
+
+
+
+                    
+                        <div class="page-tags">
+                            <span>
+                                <a href="system_3apage-tags/tag/_25e5_258e_259f_25e5_2588_259b.htm#pages">原创</a><a href="system_3apage-tags/tag/_25e5_25ae_2589_25e5_25b8_2583_25e7_25bd_2597_25e6_25~1.htm#pages">安布罗斯餐厅</a><a href="system_3apage-tags/tag/_25e6_2596_2587_25e7_25ab_25a0.htm#pages">文章</a>
+                            </span>
+                        </div>
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                        <div id="page-options-container">
+                            <div id="page-info">页面版本: 41, 最后编辑于: <span class="odate time_1567865146 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20%E5%89%8D%29">07 Sep 2019 14:05</span></div>
+            <div id="page-options-bottom"  class="page-options-bottom">
+            <a href="javascript:;" class="btn btn-default" id="edit-button">编辑</a>
+<a href="javascript:;" class="btn btn-default" id="pagerate-button">评分 (<span id="prw54355">+23</span>)</a>
+<a href="javascript:;" class="btn btn-default" id="tags-button">标签</a>
+<a href="forum/t-10193122/how-to-modify-the-css-of-ambrose-goi-format" class="btn btn-default" id="discuss-button">讨论 (8)</a>
+<a href="javascript:;" class="btn btn-default" id="history-button">历史记录</a>
+<a href="javascript:;" class="btn btn-default" id="files-button">附件</a>
+<a href="javascript:;" class="btn btn-default" id="print-button">打印</a>
+<a href="javascript:;" class="btn btn-default" id="site-tools-button">网站工具</a>
+<a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;选项</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none">
+    <a href="javascript:;" class="btn btn-default" id="edit-sections-button">编辑段落</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-append-button">附加</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-meta-button">编辑元信息</a>
+    <a href="javascript:;" class="btn btn-default" id="watchers-button">关注者</a> 
+    <a href="javascript:;" class="btn btn-default" id="backlinks-button">反向链接</a> 
+    <a href="javascript:;" class="btn btn-default" id="view-source-button">页面源代码</a> 
+    <a href="javascript:;" class="btn btn-default" id="parent-page-button">父页面</a> 
+    <a href="javascript:;" class="btn btn-default" id="page-block-button">锁定页面</a>    
+    <a href="javascript:;" class="btn btn-default" id="rename-move-button">重新命名</a> 
+    <a href="javascript:;" class="btn btn-default" id="delete-button">删除</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+
+                        </div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer" style="display: block; visibility: visible;">
+                <div class="options" style="display: block; visibility: visible;">
+    <a href="http://www.wikidot.com/doc" id="wikidot-help-button">说明</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">服务条款</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">隐私</a>
+    &nbsp;|
+    <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">报告错误</a>
+    &nbsp;|
+    <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">标记为令人反感的</a>
+</div>
+自豪地采用 <a href="../www.wikidot.com/default.htm">Wikidot.com</a> 
+            </div>
+            
+                <div id="license-area" class="license-area">
+                    除非特别注明，本页内容采用以下授权方式： <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>
+                </div>
+            
+            
+            
+
+
+
+            <div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+            
+            
+            
+            
+                <div id="footer-bar">
+  <div>
+     </div>
+  <h2>其它有趣的网站</h2>
+  
+  <div class="units">
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://scpsandbox-pl.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/scpsandbox-pl.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://scpsandbox-pl.wikidot.com/">SCP-PL Sandbox II</a></h3>
+            <div class="desc">          
+              Do pracy rodacy!
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://nfpd.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/nfpd.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://nfpd.wikidot.com/">Arnwick Co.</a></h3>
+            <div class="desc">          
+              我们致力于保持龙界的安宁
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://ds3-cinders.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/ds3-cinders.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://ds3-cinders.wikidot.com/">Cinders</a></h3>
+            <div class="desc">          
+              Cinders
+            </div>
+          </div>
+        </div>
+              <div class="unit">
+          <div class="inner">
+            <a target="_blank" class="image" href="http://roboticspedia.wikidot.com/">
+              <img class="thumbnail" alt="" src="../thumbnails.wdfiles.com/thumbnail/site/roboticspedia.wikidot.com/80.jpg"/>
+            </a>
+            <h3><a target="_blank" href="http://roboticspedia.wikidot.com/">Roboticspedia</a></h3>
+            <div class="desc">          
+              All that you want to know about making robots
+            </div>
+          </div>
+        </div>
+        </div>
+  </div>
+
+            
+        </div>
+        
+    </div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+</div>
+
+
+
+
+</div>
+<div id="dummy-ondomready-block" style="display: none;" ></div>
+    <!-- Google Analytics load -->
+    <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https:///' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure/' : 'http://edge/') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script>
+    <noscript>
+        <img src="../pixel.quantserve.com/pixel/p-edl3gsnujjzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    </noscript>
+
+
+
+
+<div id="page-options-bottom-tips" style="display: none;">
+    <div id="edit-button-hovertip">
+        请点此编辑本页内容。    </div>
+</div>
+<div id="page-options-bottom-2-tips"  style="display: none;">
+    <div id="edit-sections-button-hovertip">
+        单击此处切换页面各部分的编辑按钮（如果有可能）。 在标题边会显示“编辑”链接。    </div>
+    <div id="edit-append-button-hovertip">
+        在不编辑整个页面源代码的情况下添加内容。    </div>
+    <div id="history-button-hovertip">
+        看看本页过去是如何沿革的。    </div>
+    <div id="discuss-button-hovertip">
+        若您想要讨论本页内容 - 这是最简单的方法。    </div>
+    <div id="files-button-hovertip">
+        检视并管理本页附件。    </div>
+    <div id="site-tools-button-hovertip">
+        管理网站的实用工具。    </div>
+    <div id="backlinks-button-hovertip">
+        检视链接至本页或引用本页的页面。    </div>
+    <div id="rename-move-button-hovertip">
+        变更页面名称（及URL 位址，或许会影响分类）。    </div>
+    <div id="view-source-button-hovertip">
+        在不编辑的情形下检视维基原始码。    </div>
+    <div id="parent-page-button-hovertip">  
+        检视/ 设定父页面（用以建立浏览足迹与结构化​​配置）。    </div>
+            <div id="abuse-report-button-hovertip">
+            向管理员举报本页有令人反感的内容。        </div>
+        <div id="bug-report-button-hovertip">
+            事情不如预期？看看您可以做些什么。        </div>
+        <div id="wikidot-help-button-hovertip">
+            一般的 Wikidot.com 文件与说明。        </div>
+        <div id="wikidot-tos-button-hovertip">
+            Wikidot.com 服务条款- 您可以做的事，您不该做的事之类的。        </div>
+        <div id="wikidot-privacy-button-hovertip">
+            Wikidot.com 隐私政策。          
+        </div>
+    </div>
+</body>
+</html>

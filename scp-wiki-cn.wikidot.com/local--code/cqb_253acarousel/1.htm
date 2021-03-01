@@ -1,0 +1,50 @@
+<html ng-app="carousel" ng-controller="CarouselController"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- saved from url=(0059)http://scp-wiki-cn.wikidot.com/local--code/cqb%3acarousel/1 --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<SCRIPT language="JavaScript">
+<!--
+  function CatchJavaScriptErrors() {return true;}
+  window.onerror = CatchJavaScriptErrors;
+//-->
+</SCRIPT>
+
+<head>
+    <script src="http://cdn.bootcss.com/angular.js/1.7.2/angular.min.js"></script>
+    <script src="http://topia.wikidot.com/local--code/cqb%3Acarousel/2"></script>
+    <link href="http://d3g0gp89917ko0.cloudfront.net/v--b23e476b7ade/common--theme/base/css/style.css" rel="stylesheet">
+    <link href="../../component_3atheme/code/1.css" rel="stylesheet">
+    <link href="http://topia.wikidot.com/local--code/cqb%3Acarousel/4" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper" id="background">
+    	<div class="carousel">
+    	<div class="horsie" ng-repeat="image in images track by $index"
+    	     ng-class="[index > $index ? 'past' : null,
+    	                index === $index ? 'present' : null,
+    	                index < $index ? 'future' : null]">
+    	<img ng src="{{image}}">
+    	</div>
+    	</div>
+    	<div class="arrow decrementor"
+    	     ng-class="index === 0 ? 'inactive' : 'active'"
+    	     ng-click="increment(-1)">
+    	<div class="image"></div>
+    	</div>
+    	<div class="arrow incrementor"
+    	     ng-class="index === images.length-1 ? 'inactive' : 'active'"
+    	     ng-click="increment(1)">
+    	<div class="image"></div>
+    	</div>
+    	<div class="bubble-holder" ng-class="[options === 'yes' ? null : 'invisible']">
+    	<div class="bubble" ng-repeat="image in images track by $index"
+    	     ng-class="[index === $index ? 'present' : null]"
+    	     ng-click="selectImage($index)">
+    	</div>
+    	</div>
+    	<div class="control play" ng-click="control('play')"
+    	     ng-class="[state === 'play' ? 'active' : null,
+    	                options === 'yes' ? null : 'invisible']"></div>
+    	<div class="control pause" ng-click="control('pause')"
+    	     ng-class="[state === 'pause' ? 'active' : null,
+    	                options === 'yes' ? null : 'invisible']"></div>
+    </div>
+</body>
+</html>
